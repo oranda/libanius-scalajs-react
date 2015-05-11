@@ -1,0 +1,85 @@
+
+        body {
+            color: white;
+            font-family: Verdana, Arial, 'sans-serif';
+            background-color: black;
+        }
+
+        .center {
+            text-align: center
+        }
+
+        #prompt-word {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #score-text {
+            font-size: 12px;
+            color: #9999FF;
+            text-align: center
+        }
+
+        .status-text {
+            font-size: 12px;
+            text-align: center
+        }
+
+        .response-choice-button {
+            font-size: 20px;
+            width: 400px;
+            height: 100px;
+            vertical-align: middle;
+        }
+
+        .response-choice-button.correct-response {
+            background-color: #00ff00;
+        }
+
+        .response-choice-button.incorrect-response {
+            background-color: #ff0000;
+        }
+
+        .prev-choice {
+            font-size: 12px;
+        }
+
+        .prev-choice.correct-response {
+            color: #00ff00;
+        }
+
+        .prev-choice.incorrect-response {
+            color: #ff0000;
+        }
+
+        #delete-button {
+            color: red;
+            font-size: 10px;
+            width: 60px;
+            height: 30px;
+        }
+
+        #header-wrapper {
+            width:400px;
+            height: 20px;
+            display: table;
+            padding: 0px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .alignleft {
+            float: left;
+        }
+        .alignright {
+            float: right;
+        }
+
+        #footer-wrapper {
+            width:400px;
+            height:50px;
+            display: table;
+            padding: 0px;
+            margin-left: auto;
+            margin-right: auto;
+        }

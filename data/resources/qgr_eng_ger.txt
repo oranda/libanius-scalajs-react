@@ -1,0 +1,8488 @@
+#quizGroup type="WordMapping" promptType="English word" responseType="German word" mainSeparator="|" currentPromptNumber="0" isActive="true"
+#quizGroupPartition numCorrectResponsesInARow="0" repetitionInterval="0"
+on|auf|
+as|als|
+agreed|einig|
+was|sei|
+type|art|
+gnawed|genagt|
+arts|künsten|
+their|deren|
+was|ging|
+leadeth|führet|
+actually|eigentlich|
+chamber|gemach|
+become|geworden|
+power|macht|
+saw|sah|
+single|einzige|
+indeed|zwar|
+there|dort|
+head|kopf|
+was|nahm|
+to|dazu|
+off|weg|
+it|dabei|
+some|einigen|
+other things|anderm|
+however|jedoch|
+see|seh|
+shall|soll|
+perhaps|vielleicht|
+personally|persönlich|
+affected behavior|gehabe|
+know|wisse|
+at all|gar|
+location|stelle|
+various|verschiedene|
+the very same|selbem|
+each|jeder|
+perjury|meineid|
+was|fand|
+after|nachdem|
+note|scheins|
+older|älter|
+poor|arme|
+hearing|gehörs|
+is|dar|
+follow|folgen|
+as well as|sowie|
+similar|ähnlich|
+explain|erklärst|
+completely|vollkommen|
+seemed|schien|
+suction|sog|
+times|zeiten|
+receipt|erhalt|
+Frenchwoman|französin|
+legend|sage|
+city|stadt|
+tries|versucht|
+view|blick|
+student|schüler|
+go|gehen|
+term|begriff|
+bones|gebein|
+mental|geistige|
+of it|davon|
+all|ganze|
+can|könnt|
+beauty|schönheit|
+thereon|darauf|
+stood|stund|
+determine|bestimme|
+tell|erzählst|
+dear|liebe|
+Remembrance|erinnerns|
+rich|reich|
+imagine|vorstelle|
+is|setzt|
+last|letzten|
+notice|bemerkst|
+far|weit|
+feel|fühlst|
+all|aller|
+are|gibt|
+possible|möglich|
+certainly|gewiss|
+hardly|kaum|
+stand|stehst|
+for|dafür|
+expectant|werd|
+school|schule|
+battle|schlacht|
+Trott|trotts|
+today|heut|
+oldest|älteste|
+see|siehst|
+servant|knecht|
+hence|daher|
+jerks|wichst|
+broke|brachst|
+beginning|anfang|
+because of|wegen|
+some|manch|
+age|alter|
+lost|verlor|
+Greek|grieche|
+the same|derselbe|
+appeared|erschien|
+early|frühem|
+Poland|polen|
+want|wollen|
+face|gesicht|
+am|stehe|
+finally|schließlich|
+above|darüber|
+gives birth|gebiert|
+highest|höchste|
+was|hielt|
+special|besondern|
+reign|regierst|
+understand|versteh|
+share|teile|
+deed|tat|
+moved|zog|
+famous|berühmt|
+extremely|äußerst|
+nice|schönem|
+freedom|freiheit|
+plants|werke|
+together|zusammen|
+Voeller|völler|
+out|geführt|
+individual|einzelne|
+given|gegeben|
+thought|dacht|
+mind|verstand|
+next|neben|
+general|allgemeine|
+just|eben|
+finders|findern|
+office|amt|
+enough|genug|
+just|gerade|
+political|politische|
+more|eher|
+get|kommst|
+ask|fragen|
+third of|dritteil|
+special|besondere|
+right|richtig|
+contend|behaupte|
+strengthen|stärken|
+seen|gesehen|
+high|hohen|
+father|vater|
+sign|zeichen|
+will experience|erlebst|
+reach|erreichst|
+both|sowohl|
+looking|weis|
+Shrimp|schrimp|
+of hand|überhand|
+by|indem|
+presumably|vermutlich|
+order|orden|
+world war|weltkrieg|
+already|bereits|
+green|grun|
+thought|gedanke|
+gave up|aufgab|
+appear|erscheinen|
+improve|verbessere|
+sorry|leid|
+participating|nehm|
+on|fort|
+the part|seiten|
+except|außer|
+almost|beinahe|
+detected|erkannt|
+discover|entdeckst|
+cried|schrie|
+science|wissenschaft|
+France|frankreich|
+several|mehrer|
+sought|suchte|
+do|tun|
+other|übrige|
+sets|legt|
+so-called|sogenannt|
+taken|genommen|
+hold|halten|
+short|kurze|
+instead of|statt|
+public|öffentliche|
+sealing|dichtend|
+help|hilf|
+follow|folgst|
+member|mitglied|
+last|vergangen|
+friend|freund|
+steal from|bestehle|
+done|geschehe|
+rare|selten|
+thereby|dadurch|
+just|einfach|
+was|entstand|
+change|verändern|
+set|setze|
+supports|unterstützt|
+thing|ding|
+son|sohn|
+mowed|gemäht|
+suddenly|plötzlich|
+fear|angst|
+Egypt|ägypten|
+set|gesetzt|
+internal|innere|
+was|trat|
+state|staat|
+more|weitere|
+possible|mögliches|
+you|dir|
+signifying|bedeutens|
+fighting|kämpf|
+Polish|polnische|
+are striving|bemühst|
+house|haus|
+soldiers|soldaten|
+black|schwarze|
+week|woche|
+traveled|bereist|
+populate|bevölkere|
+Mr.|herr|
+partly|teils|
+staff|personell|
+describe|beschreibe|
+fulfill|erfüllst|
+different|anders|
+together|gefügt|
+word|wort|
+other|anderer|
+location|lage|
+education|bildung|
+more|länger|
+namely|nämlich|
+written|geschrieben|
+at the same time|zugleich|
+master|meister|
+is|handelt|
+former|ehemalig|
+believe|glauben|
+work|werk|
+get|bekommen|
+succeeded|gelang|
+border|grenze|
+ever|jemals|
+call|fordere|
+question|frage|
+ago|her|
+behind|hinter|
+magic|magisch|
+plays|spielt|
+of most important|wichtigst|
+destroy|zerstörst|
+once|einst|
+down|hin|
+mother|mutter|
+German|deutscher|
+best|besten|
+five|fünf|
+dark|dunkle|
+by sliding|unterschiebe|
+sense|sinn|
+century|jahrhundert|
+soul|seele|
+friends|freunde|
+fairest|schönst|
+centuries|jahrhunderten|
+White|weiße|
+considerably|wesentlich|
+Roman|römische|
+remove|entferne|
+Wedel|wedels|
+Earth|erde|
+successfully|erfolgreich|
+was|lag|
+next|nächste|
+first|zuerst|
+you|dich|
+is|heißt|
+animals|tiere|
+words|worte|
+people|volk|
+white|weiß|
+designating|bezeichnens|
+country|länder|
+difficult|schwer|
+foreign|fremde|
+equal|gleich|
+male|männlich|
+finally|endlich|
+chapter|kapitel|
+human|menschlich|
+investigate|untersuche|
+repeat|wiederhole|
+significance|bedeutung|
+success|erfolg|
+same|gleiche|
+space|raum|
+beginning|beginn|
+happiness|glück|
+think|denke|
+fixed|fest|
+brought|gebracht|
+risk|gefahr|
+long|langen|
+notice|merke|
+figure|figur|
+says about men|männen|
+home|hause|
+often|häufig|
+War|krieges|
+staff|kräfte|
+change|ändere|
+looking forward|freu|
+said|meint|
+moment|augenblick|
+have|hast|
+answer|antworte|
+thought|gedacht|
+pair|paar|
+piece|stück|
+defend|verteidigst|
+by virtue of|kraft|
+slowly|langsam|
+second|zweite|
+image|bildes|
+to|gegenüber|
+come|gekommen|
+were|kamen|
+proud|stolz|
+probably|wahrscheinlich|
+picture|bild|
+permit|erlaubst|
+abide|bleibet|
+rich|reiche|
+nice|schöne|
+though|allerdings|
+unknown|unbekannt|
+died|starb|
+role|rolle|
+who|wer|
+long|lang|
+described|beschrieb|
+rest|ruh|
+busy|beschäftige|
+long ago|längst|
+rather|vielmehr|
+closed|geschlossen|
+closer|näher|
+fully|voll|
+first|zunächst|
+dominant|beherrsche|
+heavy|schwerem|
+widen|verbreitern|
+behaves|verhält|
+great|spitze|
+expression|ausdruck|
+just|bloß|
+Edit|bearbeite|
+also|außerdem|
+development|entwicklung|
+unite|vereinige|
+waste|wüst|
+drawing|zeichnung|
+saint|heilige|
+opinion|meinung|
+recommended|empfahl|
+think|glaub|
+later|späterem|
+was|bekam|
+enables|ermögliche|
+country|landes|
+move|bewegst|
+known|kannt|
+why|warum|
+said|gesagt|
+man|mensch|
+must|mussen|
+hero|held|
+urban|städte|
+share|teilen|
+leave|verlas|
+drawn|gezogen|
+heads|opfe|
+assure|versichere|
+stock|bestand|
+truth|wahrheit|
+threaten|bedrohst|
+remain|bleiben|
+rule|herrschaft|
+takes|dauert|
+life|lebens|
+attack|angriff|
+before|ehe|
+last|letzt|
+free|frei|
+month|monat|
+thousand|tausend|
+sentencing|verurteile|
+will|wille|
+target|ziel|
+ask|fragst|
+viewing|betrachtens|
+the same|demselben|
+conquer|erobern|
+peace|frieden|
+clothing|kleidung|
+night|nacht|
+new|neu|
+Today|heutige|
+holds|hält|
+agreed|stimmte|
+form|gestalt|
+character|gepräge|
+Reasons|gründe|
+called|rief|
+you|euch|
+youth|jugend|
+above|oben|
+countries|ländern|
+will|nimmt|
+working|arbeitest|
+mean|bedeute|
+Please|bitte|
+arises|entstehe|
+seriously|ernst|
+teacher|lehrer|
+slight|leichte|
+to|sollen|
+speak|spreche|
+bear with|vertragt|
+notifying|mitteile|
+cause|ursache|
+expectation|erwartens|
+trap|falle|
+occupied|besetzt|
+women|frauen|
+our|unserem|
+European|europäisch|
+plants|werken|
+Handel|händel|
+true|wahr|
+medium|mittel|
+length|weite|
+while|weile|
+contemplation|betrachtung|
+farmstead|gehöft|
+should like|möcht|
+it|daraus|
+know|kennen|
+providers|leister|
+lessons|unterricht|
+started|fing|
+lie|lieg|
+order|ordnung|
+handoff|reichens|
+pictures|bilder|
+following|fol|
+squad|trupp|
+the one|diejenige|
+line|linie|
+message|nachricht|
+nice|schön|
+show|weisen|
+search|gesucht|
+historically|historisch|
+higher|höher|
+numerous|zahlreich|
+screens|siebe|
+libretto|büchel|
+conversation|gespräch|
+size|größe|
+was|hieß|
+top|oberste|
+games|spiele|
+hands|hände|
+according to|laut|
+official|offizielle|
+see|siehe|
+the same|denselben|
+befriends|freundet|
+hair|haare|
+gladly|gern|
+more|weiteren|
+confirm|bestätige|
+win|gewinnen|
+inverters|richtern|
+was|trug|
+sure|sicher|
+dungeon|verlies|
+Report|berichtes|
+slightly|leicht|
+end|beenden|
+ability|fähigkeit|
+leading|führend|
+money|geld|
+opportunity|gelegenheit|
+near|nahe|
+unusual|ungewöhnlich|
+prevent|verhindere|
+authority|behörde|
+read|lesen|
+was|befand|
+experience|erfahre|
+constantly|ständig|
+run|laufe|
+enthusiastic|begeistere|
+touch|berührst|
+was|fiel|
+given way|gewichen|
+call|nenne|
+place|platz|
+style|stil|
+complementizer|ergänzer|
+fall|fällst|
+wear|trage|
+injured|verletzt|
+fourth|viertem|
+each|jedes|
+by no means|keineswegs|
+surprising|verwundern|
+Greece|griechenland|
+real|echt|
+hears|hört|
+particularly|insbesondere|
+day|tages|
+end up|endest|
+decide|entscheide|
+red|rote|
+Taking|bilde|
+do|kennst|
+recently|letztens|
+point|punkt|
+callus|schwiele|
+request|wunsch|
+heart|herzen|
+hear|höre|
+desperate|verzweifel|
+before|vorher|
+presented|vorgestellt|
+Europe|europa|
+row|reih|
+number|zahl|
+conditions|zustände|
+be presented in|gestellen|
+proximity|nähe|
+visit|besuch|
+then|dahin|
+church|kirche|
+visible|sichtbar|
+dream|traum|
+old|alt|
+recognize|erkenne|
+forever|ewig|
+reason|grunde|
+die|sterben|
+preparatory|vorbereite|
+violently|heftig|
+stones|steine|
+is|dient|
+dead|tote|
+viewed|angesehen|
+participate|beteilige|
+low|geringem|
+rather|lieber|
+carefully|sorg|
+final|endgültig|
+against|entgegen|
+learned|erfuhr|
+constructed|errichte|
+was|galt|
+rule|herrsche|
+realize|verwirkliche|
+because|aufgrund|
+stone|stein|
+best|beste|
+center|mitte|
+serving|dien|
+feel|empfinde|
+learn|lernst|
+Russian|russische|
+province|provinz|
+Servant|knechtes|
+thing|sache|
+Mess|verwirre|
+closing|schliess|
+used|eingesetzt|
+created|geschaffen|
+IN QUESTION|handele|
+lasted|hinzog|
+new|neues|
+difficult|schwieriges|
+ban|verbot|
+added|angefügt|
+rose|erhob|
+tomorrow|morgen|
+open|offene|
+ten|zehn|
+last|zuletzt|
+before|zuvor|
+are thinking about|überlegst|
+are|bist|
+breast|brust|
+use|gebrauch|
+height|höhe|
+circumstances|umstände|
+undertake|verpflichte|
+satisfied|zufrieden|
+mr|herrn|
+October|oktober|
+your|dein|
+simultaneously|gleichzeitig|
+center|mittig|
+direction|richtung|
+composite|verbund|
+lose|verlier|
+effect|wirkung|
+reread|überlas|
+significant|bedeutendem|
+decided|beschloss|
+inserted|eingefügt|
+reach|erreiche|
+is|gilt|
+enough|reicht|
+house-elf|hauself|
+talk|reden|
+feet|füße|
+ADD TO|beliebst|
+missing|fehlt|
+dangerous|gefährlich|
+clear|klar|
+girl|mädchen|
+represent|vertrete|
+answer|worten|
+property|eigenschaft|
+educated|gebilde|
+some|manches|
+by name|namentlich|
+said|sprach|
+your|deinem|
+could|dürfe|
+founded|gegründet|
+actually|tatsächlich|
+below|unten|
+recorded|aufgenommen|
+case|fall|
+group|gruppe|
+counting|zählst|
+large|groß|
+hard|hart|
+defeat|niederlage|
+coin|münze|
+love|liebst|
+home|heimat|
+occasionally|zuweilen|
+expand|erweitere|
+enormous|gewaltig|
+attitude|haltung|
+hundred|hundert|
+May|mai|
+trust|vertraust|
+renew|erneure|
+however|hingegen|
+new|neuer|
+Sun|sonne|
+other|andre|
+British|britische|
+created|angelegt|
+brother|bruder|
+service|dienst|
+honor|ehre|
+led|führ|
+king|königs|
+Powers|mächten|
+senses|sinne|
+after|danach|
+necessary|nötig|
+return|rückkehr|
+sister|schwester|
+pardon|verlaub|
+disappoint|enttäuschst|
+did|wußte|
+keep him|bewahrst|
+immediately|unmittelbar|
+persecute|verfolgst|
+gradually|allmählich|
+east|osten|
+were|seien|
+posted|verfasst|
+Russia|russland|
+always|stets|
+international|völker|
+Egyptian|ägyptisch|
+being|befindens|
+observe|beobachtest|
+character|charakter|
+Curse|fluchs|
+rice|reis|
+proposed|schlug|
+said|sprachen|
+asking|verlangst|
+worked|gearbeitet|
+referring|beziehst|
+the same|dasselbe|
+woman|weibes|
+return|zurückkehre|
+broke|brach|
+some|einiges|
+thereupon|daraufhin|
+quite|durchaus|
+contained|enthalte|
+standing|stehend|
+completely|vollständig|
+external|äußere|
+perfecting|vollende|
+ave|aben|
+introductory|einführe|
+occasionally|gelegentlich|
+skill|geschicks|
+impossible|unmöglich|
+female|weiblichem|
+stuff|zeug|
+future|zukunft|
+consideration|betracht|
+pieces|stücke|
+known|bekanntes|
+peacefully|friedlich|
+suitable|geeignet|
+deep|tiefem|
+in turn|wiederum|
+whereupon|worauf|
+accompany|begleitest|
+presence|gegenwart|
+furthermore|weiterhin|
+from which|wovon|
+unit|einheit|
+equivalent to|entspreche|
+facilitated|erleichtere|
+exist|existiere|
+tinted|getönt|
+wait|warten|
+seems|scheine|
+custom|brauches|
+to surprise|überraschst|
+that|jenes|
+given|angegeben|
+teach|lehren|
+light|licht|
+forehead|stirn|
+meet|tagen|
+worth|wert|
+liberate|befreist|
+decision|entscheids|
+been standing|eingestehe|
+applies|gelte|
+meanwhile|inzwischen|
+shares|teilt|
+done|getan|
+Athens|athen|
+other|anderes|
+firing|feue|
+culture|kultur|
+death|tode|
+independent|unabhängig|
+may not carry|durfen|
+were|fanden|
+unexpectedly|unerwartet|
+state|zustand|
+usual|üblich|
+friendship|freundschaft|
+right|rechtem|
+our|unsre|
+your|deine|
+collected|erhobene|
+particularly|sonderlich|
+answer|antwort|
+youth|jugendliche|
+sea|meer|
+months|monaten|
+wear|trägst|
+bye|verabschiede|
+full|volle|
+economic|wirtschaftliche|
+draw|ziehst|
+Horses|pferde|
+belong|angehöre|
+mention|erwähnst|
+REIGN|herrschst|
+air|luft|
+immediately|sofort|
+cities|städten|
+whereby|wodurch|
+armed|bewaffne|
+amount|menge|
+call|nennst|
+venture|wagen|
+in addition|zudem|
+heart|herz|
+lake|see|
+connection|verbindung|
+conspired|verschwor|
+stocks|bestände|
+more|desto|
+gone|gegangen|
+secrets|geheimnisse|
+rise|aufgehen|
+recorded|aufnahm|
+mainly|hauptsächlich|
+increased|stieg|
+third|dritte|
+substantially|erheblich|
+Remember|erinner|
+critical|kritisch|
+reader|leser|
+drift|treibeis|
+compatible|vereinbare|
+routes|wege|
+scholar|gelehrte|
+financially|finanziell|
+library|bibliothek|
+court|gericht|
+secretly|heimlich|
+coming|kommende|
+fail|scheitern|
+idea|idee|
+half|hälfte|
+fight|kämpfst|
+at least|mindesten|
+problems|probleme|
+dream|träum|
+silence|stille|
+limiting|begrenze|
+is|erfolgt|
+pending|hängig|
+draw|ziehe|
+distant|fernem|
+travel|reisen|
+admitted|gestand|
+small|klein|
+weak|schwach|
+ie|sprich|
+strictly|streng|
+order|auftrag|
+learned|gelernt|
+child|kind|
+attention|aufmerksamkeit|
+grappling|auseinandersetze|
+welcomes|begrüßt|
+report|bericht|
+had|besaß|
+overview|blicks|
+enter|eingehen|
+fifth|fünftem|
+, happiness|glückes|
+called|nannte|
+quiet|ruhig|
+your|eure|
+guest|gast|
+colleague|kollege|
+available|vorhanden|
+before|bevor|
+pay|bezahlst|
+impression|eindruck|
+influences|flüsse|
+just|knapp|
+owe|verdanke|
+Wafers|waffeln|
+wish|wünsche|
+contributed|beitrug|
+English|englische|
+born|geboren|
+empty|leer|
+advice|rat|
+regulate|regeln|
+track|spur|
+by amplifying|verstärkst|
+Death Eaters|todesser|
+manage|schaffst|
+title|titel|
+reputation|ruf|
+victory|sieg|
+however|dagegen|
+island|insel|
+Italian|italienisch|
+recently|jüngst|
+Goals|ziele|
+outweigh|überwiege|
+convince|überzeugst|
+clothe|bekleide|
+Christian|christliche|
+effort|mühe|
+remain silent|schweigen|
+military|militärische|
+gently|sanft|
+Albanian|albani|
+Utility Model Law|gebrmg|
+downfall|untergang|
+understand|verstehn|
+beloved|geliebt|
+policy|politik|
+speech|rede|
+poor|arm|
+defeat|besiegen|
+according to|gemäß|
+plagued|geplagt|
+users|verwendern|
+wound|wunde|
+visits|besucht|
+decided|entschied|
+fell|geriet|
+grow|wachse|
+clear|deutlichem|
+noble|edle|
+will reach|gelangst|
+networks|verbünde|
+contract|vertrag|
+mate|kamerad|
+Arts|künste|
+limited|beschränke|
+enforcing|durchsetze|
+February|februar|
+only|lediglich|
+notice|merkst|
+above|oberhalb|
+legs|beine|
+parents|eltern|
+legislation|gesetze|
+musty|moderig|
+Austria|österreich|
+bloody|blutig|
+use|einsatz|
+satisfies|erfülle|
+extends|erstrecke|
+would continue|fortsetze|
+opponent|gegner|
+transmission|getriebe|
+forced|gezwungen|
+allegedly|angeblich|
+affected|betroffen|
+grateful|dankbar|
+threaten|drohst|
+out|heraus|
+March|märz|
+rail|schiene|
+Seal|siegels|
+behaves|verhalt|
+negligible|vernachlässige|
+percent|prozent|
+feel|spürst|
+judgment|urteil|
+worship|verehrst|
+determination|bestimmung|
+hidden|verborgen|
+God|gott|
+cost|koste|
+shame|schade|
+changes|wechselt|
+attributable|entfalle|
+passion|leidenschaft|
+number|anzahl|
+have brought them abundant|erregst|
+cordially|herzlich|
+future|künftig|
+sons|söhne|
+painted|gemalt|
+scorch|versenge|
+encounter|begegnest|
+exhausted|erschöpfe|
+gave|gaben|
+usually|gewöhnlich|
+mark|kennzeichen|
+nose|nase|
+fall in|verliebst|
+vandalize|beschädige|
+community|gemeinschaft|
+indians|indern|
+the loved|liebem|
+north|nördlich|
+teaching|unterrichtens|
+Record at|verzeichne|
+initially|anfangs|
+bring|bringst|
+pressure|druck|
+existence|existenz|
+interest|interesse|
+self-defense|notwehr|
+openers|öffnern|
+from deportation|abschiebe|
+remained|geblieben|
+out|gelegt|
+December|dezember|
+hope|hoff|
+kingdom|königreich|
+successor|nachfolger|
+talking about|redest|
+seemingly|scheinbar|
+high|hoher|
+road|straße|
+artists|künstlern|
+founders|begründern|
+hope|hoffnung|
+shorter|kürzer|
+distress|not|
+were loaded|verlud|
+Western|westlichem|
+twelve|zwölf|
+prefer|bevorzuge|
+wooden pews|gestühl|
+wrapped|schlang|
+float|schweben|
+more|öfter|
+plug in|anschließe|
+neighbors|nachbarn|
+survive|überlebst|
+translated|übersetzt|
+instead of|anstatt|
+can|darf|
+perceived|empfunden|
+explain|erkläre|
+lack|fehlen|
+fined|geschönt|
+intensive|intensiv|
+quietest|leis|
+almost|nahezu|
+participate|teilnehme|
+deceased|verstorben|
+forest|wald|
+conceive|auffasse|
+redundant|entlasse|
+spoken|gesprochen|
+body|körper|
+distinguish|unterscheide|
+children|kindern|
+better|bessere|
+contrast|gegensatz|
+out|hervor|
+alive|lebendig|
+all|sämtlich|
+origins|ursprünge|
+has|wirkt|
+coincidences|zufälle|
+judge|beurteile|
+settled|eingelebt|
+foot|fuß|
+valuable|wertvoll|
+cites|beruft|
+width|breite|
+socially|gesellschaftlich|
+catastrophic|katastrophal|
+regularly|regelmäßig|
+so far|soweit|
+partially|teilweise|
+do|tut|
+below|unterhalb|
+pleasant|angenehm|
+watch|beobachte|
+source|quelle|
+sixth|sechste|
+drive|trieb|
+wisdom|weisheit|
+vest|weste|
+thanks to|dank|
+god|götter|
+general|allgemein|
+imminent|bevorstehe|
+alliance|bündnis|
+skin|haut|
+bar|leiste|
+constraint|zwang|
+take into account|berücksichtige|
+has|besitzt|
+learn|erfahrt|
+centuries|jahrhunderte|
+low|niedrig|
+Ries|rieses|
+shadow|schatten|
+were|trugen|
+full of|voller|
+trains|züge|
+strange|merkwürdig|
+was|saß|
+stiffened|gesteift|
+lack|mangel|
+quickly|rasch|
+sleep|schlafe|
+daily|täglich|
+Discuss|diskutiere|
+for the first time|erstmals|
+eat|essen|
+capable|fähig|
+sufficient|genüge|
+large|großes|
+half|halbem|
+practically|praktisch|
+lock|schloss|
+suppress|unterdrückst|
+away|verschwinde|
+assumed|angenommen|
+organizing|organisiere|
+clasp|spange|
+hide|versteckst|
+eight|acht|
+own|eigener|
+free|freier|
+interrupted|unterbrochen|
+wild|wilde|
+therefore|darum|
+vessel|gefäß|
+will|wirst|
+Prove|beweise|
+brisk|forsches|
+harden|härten|
+matter|materie|
+responsible words|verantworte|
+losses|verluste|
+largely|weitgehend|
+eleven|elf|
+section|abschnitt|
+absolutely|absolut|
+blue|blaue|
+seriously|ernsthaft|
+celebrate|feiern|
+green|grüne|
+TOTAL|insges|
+majority|mehrheit|
+plane|plan|
+rate|satz|
+necessarily|unbedingt|
+were accepted|unterstelle|
+betrayal|verrat|
+Caution|vorsicht|
+view|ansicht|
+builds|baut|
+mountains|berge|
+existing|bestehende|
+among them|darunter|
+direct|direkte|
+back room|gelass|
+counted|gezählt|
+dad|paps|
+about|ungefähr|
+pay|zahle|
+eighths|achteln|
+asked|bat|
+arc|bogen|
+books|büchern|
+diplomacy|diplomatie|
+Secret|geheime|
+grown|gewachsen|
+shown|gezeigt|
+Warrior|kriegerin|
+place|legen|
+list|liste|
+lower|tiefer|
+published|veröffentliche|
+accept|akzeptieren|
+official|amtlich|
+are fighting|bekämpfst|
+used|benutzt|
+elevate|erhebst|
+appointed|ernannt|
+captured|gefangen|
+handle|griff|
+capital|hauptstadt|
+were|lagen|
+chinese|chinesin|
+express|ausdrücke|
+the one|derjenige|
+seized|ergriff|
+building|gebäude|
+pool|lache|
+was|lief|
+did|machten|
+earned|verdient|
+publishing house|verlag|
+exposed|ausgesetzt|
+condition|bedingung|
+color|farbe|
+may|möge|
+nine|neun|
+faster|schneller|
+thus|somit|
+cut into pieces|stückeln|
+turned|wandte|
+choose|wählst|
+sought|angestrebt|
+executed|ausgeführt|
+own|besitze|
+operation|betrieb|
+error|fehler|
+enemy|feind|
+by force|gewaltsam|
+about|herum|
+informational|informationell|
+teaches|lehrt|
+narrow|schmale|
+heavy|schwere|
+meeting|treff|
+father|vaters|
+much|vieles|
+begonia|begonie|
+village|dorf|
+continued|fuhr|
+good|guter|
+most|höchst|
+international|internationalem|
+January|januar|
+must|muss|
+reveal to|offenbarst|
+about|rund|
+send|schickst|
+cut|schliff|
+sit|sitze|
+deepen|vertiefe|
+coverest|bedeckst|
+admire|bewunderst|
+learn|lernen|
+deep|tief|
+all|gesamte|
+divine|göttlich|
+treasure|schatz|
+bound|gebunden|
+country|lande|
+followed|gefolgt|
+cold|kalte|
+signatories|zeichnern|
+evil|böse|
+area|gegend|
+secret|geheimnis|
+won|gewonnen|
+named|namens|
+collection|sammlung|
+State|staates|
+multiply|vermehre|
+want|wünschst|
+deeply touched|überwältige|
+face|angesicht|
+uprising|aufstand|
+close|dicht|
+conquest|eroberung|
+free wild|freiwild|
+fresh|frisch|
+Feller|fäll|
+brought|geholt|
+divided|geteilt|
+men|männern|
+cream|rahm|
+riding|reitend|
+seat|sitz|
+late|spät|
+rise|steigen|
+kill|töte|
+some|irgendeine|
+no|nein|
+magnificently|prächtig|
+wrong|falsche|
+jellies|gelees|
+degree|grad|
+gyrate|kreiseln|
+reports|meldet|
+top|obere|
+universes|universen|
+hes|wachste|
+modest|bescheidene|
+English|engländer|
+star|sterne|
+recognition|anerkennung|
+behaved|benahm|
+profession|beruf|
+message|botschaft|
+was|ergab|
+replaced|ersetzt|
+colors|farben|
+count|graf|
+disease|krankheit|
+short|kurzer|
+together|miteinander|
+plant|pflanze|
+south|süden|
+Conjecture|vermutens|
+grows|wächst|
+no|keinerlei|
+protective|schütz|
+system|systematik|
+train|zug|
+based|zugrunde|
+attraction|attraktion|
+siege|belagere|
+last|dauern|
+either|entweder|
+garden|garten|
+gels|gele|
+anyone|irgendwem|
+reducing|reduziere|
+mourn|traure|
+for conveys|vermittele|
+reconstructive|wiederherstelle|
+against|wider|
+except|ausgenommen|
+bourgeois|bürgerlich|
+basis|grundlage|
+action|handlung|
+wise|klug|
+conductor|leiters|
+down|nieder|
+Parties|parteien|
+Prussian|preuße|
+create|schaffen|
+terrible|schrecklich|
+secure|sichern|
+ensures|sichert|
+come|stammen|
+Increase|steigere|
+support|unterstütze|
+in vain|vergeblich|
+lose|verlierst|
+displaced|versetzt|
+in which|wobei|
+two|zweien|
+exercise|übung|
+inscription|inschrift|
+issued|erließ|
+expected|erwarte|
+cover|gedeck|
+poem|gedicht|
+beaten|geschlagen|
+won|gewann|
+ripe|reif|
+age|zeitalter|
+transition|übergang|
+reliant|angewiesen|
+owner|besitzer|
+events|ereignisse|
+low|gering|
+follow|nachfolgen|
+promised|versprochen|
+each other|einander|
+Great Britain|großbritannien|
+Royal|königliche|
+students|schülern|
+careful|sorgfältig|
+palm|palme|
+possession|besitz|
+manageable|bewältige|
+down|herunter|
+some|irgend|
+control|kontrolle|
+artificially|künstlich|
+active|rege|
+joined|stiess|
+strains|stämme|
+did|taten|
+might destroy|verstöre|
+refuse|verweigere|
+model|vorbild|
+Austrian|österreichische|
+influence|einfluss|
+origin|herkunft|
+in any case|jedenfalls|
+landscape|landschaft|
+solves|löst|
+solution|lösung|
+several times|mehrmals|
+usually|meist|
+depressed|niedergeschlagen|
+necessary|notwendiges|
+save|rette|
+distribution|vertrieb|
+wool|wolle|
+answer|beantworte|
+influence|einfluß|
+formulate|formuliere|
+emperor|kaisers|
+previous|vorig|
+form|formen|
+hut|hütte|
+kings|könige|
+poland|polens|
+Belgium|belgien|
+blood|blut|
+expectation|erwartung|
+knowledge|kenntnis|
+like|mag|
+newer|neuere|
+Olympic|olympisch|
+pain|schmerz|
+specifically|speziell|
+additives|zusätze|
+moving closer|annähere|
+look at|ansehe|
+escape|entkomme|
+feel|fühle|
+Catholic|katholik|
+circle|kreis|
+crown|krone|
+bored|langweile|
+traditionally|traditionell|
+responsibility|verantwortung|
+magnify|vergrößere|
+renounce|verzichte|
+for the time being|vorerst|
+operations|vorgänge|
+refuse|weigere|
+pictures|bildern|
+time|dauer|
+end|enden|
+knowledge|erkenntnis|
+yellow|gelb|
+courage|mut|
+react|reagierst|
+as long|solang|
+was|verlief|
+provided|versehen|
+need|brauche|
+robbed|geraubt|
+boy|knabe|
+Lithuania|litauen|
+trained|schulte|
+technically|technisch|
+infinitely|unendlich|
+waiting|wartest|
+superior|überlegende|
+accessed|abgerufen|
+Serbia|serbien|
+claim|anspruch|
+emerge|auftauchen|
+exclusive|ausschließe|
+appointed|berufen|
+wider|breiter|
+invasions|einfälle|
+population|einwohner|
+adult|erwachse|
+voted|gekürt|
+sex|geschlecht|
+generously|großzügig|
+hair|haar|
+challenge them|herausfordere|
+victory|siege|
+overwrite|überschreibe|
+school year|schuljahr|
+experience|erlebnis|
+hazardous|gefährde|
+get used|gewöhnst|
+fixed|feste|
+icon|symbol|
+open|öffne|
+handed|übergab|
+look|aussehe|
+commencement|beginns|
+retained|behielt|
+law|gesetz|
+manufacturing|herstelle|
+camp|lager|
+responsible|schuld|
+back|zurückgekehrt|
+agree|zustimmst|
+certainly|gewiß|
+differs|abweiche|
+authorized|befugt|
+or|bzw|
+Democrat|demokratin|
+decided|entschloss|
+worn|getragen|
+belt|gürtel|
+marriage|heirat|
+year|jährig|
+man of letters|literat|
+looks|schaut|
+theoretically|theoretisch|
+depth|tiefe|
+violation|verstoss|
+convincing|überzeug|
+distinguishing|auszeichne|
+my|meines|
+Preheating|vorwärme|
+marble|marmor|
+column|säule|
+understand|begreife|
+done|geschieht|
+controlling|kontrolliere|
+laugh|lachst|
+curiosity|neugier|
+sword|schwert|
+Deputy|stellvertreten|
+like|ähnliches|
+claims|ansprüche|
+outbreak|ausbruch|
+was|betrug|
+brethren|brüder|
+miserable|elend|
+recognize|erkennst|
+almost|geradezu|
+least green|gründest|
+multiple|mehrfach|
+shuffle|mischst|
+positive|positiv|
+price|preis|
+pay|sold|
+fact|tatsache|
+countless|unzählig|
+association|verband|
+avoid|vermeide|
+related|verwandt|
+use|verwende|
+with which|womit|
+at least|zumindest|
+cooperation|zusammenarbeit|
+dependent|abhängig|
+occupied|belegt|
+bloom|blüte|
+restricts|einschränke|
+currently|gegenwärtig|
+Read|gelesen|
+designers|gestaltern|
+inner|innern|
+know|kenne|
+murder|morden|
+problem|problematik|
+saw|sahen|
+fright|schreck|
+independently|selbständig|
+corporate|unternehme|
+enlightening|aufklärst|
+foreign countries|ausland|
+contribution|beitrag|
+occupation|besetzung|
+thinks|denkt|
+musical|musikalisch|
+Roman|römer|
+lived out|ausgelebt|
+area|bereich|
+Kill|erledige|
+the lowest|geringst|
+June|juni|
+classical|klassisch|
+ill|krank|
+length|länge|
+mix|vermische|
+displayed|angezeigt|
+active|aktive|
+against page|gegenseite|
+Principles|grundsätze|
+helped|half|
+respect|hinsicht|
+knowledge|kenntnisse|
+Comment|kommentiere|
+artist|künstlerin|
+para diere|paradiere|
+worse|schlechtere|
+sale|verkauf|
+defending|verteidige|
+count|zählen|
+replaced|abgelöst|
+all kinds of|allerlei|
+dissolves|auflöst|
+press|drückst|
+own|eigenes|
+only|einzig|
+enemies|feinde|
+foreign|fremder|
+business|geschäft|
+changed|geändert|
+Conflicts|konflikte|
+living|lebendem|
+lack|mangeln|
+debris|schutts|
+dispute|streit|
+crashes|stürzt|
+comparison|vergleich|
+heralds|verkündern|
+fourth|vierte|
+fear|befürchte|
+decisive or|entschluß|
+driven|gefahren|
+liked|gefiel|
+known|gekannt|
+thrown|geworfen|
+read|las|
+guilty|schuldig|
+wrote about|überschrieb|
+moving|beweg|
+ultimately|letztlich|
+diversity|vielfalt|
+access|zugang|
+sitting|sitzend|
+to see|anzusehen|
+poor|armen|
+accompany|begleite|
+lead|blei|
+thickness|dicke|
+restricted|eingeschränkt|
+unsuccessful|erfolglos|
+experiences|erlebnisse|
+are generating|erzeugst|
+looking forward|freust|
+happy|froh|
+permit|gestatte|
+warned|gewarnt|
+toolbar provides|gewährleiste|
+conservative|konservativ|
+concentrate|konzentrierst|
+Lion|löwe|
+center|mittelpunkt|
+Powers|mächte|
+horse|pferd|
+philosophy|philosophie|
+produce|produziere|
+accident|unglück|
+conditions|verhältnisse|
+virtue|vermöge|
+wish|wünschen|
+awe|ehrfurcht|
+young|junger|
+father|pater|
+distinguished|vornehmes|
+neck|nacken|
+up|aufgebaut|
+use|benutze|
+call|bezeichne|
+German|deutsch|
+Items|gegenstände|
+called|gerufen|
+criticism|kritik|
+in heat|läufig|
+chic|schick|
+suggest|schlage|
+proceed|vorgehen|
+economy|wirtschaft|
+line|zeile|
+cite|zitierst|
+attach|befestige|
+raise|erhöhst|
+explain|erläutere|
+murdering|ermordens|
+fixed|festen|
+swept|gefegt|
+Kann|kanns|
+rental|verleihs|
+disprove|widerlege|
+together with|nebst|
+can|läßt|
+evidence|beweis|
+permanent|dauerhaft|
+demonstrate|demonstriere|
+fidget|drängle|
+Historic|historik|
+hat|hut|
+peak|höhepunkt|
+unfortunately|leider|
+monk|mönch|
+spatial|räum|
+sovereign|souverän|
+lives|wohnt|
+overlook|übersehe|
+extraordinarily|außerordentlich|
+instruct|beauftrage|
+relieve|entlaste|
+raise|erhebe|
+merry|fröhlich|
+interested in|interessierst|
+left|übrig|
+view|aussicht|
+Touch|berühr|
+prey|beute|
+good|gutes|
+ideas|ideen|
+long|langer|
+plans|pläne|
+estimates|schätzt|
+aims|strebt|
+handling|umgang|
+remained|verblieb|
+select|wähle|
+go out|ausgehen|
+construction|bau|
+doubt|bezweifele|
+prince|fürsten|
+Gentlemen|herren|
+inside|hinein|
+imperial|kaiserlich|
+fighting|kämpfend|
+wall|mauer|
+metal|metall|
+national|nationalem|
+sacrifice|opfern|
+test|prüfung|
+purely|rein|
+swarm|schwarm|
+looking for|suchst|
+publishing|verlege|
+more important|wichtigere|
+east|östlich|
+risest|aufgehst|
+went|begab|
+need|benötige|
+discover|entdecke|
+educate|erziehn|
+built|gebaut|
+persistent|hartnäckig|
+hang|hängen|
+body|körpers|
+desire|lust|
+obscures|verdecke|
+marry|verheirate|
+worldwide|weltweit|
+assail|bestürme|
+antlers|geweih|
+Auss|auß|
+orders of|bestellst|
+citizen|bürger|
+dominating|dominierst|
+strange|eigentümlich|
+environment|gebung|
+solved|gelöst|
+just|gerecht|
+bitter|herbem|
+hope|hoffst|
+hungry|hungernd|
+pretty|hübsch|
+after all|immerhin|
+boarding|internaten|
+lying|liegend|
+useful|nützlich|
+ear|ohr|
+philosopher|philosoph|
+cut|schneiden|
+south|südlich|
+wonderful|wunderbar|
+treatise|abhandlung|
+exploration for|aufsuche|
+foreign policy|außenpolitik|
+leg|bein|
+accelerating|beschleunige|
+one|eins|
+insight|einsicht|
+enemy|feindlichem|
+distance|ferne|
+common|gemein|
+subscribed|gezeichnet|
+thoroughly|gründlich|
+criticize|kritisiere|
+method|methode|
+flow|münden|
+pure|reinem|
+custom|sitte|
+activity|tätigkeit|
+waiver|verzichtes|
+to hasten|übereile|
+rejected|abgelehnt|
+one and a half|anderthalb|
+pay|bezahle|
+thanking|dankst|
+native|einheimisch|
+result|ergebnis|
+acquired|erworben|
+field|feld|
+protected|geschützt|
+internal|interne|
+decade|jahrzehnt|
+decades|jahrzehnten|
+declines|lehnt|
+provinces|provinzen|
+reaction|reaktion|
+Sheep|schafe|
+in writing|schriftlich|
+loyalty|treue|
+effective|wirksam|
+all too|allzu|
+implied|angedeutet|
+shame|beschäme|
+of course|freilich|
+did|mochte|
+authoritarian|autoritär|
+interpret|deute|
+grave|grab|
+candlestick|leuchter|
+unpleasant|unangenehm|
+signed|unterschrieb|
+compose|verfasse|
+Forgetting|vergessend|
+compared|verglich|
+perform|verrichten|
+provisionally|vorläufig|
+showcase|vorzeige|
+warsaw|warschau|
+check|überprüfe|
+lays down|aufstelle|
+improve|bessern|
+pursuing|betreibe|
+inhabit|bewohnst|
+urge|drang|
+ready|fertig|
+fill|füllst|
+redound|gereiche|
+entire|gesamtem|
+religious|gläubig|
+obtained|holt|
+invite|laden|
+teaching|lehre|
+can|lässt|
+powerful|mächtiges|
+in principle|prinzipiell|
+of course|selbstverständlich|
+follow|verfolge|
+live|wohnen|
+excesses|überflüsse|
+took|übernahm|
+different|verschied|
+ages|altert|
+offer|angebot|
+accepted|annahm|
+Arab|araber|
+given up|aufgegeben|
+favoring|begünstige|
+compute|berechne|
+taping|bewick|
+establishing itself|etabliere|
+early|früh|
+course|gang|
+go|gehe|
+yesterday|gestern|
+stove|herd|
+interesting|interessant|
+clan|klan|
+forces|kräften|
+Ministries|ministerien|
+use|nutze|
+based|stützt|
+kick|trete|
+Circumvent|umgehe|
+regardless|ungeachtet|
+uncertain|unsicher|
+entertainment|unterhaltung|
+lost|verlorenem|
+sweet|lieblich|
+head|kopfe|
+associations|bände|
+taken|eingenommen|
+facility|einrichtung|
+close|enger|
+contains|enthält|
+invention|erfindung|
+summarize|fasse|
+fear|fürchtest|
+left behind|hinterliess|
+get|hole|
+knee|knie|
+conflict|konflikt|
+message|meldung|
+in the middle|mitten|
+toil|mühsal|
+organization|organisation|
+Eastern Europe|osteuropa|
+strength|stärke|
+subject|unterlag|
+burnt|verbrannt|
+perceive|wahrnehme|
+threw|warf|
+humanities|geistes|
+reprimanded|gerügt|
+must|müßt|
+seventh|siebt|
+sound|ton|
+about rage|überrage|
+beard|bart|
+eliminate|beseitigen|
+trees|bäume|
+faxed|gefaxt|
+Create|gestalte|
+hot|heiße|
+sound|klingen|
+cultural|kulturelle|
+mouth|mund|
+longing|sehnst|
+social|sozialem|
+controversial|umstritten|
+compare|vergleiche|
+scientific|wissenschaftliche|
+withdrawn|zurückgezogen|
+yolk|eigelb|
+museums|museen|
+private|privatem|
+our|unserm|
+invest|anlegen|
+spending|ausgab|
+built|bauten|
+Flew|flog|
+bulk|großteil|
+any|jegliche|
+solve|lösen|
+do not lie|lüg|
+rain|regen|
+fame|ruhm|
+dips|taucht|
+verbs|verben|
+pronounced|aussprach|
+by lead|durchführe|
+furrowed|furchig|
+check|prüfen|
+travels|reist|
+conversely|umgekehrt|
+Duplicate|verdoppele|
+occurred|vollzog|
+wander|wanderst|
+listening|zuhörens|
+for example|beispielsweise|
+letters|briefe|
+close|enge|
+recovered|erholt|
+first|erstes|
+europe|europas|
+tested|geprüft|
+weakened|geschwächt|
+behind|hinten|
+known|kund|
+for lack of|mangels|
+mass|maße|
+employee|mitarbeiter|
+brought|mitgebracht|
+descendant|nachkomme|
+uses|nutzt|
+period|periode|
+the edge|rande|
+security|sicherheit|
+immediately|sogleich|
+fatal|tödlich|
+environment|umgebung|
+incapable|unfähig|
+promise|versprech|
+been|zuge|
+context|zusammenhang|
+befriend|befreunde|
+troubled|beunruhige|
+cardiac|kardial|
+magician|zauberer|
+ore|erz|
+largely|größtenteils|
+idea|ahnung|
+aware|bewußt|
+astonished|erstaune|
+childlike|kindlich|
+take delight|vergnüge|
+assume|annehme|
+species|arten|
+brutal|brutale|
+relax|entspannst|
+wake up|erwachst|
+prayer|gebet|
+belong|gehoren|
+communities|gemeinden|
+talk|gerede|
+shine|glanz|
+institute|institut|
+food|nahrung|
+post|posten|
+religious|religiös|
+wealth|schätze|
+markswoman|schützin|
+studying|studierst|
+displacing|verdränge|
+sold|verkauft|
+slowed|verlang|
+tear-stained|verweint|
+attacking|angreife|
+need|bedürfnis|
+Dusseldorf|düsseldorf|
+inclusive|einschließe|
+was found|erwies|
+flame|flamme|
+fear|fürcht|
+prince|fürst|
+balance|gleichgewicht|
+foundation|gründung|
+young|jung|
+nowhere|nirgends|
+north|norden|
+edge|rand|
+moves|rückt|
+said|sagten|
+closes|schließt|
+son|sohnes|
+traffic|verkehr|
+contracts|verträge|
+requires|voraussetzt|
+acquiring|übernehm|
+out|draußen|
+receive|empfange|
+shepherd|hirten|
+krakow|krakau|
+been able|vermocht|
+world history|weltgeschichte|
+delicate|zierlich|
+old|altes|
+before|davor|
+closely|eng|
+flowed|fließe|
+in demand|gefragt|
+concentrated|konzentrier|
+sharp|scharf|
+created|schuf|
+growing|wachsendem|
+reject|ablehnst|
+completion|abschluß|
+actuary|aktuar|
+entrust|anvertraue|
+sufficient|ausreiche|
+significant|bedeutsam|
+meeting|begegnung|
+rob|beraubst|
+well|brunnen|
+double|doppelte|
+there|dorthin|
+entries|eintrage|
+placid|gelassenem|
+spared|geschont|
+goddess|göttin|
+duke|herzog|
+connections|schlüsse|
+swan|schwanes|
+visibly|sichtlich|
+silver|silbern|
+penalty|strafe|
+seduce|verführst|
+deteriorating|verschlechtere|
+inwoven|eingewebt|
+becomes ill|erkranke|
+Renew|erneuere|
+wonderful|herrlich|
+predict|prophezeie|
+tragic|tragisch|
+worthy|würdig|
+occurs|auftritt|
+bid|gebot|
+handles|griffe|
+error|irrtum|
+beyond|jenseits|
+art world|kunstwelt|
+meanwhile|mittlerweile|
+red|rot|
+fast|schnelle|
+sweat|schweiss|
+weakness|schwäche|
+feel|spüre|
+symbolism|symbolik|
+animal|tier|
+death|todes|
+dead|tot|
+spread|verbreite|
+decay|verfall|
+ventures|wagt|
+contradicts|widerspreche|
+center|zentrum|
+purpose|zweck|
+wood|holz|
+recognized|anerkannt|
+show|anzeigen|
+seizure|beschlagnahme|
+bitter|bittere|
+abduct|entführst|
+apparent|ergebe|
+fertile|fruchtbare|
+adds|fügt|
+believed|geglaubt|
+divide|gliedern|
+interpret|interpretiere|
+care|kümmern|
+afternoon|nachmittag|
+properly|ordentlich|
+round|runde|
+sharp|scharfe|
+control|steuern|
+tea|tee|
+woe|weh|
+designation|bezeichnung|
+related|bezog|
+therefore|deswegen|
+sublime|erhaben|
+fronts|fronten|
+are going|fährst|
+deity|gottheit|
+march|marsch|
+novels|romane|
+met|trafen|
+gather|versammle|
+letters|buchstaben|
+freeze|erstarre|
+get to know|kennenlerne|
+true|wahrhaftig|
+sight|anblick|
+find me|auffinde|
+again|aufs|
+spreading|ausbreite|
+excellent|ausgezeichnet|
+away team|auswärtig|
+flower|blume|
+flights|flüge|
+Frenchman|franzos|
+amidst|inmitten|
+correct|korrigiere|
+physically|körperlich|
+morality|moral|
+wrestle|ringen|
+Seline|seltne|
+Spann|spanns|
+kill|tötest|
+extensive|umfangreichem|
+immortal|unsterblich|
+subordinate|untergeben|
+different|unterschiedlichem|
+with draw|unterzeichnest|
+rattle|verunsichere|
+commit|verüben|
+WOULD|wirke|
+wealthy|wohlhabend|
+pay|zahlst|
+completed|abgeschlossen|
+announced|angekündigt|
+architecture|architektur|
+trained|ausgebildet|
+foreign|ausländisch|
+ceiling|decke|
+close|engen|
+odor|geruch|
+team|gespann|
+climate|klima|
+feature|merkmal|
+policies|politiken|
+summer|sommer|
+noticeable|spürbar|
+met|traf|
+origin|ursprung|
+rage|wut|
+like|dergleichen|
+soon|alsbald|
+monument|denkmal|
+ambition|ehrgeiz|
+dress up|verkleide|
+spill|verschütte|
+sign|anzeichen|
+have been|aufgehabt|
+build|bauen|
+notice|bemerke|
+clearly|eindeutig|
+penetrate|eindringe|
+sensitive|empfindlichem|
+learn|erfährst|
+area|fläche|
+separated|getrennt|
+great|großartig|
+strong|kräftig|
+Moon|mond|
+morally|moralisch|
+new|neuem|
+obviously|offensichtlich|
+stale|schal|
+drama|schauspiel|
+mold|schimmels|
+Infiltrator|spitzels|
+crosstalk|sprechens|
+immobile|unbeweglich|
+curse|verfluche|
+exaggerated|übertrieb|
+exercises|übt|
+leave|abzugeben|
+institution|anstalt|
+star|stern|
+drives|treibt|
+clock|uhr|
+made|unternommen|
+made|vorgenommen|
+throw|wirfst|
+why|wozu|
+journal|zeitschrift|
+crosswise|quer|
+for which|wofür|
+compartment|abteils|
+silliest|alberst|
+specification|angabe|
+rise|aufstieg|
+compensation|ausgleich|
+demand|bedarf|
+discussion|diskussion|
+carried out|durchgeführt|
+abundance|fülle|
+give|gebe|
+expected|gerechnet|
+made|getroffen|
+grab|greife|
+fundamental|grundlegend|
+port|hafen|
+pants|hose|
+bend|kehre|
+regions|regionen|
+residual|rest|
+weaker|schwächer|
+student|schülerin|
+since|seitdem|
+technology|technik|
+typical|typisch|
+active|tätig|
+restless|unruh|
+ahead|voraus|
+past|vorbei|
+allegations|vorwürfe|
+more|weiteres|
+throw|werf|
+increased|zunahm|
+overview|überblick|
+remote|abgelegen|
+stay|aufenthalt|
+performers|aufführe|
+vault|gewölbe|
+mark|markiere|
+tired|müd|
+Persian|persisch|
+aggressive|aggressiv|
+announcing|ankündige|
+listed|aufgeführt|
+organizing|ausrichte|
+Reject|ausscheide|
+extend it|ausweite|
+qualifying|berechtige|
+least prepared|bereitens|
+Punisher|bestrafer|
+causest|bewirkst|
+bind|binden|
+incense|erbittern|
+experience|erlebe|
+won|errang|
+specifically give|erteilst|
+sliced|geschnitten|
+Indian|indisch|
+inside|innen|
+integral|integriere|
+commercially|kommerziell|
+concept|konzept|
+later|nachher|
+benefit|profitiere|
+agree that|räumst|
+state|staatlichem|
+includes|umfasst|
+original|ursprünglichem|
+area code|vorwahl|
+change|wechseln|
+Offices|ämter|
+about doing|übermache|
+overcome|überwinde|
+overcome|überwunden|
+bury|beerdige|
+bloom|blühst|
+remote|entlegen|
+awaken|erweckst|
+fingered|fingerig|
+shepherd|hirt|
+individually|individuell|
+monastery|kloster|
+Skidding|rücke|
+incomprehensible|unbegreiflich|
+person assessed|veranlage|
+action|aktion|
+to the|ans|
+astronomer|astronom|
+Liberation|befrei|
+presence|beisein|
+threat|drohende|
+level|ebene|
+heritage|erbe|
+given|geschenkt|
+open|geöffnet|
+this|hierzu|
+pure|reine|
+writes|schreibt|
+Die|stirb|
+bump|stoße|
+scene|szene|
+unclear|unklar|
+merits|verdienste|
+prejudice|vorurteil|
+birds|vögel|
+future|zukünftig|
+collapse|zusammenbruch|
+holds together|zusammenhält|
+additional|zusätzliche|
+surprising|überraschende|
+in the evening|abends|
+adventure|abenteuer|
+event|ereignis|
+largest|größter|
+heat|hitze|
+lifted|hob|
+succession|nachfolge|
+level|niveau|
+stature|statur|
+stitch|stich|
+quarter|viertel|
+increasing|zunehmendem|
+departure|abreise|
+aging|alterns|
+teach|beibringe|
+break|brechen|
+functioning|funktioniere|
+died|gestorben|
+healthy|gesunde|
+risky|gewagt|
+habit|gewohnheit|
+run|lauf|
+would|möchten|
+tank|panzer|
+phenomenon|phänomen|
+abundant|reichlich|
+rescuers|rettern|
+Roman|römischer|
+things|sachen|
+shields|schilde|
+territories|territorien|
+shifted|verschob|
+blurred|verschwamm|
+waiver|verzicht|
+apartment|wohnung|
+absolve|absolviere|
+impress|beeindrucke|
+practiced|geübt|
+colony|kolonie|
+player|spieler|
+sweet|süß|
+make a date|verabrede|
+Nutty|verrücke|
+to stone|versteinere|
+overpopulate|völkern|
+dispel|zerstreust|
+appearance|anschein|
+lonely|einsam|
+erstwhile|einstig|
+glued|geklebt|
+same time|gleichsam|
+sanctify|heiligst|
+annoying|lästig|
+painter|maler|
+painting|malerei|
+champion|meisters|
+are|seid|
+responsible|verantwortlichem|
+arrest|verhafte|
+agree|übereinstimme|
+look hard|anstrengst|
+apollo|apoll|
+eyes shining|augenschein|
+influencing|beeinflusse|
+would affect|beträfe|
+blonde|blond|
+performing|darstelle|
+own|eigner|
+will spare|ersparst|
+desirable|erwünscht|
+suffered|gelitten|
+confessed|geständig|
+grant to|gewährst|
+hardness|härte|
+for years|jahrelang|
+comb|kamm|
+expert|kenner|
+manager|leiter|
+support|mauern|
+oceans|meeren|
+rank|rang|
+reforms|reformen|
+teaching|richtens|
+collect|sammeln|
+sleep|schlaf|
+regulations|schriften|
+since then|seither|
+patrol|streife|
+division|teilung|
+trends|tenden|
+thesis|these|
+unfair|ungerecht|
+spent|verbracht|
+forgot|vergaß|
+suspect|vermute|
+be content|vorlieb|
+sway|waltend|
+newspaper|zeitung|
+approach sex|angehst|
+Asia|asien|
+proves|beweist|
+incidence|einfall|
+iron|eisen|
+decree|erlass|
+example|exempel|
+factor|faktor|
+some|gewisser|
+summit|gipfel|
+derive|leite|
+tube|ohre|
+ships|schiffe|
+argue|streite|
+theory|theorie|
+variously|verschiedenst|
+turn|wenden|
+resisted|widerstanden|
+tenth|zehntem|
+attack|überfall|
+roofing|bedachen|
+shadowing|beschatte|
+jealous|eifersüchtig|
+experienced|erfahrene|
+fine|feinem|
+fish|fischen|
+approval|genehmige|
+garment|gewand|
+had|mußten|
+pilgrim|pilgerin|
+Hungary|ungarn|
+scary|unheimlich|
+embody|verkörpere|
+presence|anwesenheit|
+training|ausbildung|
+on the one hand|einerseits|
+healthy|gesund|
+cheerful|heitere|
+view|sicht|
+tracking|verfolgung|
+scheduled|angesetzt|
+aspect|aspekt|
+dissolved|aufgelöst|
+triggered|ausgelöst|
+creek|bach|
+tree|baum|
+obstructive|behindernd|
+input|eingang|
+bear|ertrage|
+mountains|gebirg|
+spiritual|geistlich|
+valid|gültig|
+better|günstiger|
+here|hierher|
+buy|kaufen|
+least|kleinste|
+circuits|kreise|
+teachers|lehrern|
+Luxembourg|luxemburg|
+nerve|nerv|
+temporaries|provisorien|
+result|resultat|
+slim|schlank|
+bad|schlimmes|
+brave|tapferes|
+available|verfügbar|
+contract|vertrages|
+proposal|vorschlag|
+Destroy|zerstöre|
+imagining|einbilde|
+styles|stile|
+board|vorstand|
+analyzed|analysiere|
+imposes|auferlege|
+famous|berühmtes|
+possessed|besessen|
+admire|bewundere|
+indemnified|entschädige|
+deprivation|entziehe|
+suffocate|ersticke|
+therefore|folglich|
+running about|gelaufe|
+genome|genoms|
+maintained|gepflegt|
+rinsed|gespült|
+current|jetzige|
+tern|lautern|
+measure|maß|
+sweetening|süßend|
+cloth|tuch|
+tyranny|tyrannei|
+Hungarian|ungarisch|
+succumb|verfalle|
+tender|zart|
+go together|zusammengehen|
+on flute|überflute|
+imitating|nachahmst|
+build|aufzubauen|
+Strive|bemüh|
+decision|beschluß|
+drastic|drastisch|
+individual booklet|einzelheft|
+attain|erlange|
+fat|fette|
+broken|gerissen|
+of time|hinweg|
+Reviews|kritiken|
+Latin|latein|
+recently|neuestem|
+govern|regiere|
+decreased|sank|
+gradually|schrittweise|
+threshold|schwelle|
+decrease low|senkst|
+spurs|spornt|
+incompetent|unfähiges|
+especially|zumal|
+activate|aktiviere|
+pronounced|ausgesprochen|
+officer|beamte|
+serving|dienend|
+eagerly|eifrig|
+dreaded|gefürchtet|
+spacious|geräumig|
+collected|gesammelt|
+Prussian|preußische|
+difficult|schwie|
+player|spielerin|
+unhappy|unglücklich|
+under deck|unterdeck|
+linking|verknüpfe|
+renew|verlängere|
+devastate|verwüste|
+surrender|übergebe|
+carry on|übertrage|
+attacked|angegriffen|
+fanned|angeweht|
+antiquity|antike|
+receiving|aufnehme|
+Bavaria|bayern|
+regret|bedauerst|
+shall preserve|bewahr|
+incision|einschnitt|
+enormously|enorm|
+make glad|erfreust|
+reply|erwidere|
+flee|flieh|
+foreign|fremd|
+fifty|fünfzig|
+transactions|geschäften|
+half|halbe|
+dealer|händler|
+content|inhalt|
+buys|kauft|
+to know|kennengelernt|
+church|kirchlich|
+off|los|
+gap|lücke|
+duty|pflicht|
+remaining|restlich|
+together with|samt|
+boiler|sieder|
+sitting|sitzt|
+voltages|spannungen|
+scope|umfang|
+our|unseres|
+not far from|unweit|
+curtain|vorhang|
+wine|wein|
+go on|weitergehe|
+live together|zusammenlebe|
+together|aneinander|
+meat|fleisch|
+each other|untereinander|
+tender|zärtlich|
+hint|andeutung|
+belongest|angehörst|
+appropriate|angemessen|
+industrious|arbeitsam|
+radiating|ausstrahle|
+second interview|befragst|
+insult|beleidigst|
+portrait|bildnis|
+Sheets|blätter|
+dark|düstere|
+misrepresentation|entstelle|
+encourage|ermutige|
+matured|gereift|
+taste|geschmack|
+greet|grüß|
+magic|magie|
+again|nochmals|
+gift|schenk|
+student|studierende|
+outline|umriss|
+by talking|unterrede|
+banish|verbanne|
+poisoning|vergifte|
+feel|verspüre|
+linger|verweile|
+varied|vielfältig|
+posh|vornehm|
+further lead|weiterführe|
+persuasive|überrede|
+pyramid|pyramide|
+the extras|statistin|
+alone|alleine|
+expanded|ausgebaut|
+base|basis|
+trimming|besatzes|
+territory|biet|
+set up|eingerichtet|
+inherit|erben|
+fly|flieg|
+Early|frühe|
+findings|funde|
+identity|identität|
+map|karte|
+Come isses|kommisses|
+coast|küste|
+president|präsident|
+smoke|rauch|
+strain|stamm|
+covers|umfasse|
+subject|untertan|
+wake|wecke|
+Vienna|wien|
+forests|wälder|
+walls|wände|
+at times|zeitweise|
+leave that|überlaß|
+removed|abgenommen|
+employed|angestellt|
+placed|aufgestellt|
+Secretary of State|außenminister|
+sculptor|bildhauer|
+average|durchschnitt|
+invasive|eingreife|
+occurring|eintrete|
+electric|elektrisch|
+posted|entsandt|
+amaze|erstaunst|
+amazon|fug|
+battle|gefecht|
+healed|geheilt|
+odors|gerüche|
+autumn|herbst|
+more prominent|hervorrage|
+herein|hierin|
+help|hilft|
+notes|hinweise|
+ignore|ignorierst|
+marrow|mark|
+normal|normalem|
+will pass|passierst|
+maintain|pflegen|
+objectively|sachlich|
+shoes|schuhe|
+should|solle|
+tear|träne|
+Czech|tscheche|
+virtues|tugenden|
+about|umher|
+miniaturizing|verkleinerns|
+annihilate|vernichte|
+understanding|verständnis|
+forty|vierzig|
+pass by|vorübergehe|
+while|wahrend|
+warn|warnen|
+know|weisst|
+alexander|alexanders|
+intend|beabsichtige|
+name|benennen|
+mobile|beweglich|
+blocking|blockiere|
+Bulgaria|bulgarien|
+one rush|einteile|
+diligence|fleiße|
+singed|gesengt|
+regroup|gruppiere|
+holy|heiliger|
+each time|jedesmal|
+childish|kindisch|
+nothing but|lauter|
+taste|schmecke|
+impoverishing|verarmst|
+condemn|verdammst|
+veil|verhülle|
+shredders|vernichtern|
+accusation|vorwurf|
+tent|zelt|
+revised|überarbeite|
+designing|entwerfe|
+frustrates|vereitele|
+to gladden|beglücke|
+romans|römern|
+secular|weltlich|
+worthy|würdiger|
+Attention|achtung|
+American|amerikanisch|
+beginnings|anfänge|
+display|anzeige|
+get up|aufstehe|
+Please claim|beanspruche|
+reaffirm|bekräftige|
+decision|bescheid|
+urged|beschwor|
+immigrant|einwanderer|
+encourage|ermuntere|
+Gospel|evangeliar|
+wet|feucht|
+respected|geachtet|
+learned|gelehrt|
+shiny|glänzendem|
+Latin|lateiner|
+sacrifice|opferst|
+dirty|schmutzig|
+victorious|siegreich|
+Slavic|slawische|
+participated|teilnahm|
+getting worse|verschlimmere|
+process|vorgang|
+tell fortunes|wahrsagen|
+bet|wetten|
+returned|wiederkam|
+tiny|winzig|
+wonder|wunderst|
+to accept|anzunehmen|
+banns|aufgebot|
+selected|ausgewählt|
+straining|belastens|
+bread|brot|
+Federal Council|Bundesrat|
+existence|dasein|
+honest|ehrlich|
+jealousy|eifersucht|
+remembered|einfiel|
+lonely|einsames|
+discharged|entlud|
+withdrew|entzog|
+filled|gefüllt|
+reported|gemeldet|
+sent|gesandt|
+health|gesundheit|
+slope|hang|
+home|heimisch|
+increase|hung|
+islands|inseln|
+category|kategorie|
+copy|kopie|
+FIGHTING!|käm|
+brevity|kürze|
+local|lokale|
+funny|lustig|
+officer|offizier|
+Philosopher|philosophin|
+pot|pott|
+psychologically|psychisch|
+revolutionary|revolutionär|
+mission|sendung|
+silver|silber|
+theologian|theologe|
+daughters|töchter|
+versailles|versailler|
+front|vorderem|
+regulation|vorschrift|
+dedicate|widmest|
+cloud|wolke|
+root|wurzeln|
+read on|überliest|
+on the other hand|andererseits|
+construction|aufbau|
+set up|aufzustellen|
+output|ausgang|
+aligned|ausgerichtet|
+author|autor|
+cash|bar|
+ask|bittest|
+services|dienste|
+turn|drehe|
+Seize|ergreif|
+receives|erhält|
+permission|erlaubnis|
+wrong|falsch|
+found|festgestellt|
+secured|gesichert|
+decreased|gesunken|
+high|hohes|
+nations|nationen|
+network|netz|
+sign|schild|
+epidemic|seuche|
+avoided|vermied|
+presented|vorgetragen|
+time|zeitpunkt|
+in favor of|zugunsten|
+mostly|zumeist|
+atmosphere|atmosphäre|
+excited|aufgeregt|
+decisively support|bestärke|
+laying stress|betonst|
+district|bezirk|
+burning|brennendem|
+convoke|einberufe|
+discards|entledige|
+progress|fortschritt|
+glued|geleimt|
+cornice|gesims|
+constructive|konstruktiv|
+lively|lebhaft|
+clear|lichten|
+horses|pferden|
+care|pflege|
+insignificant|unbedeutend|
+inexperienced|unerfahren|
+reasonable|vernünftig|
+was delaying|verschleppe|
+facial|gesichts|
+spoil|verwöhne|
+anxious|ängstlich|
+Federal Republic of|Bundesrepublik|
+reverend|ehrwürden|
+cut off|abgeschnitten|
+concluding|abschließe|
+absent|abwesend|
+opened|aufgetan|
+barbarian|barbar|
+farmer|bauer|
+will notice|beachtest|
+would get|bekäme|
+binding|bindung|
+burned|brannte|
+twice|doppelt|
+somewhat|einigermaßen|
+agreed|einverstanden|
+Feeding|einziehe|
+nourish|ernährst|
+determine|festzustellen|
+france|frankreichs|
+warrant|garantierst|
+mentally|geistig|
+saved|gerettet|
+put|gesteckt|
+dedicated|gewidmet|
+through|hindurch|
+interests|interessen|
+childhood|kindheit|
+complain|klagen|
+comments|kommentare|
+reading|lektüre|
+provide|liefern|
+report|melden|
+humanity|menschheit|
+compassion|mitleid|
+legal successor|nachfolgerin|
+proofs|nachweise|
+imagination|phantasie|
+plate|platte|
+forge it|prägst|
+shoulder|schultern|
+send|senden|
+Spanish|spanische|
+drink|trinke|
+abhor|verabscheust|
+hide|verbirg|
+of each other|voneinander|
+ancestor|vorfahr|
+wards|wehrt|
+hint|wink|
+funny|witzig|
+artist|künstlers|
+goodwill|wohlwollen|
+bend|beugen|
+testify|bezeugst|
+Thank you|danke|
+compressors|dichtern|
+interfere|einmischen|
+smother|erdrücke|
+troubled|erschrecket|
+raced|gerast|
+Pagan|heidnische|
+Jewish|jüdisch|
+combine|kombiniere|
+construct|konstruiere|
+loving|liebevolle|
+majority|mehrzahl|
+appropriate|passende|
+direction|regie|
+representative|repräsentiere|
+played|spielten|
+flow for|strömst|
+disturb|stören|
+Cloths|tücher|
+tremendous|ungeheure|
+varying|variiere|
+behaved|verhielt|
+set before|vorgesetzt|
+advance|vorstoss|
+warned|warnte|
+know|weißt|
+arbitrarily|willkürlich|
+draw|zeichne|
+go back|zurückgehe|
+talent|begabung|
+invisible|unsichtbar|
+wife|weibe|
+Apart|abgesehen|
+active|aktiv|
+worker|arbeiter|
+builds up|aufbaue|
+impossible|ausgeschlossen|
+way out|ausweg|
+resident|bewohner|
+taken|eingeschlagen|
+went out|erlosch|
+hostility|feindschaft|
+medieval|mittelalterliche|
+side by side|nebeneinander|
+Nicholas|nikolaus|
+places|plätze|
+police|polizei|
+snow|schnee|
+multiplicity|vielzahl|
+who|wen|
+according to|zufolge|
+off|abgesagt|
+oh|ach|
+solely|alleinig|
+straighten up|aufrichte|
+wide|breit|
+burn|brenne|
+lady|dame|
+in addition|daneben|
+banquet for|deckst|
+thirty|dreißig|
+penetrate|dringen|
+inspection|durchsicht|
+recommended|empfohlen|
+ethnics|ethnien|
+memory|gedächtnis|
+crowned|gekrönt|
+successful|gelinge|
+disturbed|gestört|
+think|halte|
+harmoniously|harmonisch|
+violent|heftiges|
+bright|helle|
+internal|innerlich|
+any|irgendwelche|
+concentrate|konzentrat|
+copying|kopierst|
+medical|medizinisch|
+nights|nachte|
+Saxony|sachsen|
+singing|sang|
+describe to|schilderst|
+Soviet Union|sowjetunion|
+span|spanne|
+style|stils|
+southeast|südosten|
+sweet wine|südwein|
+topic|themen|
+tragedian|tragöde|
+downstairs|treppab|
+Meet|triff|
+circumstance|umstand|
+interrupt|unterbreche|
+consumed|verbraucht|
+worship|verehre|
+fell|verfiel|
+promised|versprach|
+maim|verstümmele|
+repudiate|verwehre|
+progress|voran|
+preceding|vorangegangen|
+chairman|vorsitzende|
+soft|weiche|
+scent|wittere|
+images|abbilder|
+striving|anstrebe|
+also broken|aufteile|
+record|aufzunehmen|
+keeping up|beibehalte|
+useful|brauchbare|
+conceivable|denkbar|
+by rush|durcheile|
+excuse|entschuldigst|
+watch TV|fernsehe|
+curse|fluch|
+measured|gemessen|
+moderate|gemäßigt|
+happy|glücklichem|
+woods|hölzer|
+isolated|isoliert|
+precious|kostbar|
+ENGAGED|nachgehe|
+Baltic Sea|Ostsee|
+scheduled|planmäßig|
+Swedish|schwedische|
+weakest|schwächst|
+settlement|siedlung|
+stiff|steif|
+gradually|stufen|
+prohibit|untersagen|
+subservient|unterwürfig|
+distribute|verteilst|
+decorate|verzierst|
+intend|vorhabe|
+truce|waffenstillstand|
+effectively|wirkungsvoll|
+link|glied|
+safety|heit|
+delouse|lausen|
+Macedonia|mazedonien|
+sober|nüchtern|
+transient|vergänglich|
+teeming|wimmele|
+acknowledge|anerkenne|
+started|angefangen|
+balanced|ausgeglichen|
+exploiting|ausnutze|
+operate|bedienen|
+Examples|beispiele|
+noticeable|bemerkbar|
+readily|bereitwillig|
+effectively|effektiv|
+impressive|eindrucksvoll|
+stopped|einstellte|
+energetic|energisch|
+unleash|entfessele|
+remote|fern|
+flat|flache|
+formal|formale|
+burned|gebrannt|
+known|gewußt|
+shine|glänze|
+glasses|gläser|
+gray|graue|
+pearl barley|graupe|
+ideal|ideale|
+candidate|kandidat|
+mood|laune|
+powerful|leistungsfähig|
+Liberal|liberale|
+pose|posen|
+Romanian|rumäne|
+useful|sinnvoll|
+Soviet|sowjetisch|
+breastfeeding|stillens|
+Dare|traust|
+dream|träumst|
+rubble|trümmern|
+unpopular|unbeliebt|
+united|vereint|
+move|verschieben|
+related|verwandter|
+reservation|vorbehalt|
+saw again|wiedersah|
+reliable|zuverlässig|
+bad|üble|
+hierarchy|hierarchie|
+thin|dünne|
+would classify|einordne|
+enlighten|erleuchte|
+festive|festlich|
+pious|fromm|
+dedication|hingabe|
+plunder|plündere|
+sensual|sinnlich|
+bright|strahlend|
+intolerable|unerträglich|
+amuse|vergnügst|
+Alps|alpen|
+trailer|anhänger|
+recognize|anzuerkennen|
+known|bekannter|
+advised|beratene|
+component|bestandteil|
+messenger|bote|
+to current|derzeitigem|
+corner|ecke|
+English|englisch|
+appalled|entsetzt|
+go|fahren|
+holiday|ferien|
+flying|fliegend|
+flight|flug|
+spring|frühjahr|
+federation|föderation|
+subject|gegenstand|
+turned|gewandt|
+fermented|gärte|
+Main article|Hauptartikel|
+issue|heft|
+helping|helfend|
+keel|kiel|
+comedy|komödie|
+concrete|konkret|
+end of the war|kriegsende|
+grief|kummer|
+Cologne|köln|
+kitchen|küche|
+load|last|
+military|militärisch|
+moderately|mäßig|
+close|nahen|
+a necessary|notwendigem|
+often been|oftmalig|
+passing|passiere|
+horse|pferdes|
+popular|populär|
+protests|proteste|
+revenge|rache|
+shock|schlag|
+souls|seelen|
+staff|stab|
+sum|summe|
+suspicion|verdacht|
+ISA|versag|
+transform|verwandle|
+previous|vorherig|
+fathers|väter|
+perceived|wahrgenommen|
+contemporary|zeitgenössisch|
+temporal|zeitlich|
+lie back|zurückliege|
+raids|überfälle|
+take over|übernimm|
+taken|übernommen|
+poverty|armut|
+going out|ausgehst|
+blue|blau|
+castle|burg|
+Denmark|dänemark|
+grandson|enkel|
+experience|erfahrungen|
+murder|ermordung|
+opponents of|gegnern|
+speed|geschwindigkeit|
+have|hab|
+competitor|konkurrent|
+pairs|paare|
+parliament|parlament|
+center of gravity|schwerpunkt|
+current|strom|
+Handle is|versetz|
+use|verwendung|
+aims|zielt|
+Hercules|herkules|
+desire|begierde|
+committed|engagiere|
+learned|gelehrter|
+organic|organisch|
+potentially|potenziell|
+axis|achse|
+suspects|ahnt|
+services|diensten|
+all the same|einerlei|
+invited|eingeladen|
+dismayed|entsetze|
+permit|erlaube|
+finely|feinst|
+spring|frühling|
+poems|gedichten|
+general|generell|
+act of violence|gewalttat|
+assimilates|gleichstelle|
+produced|hervorgebracht|
+crownest|krönst|
+instructive|lehrreich|
+bright|leuchtendem|
+lover|liebhaber|
+measure|messen|
+urging|nötigend|
+obvious|offenkundig|
+fun|spaß|
+pocket|tasche|
+bottom|tiefstem|
+deceptive|trügerisch|
+maintained|unterhielt|
+underwent|unterlief|
+anticipation|vorgefühl|
+willing|williges|
+in which|worin|
+Ottoman|osmanische|
+paintings|gemälden|
+nobility|adel|
+floated|geschwebt|
+living situation|lebenslage|
+mediocre|mittelmäßig|
+magic|zauber|
+retiring|abtrete|
+arrival|ankunft|
+encountered|antraf|
+cease|aufhöre|
+apart|auseinander|
+information|auskunft|
+bury|begrab|
+advices|belege|
+leaf|blatt|
+Pfandbriefe|briefen|
+democrat|demokrat|
+breakthrough|durchbruch|
+Danish|dänisch|
+hurry|eile|
+insight|einblick|
+burglary|einbruch|
+occupy|einnehme|
+arrived|eintraf|
+devised|ersann|
+the skies|erschaff|
+legally|erweise|
+some|etliche|
+exile|exil|
+held|festgehalten|
+like you|gefällst|
+polished|geschliffen|
+craft|handwerk|
+produced|hergestellt|
+wedding|hochzeit|
+higher|höherer|
+identical|identisch|
+instruments|instrumente|
+wrong|irrt|
+contact|kontakt|
+queen|königin|
+loosely|locker|
+perspective|perspektive|
+production|produktion|
+regulates|regelt|
+section|schnitt|
+sink|senke|
+sing|singe|
+materials|stoffe|
+panel|tafel|
+table|tisch|
+great|toll|
+separates|trennt|
+unbelief|unglaube|
+unchanged|unverändert|
+contempt|verachtung|
+bandaged|verbundenem|
+earn|verdien|
+negotiate|verhandle|
+can|vermag|
+hiding place|versteck|
+management|verwaltung|
+sea ​​world|weltmeer|
+who|wem|
+contradiction|widerspruch|
+quote|zitat|
+trains|zügen|
+public|öffentlich|
+specify|angeben|
+Clip-on|anliege|
+estate|anwesen|
+extended|ausgedehnt|
+making up|ausmache|
+served|bediente|
+enclose|beilegen|
+Briton|brite|
+colorful|bunte|
+asleep|entschlief|
+gratifying|erfreulich|
+devoted|ergebene|
+will achieve|erzielst|
+notice|feststelle|
+radioed|funkten|
+patient|geduldig|
+traded|gehandelt|
+enjoy|genieße|
+sufficient|genügt|
+handle|handhabe|
+get married|heiratest|
+on this|hierauf|
+hats|hüte|
+lovable|liebenswert|
+reported|mitgeteilt|
+profile|profil|
+presenting|präsentiere|
+collects|sammelt|
+flatter|schmeicheln|
+such|solches|
+impatience|ungeduld|
+understandable|verständlich|
+manage|verwalte|
+come back|wiederkomme|
+civilian|zivile|
+by seeking|durchsuche|
+bare|entblöße|
+fleshy|fleischig|
+planed|gehobelt|
+identified|identifiziere|
+manifold|mannigfach|
+holiday|urlaub|
+homeland|vaterland|
+rape|vergewaltige|
+filled|besetze|
+along|entlang|
+return|gegenleistung|
+reference|hinweis|
+competition|konkurrenz|
+loves|liebet|
+wage|lohn|
+mass|masse|
+in the morning|morgens|
+change|wandel|
+survey|übersicht|
+insult|beschimpfe|
+Bohemian|Böhme|
+classed|einstufe|
+pile|flor|
+florence|florenz|
+instinct|instinkt|
+mathematics|mathematik|
+champion|meisterin|
+priestess|priesterin|
+lock|schloß|
+unworthy|unwürdig|
+spoiled|verdorben|
+argue|argumentiere|
+armies|armeen|
+pronounced|ausgeprägt|
+express|auszudrücken|
+observation|beobachtung|
+regret|bereust|
+humble|demütiger|
+German-speaking|deutschsprachig|
+scent|duft|
+demon|dämon|
+honorably|ehrenvoll|
+contained|enthielt|
+flutter|flattern|
+yap|gekläff|
+worked|gewirkt|
+kneel|knien|
+devastating war|kriegsheer|
+Monarchies|monarchien|
+operational|operativ|
+per|pro|
+oblique|schräg|
+Swede|schwede|
+shoot|spross|
+structurally|strukturell|
+stumps|stummeln|
+Syria|syrien|
+swapping|tauschst|
+door|tür|
+undesirable|unerwünscht|
+awkwardness|ungeschicks|
+incomprehensible|unverständlich|
+unlikely|unwahrscheinlich|
+prohibited|verbotenem|
+closing|verschließe|
+exemplary|vorbildlich|
+madness|wahnsinn|
+Being|wesens|
+competition|wettbewerb|
+aversion|widerwille|
+economic policy|wirtschaftspolitik|
+held|abgehalten|
+applied|angewandt|
+log on|anmelden|
+Asian|asiatischem|
+give up|aufgebe|
+compliance|beachtung|
+committed|begangen|
+Affected by|betreff|
+enter|betrete|
+respectively|beziehungsweise|
+offered|bot|
+break|bruch|
+bridge|brücke|
+thick|dick|
+sunken|eingefallen|
+arrived|eingetroffen|
+took|einnahm|
+inhabitants,|einwohnern|
+detected|erfasse|
+would|ergäbe|
+It saves|erspar|
+find|finde|
+Curses|flüche|
+released|freigelassen|
+promoted|gefördert|
+against player|gegenspieler|
+marked|gekennzeichnet|
+mind|gemüt|
+smooth|glatt|
+grandfather|großvater|
+green|grüner|
+favorable|günstig|
+published|herausgegeben|
+industry|industrie|
+cold|kälte|
+hole|loch|
+London|londoner|
+measure|maßnahme|
+military|militär|
+prime minister|ministerpräsident|
+story|märchen|
+political|politisch|
+in reality|realiter|
+counting on|rechnest|
+respect|respekt|
+strike|schlägst|
+sixty|sechzig|
+are descended|stammst|
+steady|stetig|
+pond|teich|
+trust|traue|
+surrounding|umgebe|
+event|veranstaltung|
+clubs|vereine|
+dispose|verfüge|
+Fade|vergeh|
+destruction|vernichtung|
+UNDERSTAND|verständen|
+lecture|vortrag|
+had|wies|
+back|zurückzuführen|
+return|zurückzukehren|
+anger|ärger|
+invaded|überfiel|
+survivor|überlebende|
+dramatic|dramatisch|
+sensation|empfindung|
+received|empfing|
+refresh|erfrische|
+solemn|feierliche|
+mechanically|mechanisch|
+distrust|mißtrauen|
+mobilize|mobilisiere|
+respect|respektiere|
+smuggling|schmuggel|
+present|vorzustellen|
+knowing|wissende|
+doubtful|zweifelhaft|
+initial sound|anlaut|
+applied|aufgetragen|
+hopeless|aussichtslos|
+exchange|austausch|
+concerned|betraf|
+SATE|bundesstaat|
+delegate|delegiere|
+endless|endlose|
+recorded|erfasst|
+fold|falte|
+am|freue|
+hospitable factor|gastgebend|
+served|gedient|
+purchased|gekauft|
+scholarship|gelehrsamkeit|
+gifts|geschenke|
+legislative|gesetzgebend|
+prevent|hindern|
+go|hing|
+Yugoslav|jugoslawe|
+bold|kühn|
+paint|malen|
+substantive|materiellem|
+music|musiken|
+approach|nähern|
+counting|rechne|
+speaker|redner|
+navigable|schiffbar|
+end|schluß|
+mortal|sterblich|
+remove|streichen|
+talents|talente|
+drank|trank|
+mourning|trauer|
+sluggish|träg|
+tones|töne|
+go under|untergehe|
+organizing|veranstalte|
+assigned|vergebene|
+revealed|verriet|
+, virtues|vorzüge|
+watch|wache|
+Wizards|zauberern|
+civilian|zivilist|
+promised|zugesagt|
+get back|zurückkomme|
+hesitation|zögerns|
+comment|äußern|
+practice|üben|
+go on|übergehe|
+supernatant|überstand|
+supervise|überwache|
+noble|adelig|
+exceptionally|außergewöhnlich|
+ended|geendet|
+indifferent|gleichgültig|
+gods of|göttern|
+afterwards|hernach|
+kind|liebenswürdig|
+justifies|rechtfertige|
+reserve|reserviere|
+stir|rühren|
+indispensable|unentbehrlich|
+underestimated|unterschätze|
+ancient|uralt|
+fall silent|verstumme|
+confuse|verwechsele|
+advertise|werben|
+waste|abfall|
+arrangement|anordnung|
+train|bahn|
+acquisition|erwerb|
+chain|kette|
+cunning|list|
+riddle|rätsel|
+salt|salz|
+jump|sprung|
+residues|stände|
+election|wahlen|
+tools|werkzeuge|
+expiration|ablauf|
+application|anwendung|
+Arabic|arabischem|
+maintain|aufrechterhalten|
+just|ausgerechnet|
+expand|auszubauen|
+compensate|auszugleichen|
+apply|beantrage|
+Basin|beckens|
+treat|behandle|
+complain|beklage|
+advice|beratung|
+very well|bestens|
+little|bischen|
+break|brich|
+define|definiere|
+Dared|dürft|
+equal|ebenbürtig|
+included|eingeschlossen|
+registered|eingetragen|
+collected|eingezogen|
+uniformly|einheitlich|
+harmony|einklang|
+unanimously|einstimmig|
+ANSWER|entgegne|
+will learn|erlerne|
+acquire|erwerbe|
+eternity|ewigkeit|
+window|fenster|
+volatile|flüchtig|
+early time|frühzeit|
+approved|gebilligt|
+fled|geflohen|
+common|gemeine|
+traveled|gereist|
+device|gerät|
+shaping|gestaltung|
+waved|gewinkt|
+goods|güter|
+ongoing for|hinziehe|
+industrial|industriell|
+staging|inszeniere|
+box|kasten|
+no|keines|
+petty|kleinlich|
+military|militärs|
+noon|mittag|
+murder|mord|
+national|nationale|
+Decline|Niedergang|
+surgeries|praxen|
+realize|realisiere|
+return|rückgabe|
+shy|scheue|
+slumber|schlummer|
+game|spieles|
+instead|stattdessen|
+stretch|streck|
+Symbols|symbole|
+sweetness|süßigkeit|
+tactics|taktik|
+dance|tanze|
+traditions|traditionen|
+separate|trenne|
+ity|tät|
+door|türe|
+converted|umgewandelt|
+infallible|unfehlbar|
+agent|vertreterin|
+bird|vogel|
+preferred|vorgezogen|
+spacious|weitläufig|
+wave|welle|
+worlds|welten|
+was raging|wüte|
+ten thousand|zehntausend|
+show|zeig|
+decay|zerfall|
+concession|zugeständnis|
+collapsed|zusammenbrach|
+composed|zusammensetzt|
+stimulated|angeregt|
+occasion|anlass|
+look at|anschaust|
+Revolts|aufstände|
+cheers|beifall|
+add|beigeben|
+confess|bekennst|
+complain|beschwerst|
+contest|bestreite|
+blood|blutes|
+flowering|blühende|
+brown|braune|
+grateful|dankbares|
+those|denjenigen|
+by going|durchgehe|
+dozen|dutzend|
+villages|dörfer|
+impressions|eindrücke|
+occurred|eingetreten|
+heater|erhitzer|
+accessible|erreichbar|
+rock|felsen|
+refugee|flüchtling|
+legally|gesetzlich|
+crowd|gewühl|
+Happy|glückliches|
+grace|gnade|
+limitless|grenzenlos|
+Homes|häuser|
+quintessence|inbegriff|
+contents|inhalten|
+consistently|konsequent|
+corrupt|korrupt|
+paints|malt|
+registering|registrierst|
+ruble|rubels|
+deterrent|schreckende|
+ashamed|schämst|
+rare|seltenes|
+Socialist|sozialistin|
+brush past|streifst|
+Thuringia|Thüringen|
+Turk|türke|
+undetermined|unbestimmt|
+Tend to|versorge|
+in front|vorn|
+awake|wach|
+when|wann|
+assigned|zugeteilt|
+watch|zusehen|
+opening|öffnung|
+serenity|heiterkeit|
+ancestor|ahne|
+decent|anständig|
+Empower|befähige|
+cautious|behutsam|
+bombarding|bombardiere|
+penetrate|durchdringe|
+invalidate|entkräfte|
+decipher|entziffere|
+ravish|entzücke|
+inquire|erkundige|
+evacuate|evakuiere|
+whisper|flüstern|
+joyfully|freudig|
+completely|gänzlich|
+recruit|rekrutiere|
+only ripple|riesele|
+shy|schüchtern|
+brave|tapfer|
+incredulous|ungläubig|
+on the way|unterwegs|
+fade away|verblasse|
+darken|verdunkele|
+immortalize|verewige|
+persevere|verharre|
+conceals|verschleiere|
+stow|verstaue|
+delayed|verzöger|
+superstition|aberglaube|
+abstruse|abseitig|
+archives|archiv|
+visited|aufgesucht|
+upset|aufregst|
+erupting|ausbreche|
+trigger|auslösen|
+significant|bedeutungsvoll|
+serving them|bedienst|
+threatening|bedrohlich|
+affect|beeinträchtige|
+favorable|befürworte|
+understand|begreifst|
+amounts|betragt|
+GDR|ddr|
+director|direktor|
+documents|dokumente|
+designed|entworfen|
+work out|erarbeite|
+behold|erblickst|
+admonish|ermahnst|
+reimbursed|erstatte|
+contemplate|erwägst|
+falcon|falk|
+set|festgelegt|
+wings|flügeln|
+requirements|forderungen|
+terrible|fürchterlich|
+birthday|geburtstag|
+combed|gekämmt|
+just as|genauso|
+encountered|gestoßen|
+dashed|gestrichelt|
+a sense|gewissermaßen|
+wanted|gewollt|
+good-natured|gutmütig|
+harmless|harmlos|
+editorial|herausgebe|
+illegally|illegal|
+inform|informiere|
+bone|knochen|
+crumbs|krumen|
+strong|kräftiger|
+humorous|launig|
+invited|lud|
+billion|milliarden|
+Moscow|moskau|
+anyway|ohnehin|
+Parliamentary|parlamentarische|
+break|pause|
+perfect|perfekte|
+regents|regenten|
+richest|reichst|
+renovate|renoviere|
+repair|repariere|
+revolutionize|revolutionieren|
+romantic|romantisch|
+withdrawal|rückzug|
+fabulous|sagenhaft|
+fates|schicksale|
+sip|schluck|
+harms|schädige|
+sexually|sexuell|
+stabilize|stabilisiere|
+instead of giving|stattgebe|
+strive|streben|
+disturbance|störung|
+rates|sätze|
+expensive|teure|
+costume|tracht|
+Dreaming|träumend|
+do|tue|
+signing|unterzeichne|
+associate|verbinde|
+spends a|verbring|
+simplify|vereinfache|
+reinforcing|verstärke|
+managers|verwaltern|
+bold|verwegen|
+blur|verwische|
+consume|verzehre|
+pardon|verzeihet|
+provided|vorgesehen|
+preview|vorschau|
+alarm clock|wecker|
+weigh|wiegst|
+welcome|willkommen|
+possibly|womöglich|
+generators|zeuger|
+stay behind|zurückbleibe|
+summarize|zusammenfasse|
+bridging|überbrücke|
+reprove|überführe|
+overtake|überholst|
+transgressed|übertrat|
+academy|akademie|
+activity|aktivität|
+Offering|anbiete|
+broken|aufgebrochen|
+expected|ausgegangen|
+equipped|ausgestattet|
+foreigner|ausländer|
+reserves|behält|
+confession|beichte|
+burden|belaste|
+providers|bietern|
+brother '|bruders|
+elements|elemente|
+Yield to|ergib|
+enemies|feinden|
+fine|feine|
+continuing|fortgesetzt|
+peace|friede|
+wake|gefolge|
+gene|gen|
+judicial|gerichtlich|
+gift|geschenk|
+closed|gesperrt|
+changed|gewechselt|
+fret|greifst|
+background|hintergrund|
+court|hof|
+high|hohem|
+season|jahreszeit|
+everyone|jedermann|
+conference|konferenz|
+cows|kühe|
+joints|lenke|
+need|müsst|
+at night|nachts|
+parliaments|parlamente|
+by|per|
+checks|prüft|
+resignation|rücktritt|
+hall|saal|
+velvet|sammet|
+second|sekunde|
+series|serie|
+stages|stadien|
+congestion|stau|
+agree|stimmst|
+undermined|untergrub|
+lower|untern|
+alleged|vermeintliche|
+Front|vorne|
+priority|vorrang|
+tongue|zunge|
+stop|anschlag|
+dwellers|bewohnern|
+cover|decken|
+opening|eröffnung|
+enjoys|genießt|
+purchase|kauf|
+eve|vorabend|
+changes|änderungen|
+noble|adlig|
+unaware|ahnungslos|
+published|bekanntgemacht|
+take possession of|bemächtige|
+disadvantage|benachteilige|
+discriminates|diskriminiere|
+dynamic|dynamisch|
+influential|einflussreich|
+invitation|einladung|
+was sending|entsende|
+go blind|erblinde|
+Calculate|errechne|
+frightened|erschrak|
+tolerable|erträgliche|
+discuss|erörtere|
+fantastic|fantastisch|
+vow|geloben|
+heavenly|himmlischem|
+inspire|inspiriere|
+capitulate|kapituliere|
+coordinating|koordiniere|
+corrupts|korrumpiere|
+copper|kupfer|
+cool|kühle|
+secluded|lauschig|
+loosen|lockern|
+milder|mildere|
+was operating|operiere|
+obligations|pflichten|
+splendor|pracht|
+privatize|privatisiere|
+disgraceful|schändlich|
+spotlight|strahler|
+scatter|streuen|
+embrace|umarmst|
+accounted for|verbuche|
+shortening|verkürze|
+diminish|vermindere|
+Sending|verschicke|
+Interlock|verschränke|
+versatile|vielseitig|
+truly|wahrhaft|
+overcharge|überlade|
+stay overnight|übernachte|
+translate|übersetze|
+converging on|überstürze|
+belt|bandes|
+canceled|abgebrochen|
+threw off|abwarf|
+offering|anbietens|
+tackle|angehen|
+by|anhand|
+drive|antrieb|
+breath|atem|
+select|auserwählt|
+prepared|ausgearbeitet|
+expressed|ausgedrückt|
+proclaimed|ausgerufen|
+authentic|authentisch|
+note|beachten|
+confine|begnüge|
+confess|bekenn|
+considerably|beträchtlich|
+conquer|bezwinge|
+stretchest|dehnst|
+dialect|dialekt|
+installs display|einrichte|
+one-sided|einseitig|
+encyclopedia|enzyklopädie|
+learn|erlernst|
+barrel|faß|
+fixed stellst|feststellst|
+fruits|früchte|
+gate|gatter|
+Bits|gebisse|
+drivel|gefasel|
+dreamed of|geträumt|
+any time|jederzeit|
+funny|komisch|
+composer|komponist|
+herald|künder|
+lands|landet|
+long-term|langfristig|
+teacher|lehrers|
+magistral|magistrale|
+machine|maschine|
+seas|meere|
+metals|metalle|
+brave|mutig|
+nervous|nervös|
+nice|nett|
+North Sea|nordsee|
+next time|nächstens|
+privilege|privileg|
+cleanse|reinigst|
+beef|rind|
+stirred|rührt|
+armor|rüstung|
+shot|schoß|
+shout|schreie|
+save|sparen|
+season|spielzeit|
+taking place|stattfinde|
+steep|steil|
+donate|stiften|
+strikes|streiks|
+rope|strick|
+virtue|tugend|
+inevitable|unvermeidlich|
+Venice|venedig|
+processors|verarbeitern|
+conjecture|vermutung|
+host|wirt|
+cell|zelle|
+breeding|zucht|
+economically|ökonomisch|
+hermione|hermine|
+differentially|differenziell|
+academic|akademisch|
+initially|anfänglich|
+cite|anführe|
+appropriate|angebracht|
+worn|angehabt|
+inflated|aufgeblasen|
+failed|ausgefallen|
+based|basieren|
+harboring|beherberge|
+enriching|bereichernd|
+taxing|besteuere|
+cloud over|bewölken|
+chaotic|chaotisch|
+degrading|degradiere|
+would consent|einwillige|
+slip away|entwische|
+brighten|erhellst|
+dark|finsteres|
+torture|foltern|
+remember|gedenke|
+usual|gewohnt|
+put out|herausstelle|
+would have|hättest|
+import|importiere|
+complete|komplette|
+mat|matt|
+naked|nackte|
+Reich Chancellery|Reichskanzlei|
+meeting|sitzung|
+save|sparst|
+sparse|spärlich|
+insatiable|unersättlich|
+uncommonly|ungemein|
+subordinate|unterordne|
+unlearn|verlerne|
+Take care of|verpflege|
+confidential|vertraulich|
+before going|vorhergehe|
+would live|weiterlebe|
+conjure|zaubern|
+been standing|zugestehe|
+composite|zusammengesetzt|
+affairs|angelegenheiten|
+indictment|anklage|
+increase|anstieg|
+instructions|anweisungen|
+unset|aufhebst|
+exceptions|ausnahmen|
+authors|autoren|
+swim|baden|
+load|belastung|
+mountain|berg|
+profession|berufes|
+restriction|beschränkung|
+bishops|bischöfe|
+dione|dion|
+dynamics|dynamik|
+same|elbe|
+impart|erteile|
+promotion|förderung|
+fifth|fünfte|
+gesture|gebärde|
+neck|hals|
+so far|insofern|
+Italian|italiener|
+creature|kreatur|
+toad|kröte|
+body|leiche|
+pattern|muster|
+emphasis|nachdruck|
+slogan|parole|
+principle|prinzip|
+account|rechnung|
+stimulates|regt|
+attractive|reiz|
+resource|ressource|
+the time|seinerzeit|
+Stopped|stillst|
+throne|thron|
+gate|tor|
+Embrace|umarm|
+scope|umfanges|
+nonsense|unsinn|
+represents|vertritt|
+tool|werkzeug|
+economically|wirtschaftlich|
+joke|witz|
+long time|zeitlang|
+joined together|zusammenschloß|
+Zwinglian|zwingli|
+era|ära|
+scraped off|abgeschabt|
+abstract|abstrakt|
+assimilate|assimiliere|
+exciting|aufregendem|
+by lying|beigelegen|
+envy|beneidest|
+bed|betten|
+awareness|bewußtsein|
+fragrant|duftend|
+dune|düne|
+unique|einmalig|
+monotonous|eintönig|
+Grow in|erkämpfe|
+lays down|festlege|
+fixed set|festsetze|
+dark|finster|
+photograph|fotografieren|
+nourished|genährt|
+Constitution|Grundgesetz|
+hopefully|hoffnungsvoll|
+lightly|leichtfertig|
+objectively|objektiv|
+practicing|praktiziere|
+provocation|provokation|
+on time|pünktlich|
+tailor|schneidern|
+swim|schwimme|
+enthusiastic|schwärme|
+draw|schöpfen|
+stubborn|störrisch|
+unattainable|unerreichbar|
+unfavorable|ungünstig|
+restless|unruhig|
+invaluable|unschätzbar|
+cope any|verkrafte|
+relocating|verlagernd|
+Beat up|verprügele|
+absorbed|versunken|
+wither|verwelke|
+contemptuously|verächtlich|
+Forest|Walde|
+further|wei|
+restore to man|wiedererlange|
+added|zugefügt|
+doubt|zweifeln|
+flew over|überflog|
+about mittele|übermittele|
+levels decreased|absank|
+Office|Amtsantritt|
+Once|angekommen|
+be superior|angelegene|
+shares|anteile|
+rewarding work|arbeitslohn|
+express|ausspreche|
+convenient|bequem|
+employment|beschäftigung|
+order|bestellen|
+enforce|durchzusetzen|
+adjusting|einstelle|
+incident|eintreffe|
+decisions|entschlüsse|
+created|erschuf|
+raise up|erwecke|
+enforcing|erzwinge|
+version|fassung|
+lane|gasse|
+depressed|gedrückt|
+fled|geflüchtet|
+required|gefordert|
+applicable|geltende|
+Historians|Geschichtsschreiber|
+ruler|herrscherin|
+produce|hervorzubringen|
+view|hinblick|
+rear|hinterem|
+backgrounds|hintergründe|
+year|jahrgang|
+coalition|koalition|
+complex|komplex|
+conventional|konventionell|
+free|kostenlos|
+course|kurs|
+light|leuchte|
+suffered|litt|
+marketplace|marktplatz|
+underage|minderjährig|
+cooperation|mitarbeit|
+models|modelle|
+natural|natürliches|
+Dutch|niederländisch|
+passive|passiv|
+call|rufe|
+decreasing|sinke|
+gates|tore|
+total|totale|
+true|treu|
+uncertain|ungewiß|
+underground|unterirdisch|
+prehistory|vorgeschichte|
+required|vorgeschrieben|
+proposals|vorschläge|
+hike|wanderung|
+weeps|weint|
+reluctant|widerstrebe|
+surprise|wundern|
+beautiful|wunderschön|
+testifies|zeugt|
+granted|zugestanden|
+confidence|zuversicht|
+doubt|zweifelst|
+collection|einzug|
+errors|fehlern|
+desire|begehrst|
+passionate|leidenschaftliche|
+eighteen|achtzehn|
+First|allererst|
+grow up|aufwachse|
+can be poured|ausschank|
+unconditional|bedingungslose|
+Belgian|belgische|
+Federal government|bundesregierung|
+Ignite|entfache|
+celebration|feier|
+fiery|feurig|
+continues to carry on|fortführe|
+heated|geheizt|
+annoyed|genervt|
+gender|geschlechts|
+Vestments|Gewänder|
+desired|gewünschte|
+smooth|glattem|
+handwriting|handschrift|
+head|haupt|
+over|hinüber|
+snooty|hochnäsig|
+miserably|kläglich|
+compensating|kompensiere|
+life's work|lebenswerk|
+emptying|leerend|
+screen|leinwand|
+avoid|meiden|
+melancholy|melancholie|
+nail|nagels|
+wet|nass|
+optimistic|optimistisch|
+patriotic|patriotische|
+proclaim|proklamiere|
+reconstruct|rekonstruiere|
+revise|revidiere|
+russia|russlands|
+ornamental|schmücke|
+shred|schnitzeln|
+independently|selbstständig|
+specific|spezifisch|
+game|spiels|
+dumb|stumm|
+faithful|treuer|
+comprehensive|umfassendem|
+disobedient|ungehorsam|
+unapproachable|unnahbar|
+inconspicuous|unscheinbar|
+unfit|untauglich|
+neglect|versäumst|
+Taking a further|weiterbilde|
+win back|zurückerobere|
+add together|zusammenfüge|
+on demand|überfordere|
+hear about|überhöre|
+application|gesuch|
+pour|schütten|
+Afghan|afghanisch|
+arranged|angeordnet|
+done|angetan|
+attached low|anhängerin|
+impetus|anstoß|
+assassination|attentat|
+divided|aufgeteilt|
+endurance|ausdauer|
+eradicated|ausgerottet|
+the outside world|außenwelt|
+ordered|befohlen|
+beginning|beginnende|
+calm down|beruhig|
+visitor|besucher|
+libraries|bibliotheken|
+flourish|blühe|
+custom|brauch|
+accordingly|dementsprechend|
+humble|demütig|
+service providers|dienstleister|
+thirty years old|dreißigjährig|
+couple|ehepaar|
+unauthorized|eigenmächtig|
+exchanged|eingetauscht|
+trade|fach|
+fine|fein|
+keep away|fernhalte|
+aircraft|flugzeuge|
+formally|formell|
+was continued|fortgalt|
+photographer|fotograf|
+biscuits|gebäck|
+printed|gedruckt|
+areas|gegenden|
+opposites|gegensätze|
+drunk|getrunken|
+migrated|gewandert|
+hatred|hass|
+holy|heilig|
+brighter|heller|
+sky|himmels|
+deer|hirsch|
+Historian|Historikerin|
+homosexual|homosexuell|
+able|imstande|
+unstable|instabil|
+capital was|kapitäls|
+crystal|kristall|
+lean|mager|
+milk|milch|
+transmit|mitteln|
+mumble|murmelst|
+nights|nächte|
+surface|oberfläche|
+intoxication|rausch|
+recipe|rezept|
+Rhine|rhein|
+declines|rückgänge|
+consideration|rücksicht|
+back|rückwärtig|
+sent|sandte|
+watch|schaue|
+history|schichte|
+gorge|schlucht|
+black|schwarzer|
+sea ​​route|seeweg|
+speaking|sprechendem|
+interfere|stört|
+substance|substanz|
+dew|tau|
+Turk|türkin|
+interrupt|unterbrich|
+jinxed|verhext|
+hear|vernehme|
+regulation|verordnung|
+reveals|verrät|
+Promise|versprich|
+incident|vorfall|
+former|vormalig|
+truest|wahrst|
+admit|zugebe|
+facing|zugewandt|
+meet together|zusammentreffe|
+two hundred|zweihundert|
+compelling|zwingend|
+twelfth|zwölfte|
+exceeded|übertraf|
+distance|abstand|
+alliance|allianz|
+call|aufruf|
+again before|aufsehe|
+extension|ausbau|
+statement|aussage|
+revive|belebe|
+grant us|beschere|
+crept|beschlich|
+remuneration|bezüge|
+fire|brand|
+brood|brut|
+date|datum|
+dictator|diktator|
+stupid|dumm|
+no matter|egal|
+invasion|einmarsch|
+inserts|einsätze|
+ice|eis|
+escape|entgehe|
+earthquake|erdbeben|
+requires|erfordere|
+insights|erkenntnisse|
+first|erstmal|
+researcher|forscher|
+feed|futter|
+this|hierbei|
+this|hierfür|
+ed|hrsg|
+hundred thousand|hunderttausend|
+hill|hügel|
+core|kern|
+clothes|kleider|
+team|mannschaft|
+will yield|nachgebt|
+northeast|nordosten|
+race|rasse|
+calls|ruft|
+advises|rät|
+bill|schein|
+end|schluss|
+column|spalte|
+support|stütz|
+table|tabelle|
+diary|tagebuch|
+texts|texte|
+Associations|verbände|
+predominance|vorherrschaft|
+was present|vorlag|
+period of time|zeitraum|
+central|zentralem|
+the recorded|aufgezeichne|
+take off|ausziehe|
+, commands|bereitstelle|
+Obtain|beschaffe|
+blame|beschuldige|
+at present|derzeit|
+decimate the|dezimiere|
+honorable|ehrenhaft|
+hooked|eingehakt|
+invade|einmarschieren|
+Come from|entstamme|
+inherited|geerbt|
+aged|greis|
+came home|heimkam|
+hopelessly|hoffnungslos|
+Islamic|islamisch|
+chin|kinn|
+consuming|konsumiere|
+have health safe|krankenversichere|
+bray|kreische|
+strange|merkwürdiges|
+psychologist|psychologe|
+jerk|rucken|
+rower|ruderin|
+crept|schlich|
+painful|schmerzvoll|
+cabinets|schränke|
+certainly imagine|sicherstelle|
+signaling|signalisiere|
+stylize|stilisieren|
+participation|teilhabe|
+dry|trockenem|
+opaque|undurchsichtig|
+unwavering|unerschütterlich|
+untenable|unhaltbar|
+universe|universum|
+undisputed|unumstritten|
+prescriptive|verordnend|
+weldability|verschweiß|
+sprinkle|versprenge|
+lectures|vorträge|
+cry|weinen|
+befall|widerfahre|
+dedicate|widme|
+literally|wörtlich|
+magical|zauberhaft|
+retire|zurückziehe|
+sleeve|ärmel|
+pour over|überschütte|
+sympathize|mitfühle|
+gilders|vergoldern|
+by transverse|durchquere|
+caravan|karawane|
+meditate|meditiere|
+instead of|anstelle|
+helpful|behilflich|
+complain|beklagst|
+pray|betest|
+characteristics|charakteristik|
+Caesar|cäsar|
+defective|defekt|
+dipped|eintauche|
+explore|erforsche|
+exclusive|exklusiv|
+cheeky|freche|
+former|frühern|
+secure|geborgen|
+mixture|gemisch|
+inclined|geneigt|
+ingenious|geniales|
+sociable|gesellig|
+confess|gestehe|
+punished|gestraft|
+sawn|gesägt|
+kind|gütig|
+hanging|hängend|
+camel|kamel|
+apparel|kleides|
+wiser|klüger|
+denial|leugnens|
+melody|melodie|
+pursuit|nacheile|
+embarrassing|peinliche|
+advocate|plädiere|
+legally|rechtlich|
+rests|ruht|
+seed|same|
+mused|sann|
+sixteenth|sechzehnte|
+mental|seelisch|
+perpendicular|senkrecht|
+should|solltest|
+spy|spionieren|
+implied|stillschweige|
+strategically|strategisch|
+temples|tempeln|
+drips|tropft|
+uncomfortable|unbequem|
+unrecognized|unerkannt|
+unauthorized|unerlaubt|
+useless|unnütz|
+wrong|unrecht|
+thrashed|verdrosch|
+Reconcile|versöhne|
+go ahead|vorausgehe|
+ordination|weihe|
+further developed wrap|weiterentwickele|
+West German|westdeutsch|
+beckon|winkst|
+Gypsy|zigeunerin|
+been heard|zugehöre|
+put back|zurücklege|
+curb|zügeln|
+seconded|abgeordnet|
+discard|ablegst|
+wait|abzuwarten|
+act|akt|
+looked at|ansah|
+to close|anzuschließen|
+apply|anzuwenden|
+noticed|aufgefallen|
+prompted|aufgefordert|
+edition|auflage|
+dissolve|aufzulösen|
+are expressing|ausdrückst|
+get along|auskomme|
+testify|aussagen|
+ax|axt|
+gang|bande|
+located|befindlich|
+together|beisammen|
+accession|beitritt|
+readiness|bereitschaft|
+Punish|bestraf|
+are running|betreibst|
+refer|beziehe|
+blind|blinde|
+civil war|bürgerkrieg|
+bureaucrat|bürokrat|
+through|durchs|
+installed|eingebaut|
+one before|einsehe|
+vanity|eitelkeit|
+replace|ersetze|
+open up|eröffne|
+euphoria|euphorie|
+celebrated|feierte|
+enemy,|feindin|
+campaign|feldzug|
+held|festhielt|
+cemetery|friedhof|
+HB|frühst|
+add|füge|
+blinded|geblendet|
+cost|gekostet|
+used|genutzt|
+increased|gestiegen|
+entered|getreten|
+targeted|gezielt|
+magnanimity|großmut|
+'d give|gäb|
+helpless|hilflos|
+hitler|hitlers|
+Keepers|hütern|
+cabinet|kabinett|
+bald|kahl|
+action|klage|
+continuous|kontinuierlich|
+crusade|kreuzzug|
+store|lagern|
+praise|lob|
+holes|löcher|
+meal|mahlzeit|
+brought|mitbrachte|
+alleged|mutmaßliche|
+east|ost|
+rough|rau|
+in time|rechtzeitig|
+puzzling|rätselhaft|
+review|rückblick|
+shepherd|schäfer|
+feed|speisen|
+proverbs|sprichwörter|
+permitted|statthaft|
+forces|streitkräfte|
+for hours|stundenlang|
+sympathy|sympathie|
+debris|trümmer|
+Turkish|türkischem|
+surrounding countryside|umland|
+unnoticed|unbemerkt|
+unnecessary|unnötig|
+subject|unterworfen|
+inadequate|unzureichend|
+moveable|verfahr|
+slip away|vergehst|
+discarded|verworfen|
+fourteen|vierzehn|
+provided|vorausgesetzt|
+empire|weltreich|
+by magic|zaubere|
+tenth|zehnte|
+temporary|zeitweilig|
+given|zuteil|
+overlaid|überzog|
+hast|habest|
+intimate|innig|
+going away|verreise|
+Western Front|westfront|
+untied|abband|
+abbot|abt|
+called|anrief|
+otherwise|ansonsten|
+to suggest|anzudeuten|
+aristocracy|aristokratie|
+expenditure|ausgaben|
+exchanges|austausche|
+station|bahnhof|
+discuss|bespreche|
+biographer|biograph|
+chancellor|bundeskanzler|
+chief|chef|
+therefore|demnach|
+thin|dünn|
+more real|echtere|
+conceited|eingebildet|
+on the input|eintrieb|
+closest|engst|
+discharge|entladen|
+ride|fahrt|
+fatal|fatale|
+faulty|fehlerhaft|
+hostile|feindselig|
+hostilities|feindseligkeiten|
+fly|fliegst|
+flute|flöte|
+functional|funktionell|
+captivity|gefangenschaft|
+carved|geschnitzt|
+voted|gestimmt|
+sought|gestrebt|
+baptized|getauft|
+credible|glaubwürdig|
+in principle|grunds|
+whilst he|herbeiführe|
+came from|herkam|
+bring forth|hervorbringe|
+ports|häfen|
+hilly|hügelig|
+as a result|infolge|
+commissioners|kommissaren|
+cancel it|kündigst|
+line|leitung|
+invites|lädt|
+object|objekt|
+planet|planeten|
+program|programm|
+ream|ries|
+knight|ritter|
+inconsiderate|rücksichtslos|
+clean|sauber|
+failed|schei|
+Cunning|schlaue|
+owe|schulde|
+sharpen|schärfst|
+by|seitens|
+sinking|sinkst|
+starters|startern|
+stroke|strich|
+system|systems|
+allegiance|treueid|
+bank|ufer|
+killed|ums|
+unlimited|unbegrenzt|
+unlimited|uneingeschränkt|
+unintentional|ungewollt|
+undercutting|unterbot|
+under|unterm|
+unimportant|unwichtig|
+compares|vergleicht|
+ridiculed fruit|verlobst|
+renting|vermiete|
+cf|vgl|
+pass by|vorbeigehe|
+paternal|väterlich|
+weaver|weber|
+much|weitaus|
+value|wertes|
+what|woran|
+Certificates|zeugnisse|
+Looking back|zurückblicke|
+additive|zusatz|
+practice|übe|
+cross over|überquere|
+ivory|elfenbein|
+dowels gently|endens|
+laminated|geschichtet|
+Camel driver|Kameltreiber|
+reminder|mahnung|
+adore|vergöttere|
+bow|verneige|
+excellent|vorzügliche|
+mapped|abgebildet|
+derived|abgeleitet|
+rejected|abgewiesen|
+dropped|abgeworfen|
+reject|ablehne|
+replacing|ablöst|
+remove|abzunehmen|
+all kinds|allerhand|
+tenure|amtszeit|
+continued|anhalt|
+struck|anschlug|
+commencement|antritt|
+Struve to supervise|antrug|
+Selection|anwahl|
+offer|anzubieten|
+indicate|anzug|
+pitched|aufgeschlagen|
+stop|aufzuhalten|
+spread|ausgebreitet|
+extinct|ausgestorben|
+exercised|ausgeübt|
+selection|auswahl|
+train|auszubilden|
+exploit|auszunutzen|
+endorser|begebe|
+incidental|beiläufig|
+assistance|beistand|
+teach|beizubringen|
+advise|berate|
+beg|betteln|
+shown|dargestellt|
+debate|debatte|
+definite|definit|
+three hundred|dreihundert|
+use|einzusetzen|
+removal|entfernung|
+decided|entschloß|
+results|ergebnisse|
+up Memory|erschlag|
+first|erstem|
+possibly|eventuell|
+start|fange|
+fresco|fresko|
+bent|gebogen|
+against each other|gegeneinander|
+married|geheiratet|
+landed|gelandet|
+twaddle|gewäsch|
+expressed|geäußert|
+pour|gieß|
+synonymous|gleichbedeutend|
+also|gleichfalls|
+coarse|grobem|
+green|grün|
+harbors|hegt|
+here|hie|
+hunter|jäger|
+cat|katze|
+kneels|kniet|
+get|kriegt|
+Croatian|kroate|
+land|landen|
+eventually|letztendlich|
+magazine|magazin|
+deserted|menschenleer|
+myths|mythen|
+killer|mörder|
+objects|objekte|
+processes|prozesse|
+rest|ruhen|
+quieter|ruhigere|
+full|satt|
+jewelry|schmuck|
+severe|schwerste|
+blessing|segen|
+skeptical|skeptisch|
+just|soeben|
+chair|stuhl|
+ton|tonne|
+burn|verbrennst|
+forgive|vergebe|
+breath away|verschlug|
+morning|vormittag|
+make|vorzunehmen|
+values|werte|
+more|wich|
+give back|wiedergebt|
+restored|wiederhergestellt|
+winch|winde|
+awarded|zugesprochen|
+purposes|zwecke|
+breeding|züchte|
+fears|ängste|
+look at|anschaue|
+appeal|appellieren|
+uncovereth|aufdecke|
+visit|aufzusuchen|
+eyelid|augenlid|
+editors|bearbeitern|
+emphasize|betonen|
+downcast|betrübst|
+guarded|bewacht|
+your|deines|
+average|durchschnittliche|
+hastily|eilig|
+inclusive|einbeziehe|
+surreptitiously|erschlich|
+experiments|experimente|
+acting|fungiere|
+fan|fächern|
+taken|gedauert|
+healthy|gesunder|
+home pay|heimzahle|
+witch|hexe|
+make clear|klarmache|
+compete|konkurriere|
+granulate|körnen|
+ridiculous|lächerliche|
+play along|mitspiele|
+merry|munteres|
+top off|nachfülle|
+kneel|niederknie|
+resigning|niederlege|
+pack|packen|
+permanently|permanent|
+honest|redliches|
+regional|regionale|
+rectal|rektal|
+real|richtiges|
+switch|schalten|
+shoot|schießen|
+cabinet|schrank|
+tail|schweifs|
+blessed|selig|
+seminars|seminare|
+economical|sparsam|
+mourn|trauerst|
+tournament|turnier|
+mistaken|täuschst|
+foolish|töricht|
+discomfort|unbehagen|
+rude|unhöflich|
+at start|unterfange|
+unreliable|unzuverlässig|
+despise|verachte|
+causes|veranlasst|
+wasters|verschwendern|
+misunderstandings|verständnisse|
+foresee|voraussehe|
+hamlet|weiler|
+will break|zerbreche|
+broken|zerbrochen|
+twitching|zuckend|
+reject|zurückweise|
+ambiguous|zweideutig|
+left|übriggeblieben|
+Ferns|Farne|
+wed|vermähle|
+breasts|brüste|
+Outward|hinreise|
+polite|höfliches|
+muscles|muskeln|
+will auction|versteigere|
+effeminate|weichlich|
+overexert|überanstrenge|
+overabundance|überfülle|
+accused|angeklagt|
+listen to|anhörst|
+view|ausblick|
+needed|bedurft|
+obey|befolgst|
+illuminators|beleuchtern|
+exhilarate|beschwingen|
+fractures|brüche|
+thinking|denkende|
+unique|einzigartig|
+explore|erforschst|
+drowning|ertrinke|
+will catch|erwischst|
+Patent Attorney|erwähle|
+factories|fabriken|
+is fascinated|fasziniere|
+stand firm|feststehe|
+release them|freilasse|
+peace treaty|friedensvertrag|
+promote|fördern|
+Princes|Fürstentag|
+safely|gefahrlos|
+enclosure|gehege|
+assistant|gehilfe|
+mentally strong|geisteskraft|
+swept|gekehrt|
+bent|gekrümmt|
+stuffed|gestopft|
+aroused|geweckt|
+domestic policy|innenpolitik|
+cook|kochst|
+Communion|kommunion|
+ongoing|laufende|
+suffering|leidend|
+Central Europe|mitteleuropa|
+thoughtful|nachdenklich|
+nocturnal|nächtlich|
+folders|ordnern|
+East German|ostdeutsch|
+magnificently|prachtvoll|
+productive|produktiv|
+movement|regung|
+divorce|scheiden|
+shrink|scheust|
+scold|schimpfst|
+palatable|schmackhaft|
+harmful|schädlich|
+self-praise|selbstlob|
+save|speichern|
+dying|stürbe|
+temple|tempels|
+inconspicuous|unauffällig|
+unfriendly|unfreundlich|
+unexplained|ungeklärt|
+suppressive|unterdrücke|
+dissatisfied|unzufrieden|
+digest|verdaust|
+repays|vergilt|
+proclaim|verkünde|
+locked|verschloss|
+submitted to|vorgelegen|
+wander|wandere|
+evading|weichst|
+wild|wilder|
+wind|winden|
+cast spells|zauberst|
+circle|zirkel|
+tremble|zittern|
+flew|zuflog|
+pull together|zusammenziehe|
+undoubtedly|zweifellos|
+breeding|züchtens|
+Lifts|aufzuge|
+grounds|begründung|
+sometimes|bisweilen|
+there|daselbst|
+ambitious|ehrgeizigem|
+alienating|entfremde|
+movies|filme|
+disposable|geldes|
+poison|gift|
+peninsula|halbinsel|
+houses|häusern|
+inclusive|inklusion|
+innermost|innerste|
+Card|karten|
+Life-size|Lebensgröße|
+left|links|
+myth|mythos|
+panic|panik|
+popularity|popularität|
+lake|sees|
+in turn|seinerseits|
+transmitter|sender|
+Sicily|sizilien|
+handsome|stattlich|
+temperature|temperatur|
+submitted|abgegeben|
+demolished|abgerissen|
+detached|abgetrennt|
+discourages|abhalte|
+discourages|abhält|
+veer|abkomme|
+falls|allt|
+inquiry|anfrage|
+Anglo|angel|
+connected|angeschlossen|
+addressed|angesprochen|
+starting point|ausgangspunkt|
+issued|ausgegeben|
+delivered|ausgeliefert|
+agreed|ausgemacht|
+equipped|ausgerüstet|
+authority|befugnis|
+contributed|beigetragen|
+known|bekanntlich|
+acquaintance|bekanntschaft|
+adjacent|benachbart|
+confirmed|bestätigtem|
+confirmation|bestätigung|
+moved|bewog|
+brandenburg|brandenburger|
+Brussels|brüssel|
+data|daten|
+so|derart|
+three|dreien|
+enforced|durchgesetzt|
+noblest|edelste|
+husband|ehemann|
+rushes|eilt|
+received|eingegangen|
+classified|eingestuft|
+Itemization|Einzelnachweis|
+yield|erträge|
+bottle|flasche|
+flea|floh|
+promotes|fördert|
+used|gegriffen|
+cleaned|geputzt|
+noise|geräusche|
+moved|gerückt|
+companies|gesellschaften|
+certainty|gewißheit|
+guest|gäste|
+headquarters|hauptquartier|
+lift|heben|
+used|herangezogen|
+a hundred|hundertmal|
+cave|höhle|
+secretly|insgeheim|
+sometime|irgendwann|
+abruptly|jäh|
+annual|jährlichem|
+chancellor|kanzler|
+cape|kap|
+great|klasse|
+combine|kombinat|
+continent|kontinent|
+frizzy|kraus|
+cross|kreuz|
+Crosses|kreuze|
+lifeless|leblos|
+luxury|luxus|
+Landler|ländler|
+million|mio|
+envy|neid|
+respect|respekts|
+remains|reste|
+avenge|rächst|
+son-in|schwiegersohn|
+shrinkage|schwunds|
+slave|sklave|
+social|soziale|
+held|stattfand|
+material|stoff|
+bell|stürze|
+baptism|taufe|
+heir to the throne|thronfolger|
+separation|trennung|
+reconstructed|umgebaut|
+implemented|umgesetzt|
+surrounding|umliegende|
+continuously|ununterbrochen|
+immediate|unverzüglich|
+vague|vage|
+Vases|vasen|
+sales|verkäufe|
+publishing|verlegens|
+pastime|vertreib|
+fend off|vertreibst|
+accused of|vorgeworfen|
+This|vorliegende|
+foreman|vormann|
+wax|wachs|
+passed|weitergegeben|
+turn|wendung|
+plant|werks|
+Western Europe|westeuropa|
+scurry|wieseln|
+anger|zorn|
+inflow|zulauf|
+back|zurückkam|
+poorer|ärmer|
+Austria|Österreichs|
+remnant|überbleibsel|
+littered|übersät|
+oppress|bedrücke|
+amused|belustige|
+Federal Office|Bundesamt|
+tiring|ermüdens|
+degrade|erniedrige|
+exigent|gestreng|
+hollow|hohl|
+delicious|köstlich|
+Naples|neapel|
+privileged ranking|privilegiere|
+refine alternating|raffiniere|
+sheep|schafen|
+principal|schulleiter|
+stare|starrst|
+apportioned|umgelegt|
+on list|überliste|
+haggard|abgehärmt|
+dismissed|abgetan|
+denied|absprach|
+worshiping|anbetens|
+Occasions|anlässe|
+anonymous|anonym|
+Aristotle|aristoteles|
+cease|aufhörst|
+extinguish|auszulöschen|
+questionable|bedenklich|
+is founded|begründe|
+art converted|bekehrst|
+testify|bezeuge|
+Buss|buß|
+income|einkommen|
+recommend|empfehle|
+inventor|erfinderin|
+blackmailed|erpresst|
+exactly|exakt|
+fiction|fiktion|
+research|forsch|
+fractal|fraktal|
+gift|gabe|
+buildings|gebäuden|
+interpreted|gedeutet|
+eaten|gegessen|
+obey|gehorchst|
+striped|gestreift|
+yesterday's|gestrig|
+paid|gezahlt|
+cultured|gezüchtet|
+have|habt|
+home teacher|hauslehrer|
+harry|heeren|
+Heal|heile|
+high eighth|hochachte|
+Universities|Hochschulen|
+pretty|hübsches|
+Lawyer|juristin|
+climb|kletterst|
+literary|literarisch|
+classmate|mitschüler|
+Reprints|nachdrücke|
+lowest|niedrigst|
+write down|notierst|
+packed|packte|
+arrow|pfeil|
+purity|reinheit|
+esting|santes|
+apron|schurz|
+surge|schwall|
+shake|schütteln|
+shake|schüttelst|
+secretions|sekreten|
+emerald|smaragd|
+heck|solls|
+jumped|sprang|
+marvel|staune|
+dance|tanz|
+apt|treffend|
+perimeter|umkreis|
+cause kerst|verankerst|
+heard|vernahm|
+causes|verursache|
+undertook|vornahm|
+prescriptive|vorschreibe|
+waters|wassern|
+re-think|wiederfinde|
+wave|winken|
+lust|wollust|
+toe|zeh|
+gained|zugelegt|
+hold back|zurückhalte|
+eyebrow|augenbraue|
+operated|betätige|
+States|Bundesländer|
+Christianize|christianisieren|
+discourage|entmutige|
+kindle|entzünde|
+polite|höflich|
+hip|hüfte|
+cling|klammere|
+disregard|missachte|
+A Journey|mitreise|
+naive|naiv|
+Persian|perser|
+qualifying|qualifiziere|
+iridescent|schillernd|
+Silesia|Schlesien|
+sole|sohle|
+devilish|teuflisch|
+improper|ungehörig|
+deny|verneine|
+be late|verspäte|
+strange|wunderlich|
+analysis|analyse|
+plant|anlage|
+arabs|arabern|
+labor|arbeitskräfte|
+attribute|attribut|
+each other|aufeinander|
+open my|aufmache|
+Recovery|Aufschwung|
+supervision|aufsicht|
+Performers|ausübe|
+processing|bearbeitung|
+known to give|bekanntgebt|
+concerned|betreffende|
+bitterness|bitterkeit|
+bay|bucht|
+citizens|bürgern|
+in it|drin|
+specifically|eigens|
+influences|einflüsse|
+penetrate|einzudringen|
+corr|entspr|
+disarm|entwaffne|
+extinguished|erlösche|
+wake up|erwache|
+mention|erwähne|
+fails|fehl|
+fee|gebühr|
+brain|gehirn|
+comfortable|gemütlich|
+confess|gestehst|
+unions|gewerkschaften|
+some|gewisses|
+grant|gewähre|
+greed|gier|
+glass|glas|
+like|gleicht|
+service|gottesdienst|
+Superpower|Großmacht|
+gardener|gärtner|
+half|halbes|
+home-Meier|hausmeier|
+hung|hingen|
+dog|hund|
+infecting|infiziere|
+thousands of years|jahrtausenden|
+calendar|kalender|
+cold|kalt|
+trowel|kelle|
+consequence|konsequenz|
+copy|kopiere|
+Circles|kreist|
+live|lebe|
+Then sit|lehn|
+leash|leine|
+emissions|missionen|
+neighborhood|nachbarschaft|
+proof|nachweis|
+Personalities|persönlichkeiten|
+path|pfad|
+tarpaulin|plane|
+projects|projekte|
+right|rechts|
+richest|reichstem|
+rounded|rundlich|
+painful|schmerzlich|
+sisters|schwestern|
+Committees|schüsse|
+champagne|sekt|
+seventy|siebzig|
+strange|sonderbar|
+radiation|strahlung|
+systems|systeme|
+daytime|tageszeit|
+train|trainiere|
+comforting|tröstlich|
+towers|türme|
+outrageous|unerhört|
+infertile|unfruchtbar|
+unrest|unruhen|
+maintains|unterhält|
+undertook|unternahmen|
+teaching should|unterrichts|
+ignorance|unwissenheit|
+etc|usw|
+Generalize|verallgemeinere|
+causes|veranlaßt|
+amaze|verblüffst|
+admirer|verehrer|
+mock|verhöhne|
+rejuvenated|verjünge|
+verse|versen|
+mock|verspotte|
+swap|vertausche|
+pointed|verwies|
+hag|vettel|
+day before|vortag|
+past|vorüber|
+contradict|widersprich|
+tooth|zahn|
+economist|ökonom|
+surplus|überschuß|
+apostate|abtrünnig|
+aft|achtern|
+arrive|anreist|
+should grow as|anwachse|
+versed|auskenne|
+avoided|auswich|
+run|auszuführen|
+protected|beschützt|
+mayoress|bürgermeisterin|
+chronic|chronisch|
+been there|dagewesen|
+seal|dichtung|
+transferring|einbringe|
+fall asleep|einschlafen|
+enter|einzutreten|
+electronic|elektronisch|
+escaped|entgangen|
+released|entließ|
+snatch|entreiße|
+them escape|entrinne|
+view|erachtens|
+plunder|erbeutest|
+vomited|erbrach|
+issued|ergangen|
+Sustainer|erhalter|
+excite|errege|
+rang out|erscholl|
+bland|fade|
+fanatic|fanatisch|
+celebrate|feiere|
+cowardly|feig|
+cowardly|feiger|
+fortress|festung|
+Lock to|fixierst|
+fruit|frucht|
+cast|gegossen|
+chased|gejagt|
+wife|gemahlin|
+plants|gewächse|
+magnanimous|großmütig|
+lived|hausten|
+light|hell|
+hieroglyph|hieroglyphe|
+am hungry|hungre|
+contents|inhalte|
+Japanese|japanisch|
+journals|journale|
+know|kennenzulernen|
+knock|klopfst|
+Communist|kommunistin|
+Constantinople|konstantinopel|
+correctly|korrekt|
+cool|kühl|
+listen|lausche|
+delete|löschst|
+manifesting|manifestierst|
+communicate|mitzuteilen|
+mysterious|mysteriös|
+orally|mündlich|
+tend|neige|
+palaces|paläste|
+abandoned|preisgab|
+professional|professionell|
+psychological|psychologischem|
+ride|ritt|
+smelt|roch|
+salads|salate|
+sweethearts|schatze|
+give|schenken|
+flatter|schmeichele|
+authoress|schriftstellerin|
+swing|schwingst|
+blackness|schwärze|
+archipelago|schären|
+seventeenth|siebzehnte|
+sunrise|sonnenaufgang|
+spectacle|spektakel|
+athletic|sportlich|
+constitutional law|staatsrechtler|
+pin|stift|
+would|stünde|
+synod|synode|
+reprimand|tadeln|
+czechoslovakia|tschechoslowakei|
+undisturbed|ungestört|
+in to it|unterziehe|
+ignorance|unwissen|
+tour operators|veranstaltern|
+traversed|verfahrende|
+advocating|verfechte|
+died|verstarb|
+wise|weises|
+resist|widerstehe|
+wording|wortlaut|
+root|wurzel|
+are warming|wärmst|
+isolated|zelte|
+tabernacle|zeltes|
+devoted|zugetan|
+returned|zurückgab|
+get together|zusammenkomme|
+tough|zäh|
+descended|abstamme|
+then|alsdann|
+Vehicle Transport|auslieferer|
+intermittent|aussetze|
+Pacify|befriede|
+notify|benachrichtige|
+summoned|beschied|
+appease|besänftige|
+within|binnen|
+boat|boot|
+brown|braun|
+dim|dämmerig|
+defuse|entschärfe|
+educate|erziehe|
+your|euer|
+gesture|geste|
+lie behind|hinterlege|
+India|indien|
+Initiate|initiiere|
+cold-blooded|kaltblüter|
+complete|komplett|
+compose|komponiere|
+consolidating|konsolidiere|
+manipulative|manipuliere|
+through|mittels|
+nominate|nominiere|
+Place|platziere|
+out|raus|
+show|schau|
+chic|schicker|
+Shrine|schreins|
+vanish|schwinden|
+help|umhin|
+thankless|undankbare|
+accident|unfall|
+behaving|verhaltende|
+conceal|verheimlichen|
+disdain|verschmähe|
+snared|verstrickst|
+hush up|vertuschen|
+curse|verwünsche|
+reviving|wiederbelebe|
+poach|wildern|
+scientific|wissenschaftlich|
+centrally|zentral|
+deeply|zutiefst|
+hesitate|zögern|
+chaste|züchtiger|
+Occidental|abendländer|
+write off|abschreiben|
+amusing|amüsant|
+memory|andenken|
+located|angesiedelt|
+attracted|angezogen|
+indicate|anzugeben|
+attack|anzugreifen|
+working|arbeitende|
+Argentina|argentinien|
+calling|aufrief|
+broke out|ausbrach|
+sally|ausfalle|
+exit|austritt|
+autonomous|autonom|
+hurry|beeilst|
+ordered|befahl|
+buried|begrub|
+wel|begrüß|
+denied|bestritt|
+aware|bewusst|
+need your|bräuche|
+malignant|bösartig|
+chemical|chemischem|
+then go|dahingehe|
+discipline|disziplin|
+over|drüben|
+break into your|einbreche|
+indigenous|eingeboren|
+iron|eisern|
+receptive|empfänglich|
+taken from|entnehme|
+hereditary|erblich|
+educated|erzog|
+skill|fertigkeit|
+tatters|fetzen|
+the foot|fuße|
+broken|gebrochene|
+crowd|gedränge|
+structure|gefüge|
+excavated|gegraben|
+haunt|geistern|
+loaded|geladen|
+blessed|gepriesen|
+sat|gesessen|
+strengthened|gestärkt|
+symmetry|gleichmaß|
+gracious|gnädig|
+Greek|griechin|
+grim|grimmig|
+grudge|gönnst|
+hastily|hastig|
+may grow|heranwachse|
+interesting|interessantes|
+interest|interesses|
+broken|kaputt|
+constant|konstant|
+courses|kurse|
+for sale|käuflich|
+chefs|köchen|
+deliberative|legender|
+teacher|lehrerin|
+Physical|leibe|
+mastering|meisterst|
+Middle Ages|mittelalter|
+give in|nachgebe|
+disposition|naturell|
+panther|panter|
+whip|peitsche|
+Phoenix|phönix|
+try on|probierst|
+rest|rast|
+smokes|raucht|
+mature|reifer|
+representative|repräsentant|
+setback|rückschlag|
+shame|scham|
+slaughter|schlachte|
+forge|schmieden|
+Schroeder|Schröder|
+stagger|schwankst|
+sharpening|schärfens|
+rarest|seltenst|
+Winners|Siegern|
+meaningless|sinnlos|
+was holding|standhalte|
+strategist|stratege|
+student|studentin|
+Chairs|stuhle|
+rod|stäbchen|
+dancing|tanzende|
+Deaf|tauber|
+violated|verletze|
+pull over|vorbeiziehe|
+prepare|vorzubereiten|
+change|wandeln|
+removed|weggenommen|
+give further|weitergebe|
+real contribution|wertem|
+would|würdest|
+numerical|zahlenmäßig|
+retarded|zurückgeblieben|
+back soft|zurückweiche|
+bring together|zusammenbringe|
+ecology|ökologie|
+exceeded|übertroffen|
+old-fashioned|altmodisch|
+supervise|beaufsichtige|
+fertilize|befruchte|
+evaluating for|begutachte|
+comfortable|behaglich|
+aged|bejahrt|
+teachest|belehrst|
+appeasing|beschwichtige|
+elastic|elastisch|
+fathom|ergründe|
+explode|explodiere|
+lazy|fauler|
+focusing|fokussiere|
+questionable|fragwürdig|
+frugal|genügsam|
+Install|installiere|
+investing|investiere|
+confront|konfrontiere|
+convert|konvertiere|
+corinth|korinth|
+cultivate|kultiviere|
+motivate|motiviere|
+nods|nickt|
+reactivate|reaktiviere|
+dizzy|schwindelig|
+Sterilize|sterilisiere|
+sympathetic|sympathisch|
+involuntarily|unwillkürlich|
+slowing|verlangsame|
+pledge|verpfände|
+dry up|versiegen|
+offensive|widerwärtig|
+ceremony|zeremonie|
+overestimate|überschätze|
+departure|abgang|
+eighth|achte|
+eighty|achtzig|
+accent|akzent|
+reigning|amtierendem|
+facilities|anlagen|
+application|anmeldung|
+approach|ansatz|
+muster|aufbringe|
+departure|aufbruch|
+incident|begebenheit|
+both|beides|
+owner|besitzers|
+bed|bett|
+bag|beutel|
+glasses|brille|
+brothers|brüdern|
+beech|buche|
+Bourgeoisie|Bürgertum|
+chemist|chemiker|
+behind|dahinten|
+that of|demjenigen|
+cathedral|dom|
+dragon|drache|
+penetrated|durchdrang|
+egoism|egoismen|
+objection|einspruch|
+concord|eintracht|
+individually|einzeln|
+railroad|eisenbahn|
+elephant|elefant|
+design|entwurf|
+Inventing|erfindens|
+determination|ermittlung|
+harvest|ernte|
+expected|erwar|
+turns out|erweist|
+archbishop|erzbischof|
+stage|etappe|
+European|europäer|
+expert|experte|
+fact|fakt|
+flows|fließt|
+flow|fluß|
+fragile|fragil|
+building|gebäudes|
+singing|gesang|
+globalize|globalisieren|
+luck|glücks|
+captain|hauptmann|
+bulk|hauptteil|
+front door|haustür|
+harsh|herbe|
+obstacles|hindernisse|
+Contents|Inhaltsverzeichnis|
+italy|italiens|
+Canaan|kanaan|
+surrender|kapitulation|
+kilometers|kilometern|
+knot|knote|
+crown|kröne|
+ball|kugel|
+manifested|kundgab|
+purchases|käufe|
+kiss|küsse|
+Lubeck|lübeck|
+brand|marke|
+meters|metern|
+neighbor|nachbar|
+Innovation|Neuerung|
+normal|normale|
+operations|operationen|
+private|privat|
+products|produkte|
+Embossed|präge|
+President|präsidentin|
+Regulations|Regelungen|
+rhythm|rhythmus|
+sheep|schaf|
+cry|schrei|
+bask|sonnst|
+spatulate|spateln|
+speculation|spekulation|
+opinion|stellungnahme|
+encounters|stößt|
+chairs|stühle|
+aunt|tante|
+dip|tauch|
+Czech|tschechischem|
+lower|unterem|
+connectors|verbindern|
+merit|verdienst|
+progressions|verläufe|
+mediate|vermittle|
+mediation|vermittlung|
+The procedure|vorgegangen|
+lead|vorsprung|
+mainly|vorwiegend|
+coat of arms|wappen|
+Christmas|weihnacht|
+contemporary|zeitgenosse|
+civilization|zivilisation|
+restraint|zurückhaltung|
+contiguous|zusammenhängendem|
+jurisdiction|zuständigkeit|
+revealed|zutage|
+branch|zweig|
+two thousand|zweitausend|
+interim|zwischenzeit|
+Zurich|zürich|
+doctors|ärzte|
+PLA|abspiele|
+update|aktualisiere|
+allude|anspiele|
+keep a collection of|archiviere|
+testified|ausgesagt|
+extinguish|auslösche|
+INTENDED|bezwecke|
+disgrace|blamiere|
+brilliant|brillante|
+debating|debattiere|
+pierce|durchbohre|
+by flute|durchflute|
+by löchere|durchlöchere|
+expropriating|enteigne|
+deflate|entleere|
+borrow|entlehne|
+authorize|ermächtige|
+dream up|erträume|
+weighty|gewichtig|
+hysterical|hysterisch|
+improvise|improvisiere|
+stage manager|inspizient|
+conceive|konzipiere|
+Mask|maskiere|
+revamp|modernisiere|
+modify|modifiziere|
+Narcissus|Narziss|
+pedantic|pedantisch|
+propagating|propagiere|
+reproduce|reproduziere|
+restaurate|restauriere|
+rhythmic|rhythmisch|
+was suspending|suspendiere|
+secularizes|säkularisiere|
+Territorial|territoriale|
+transporting|transportiere|
+unusable|unbrauchbar|
+tirelessly|unermüdlich|
+inaccessible|unzugänglich|
+condense|verdichte|
+Realize|vergegenwärtige|
+starve|verhungere|
+charge you|verrechne|
+gamble|verspiele|
+denigrates|verunglimpfe|
+disfiguring|verunstalte|
+annoy|verärgere|
+about dache|überdache|
+skim|überfliege|
+fallen|abgefallen|
+called|angerufen|
+announced|angesagt|
+taken up|angetreten|
+continued|anhaltende|
+call|anruf|
+to meet|anzutreffen|
+apparatus|apparat|
+archaeologist|archäologe|
+essay|aufsatz|
+unlocked|aufschloß|
+excreted|ausgeschieden|
+triggers|auslöst|
+excludes|ausnehme|
+dodge|ausweichen|
+express|auszusprechen|
+building block|baustein|
+cup|becher|
+regret|bedauern|
+commander|befehlshaber|
+persist|beharrst|
+circumcised|beschnitt|
+stoopest|bückst|
+show|darzustellen|
+model|dell|
+turns|dreht|
+threatened|drohe|
+viewed|eingesehen|
+introduce|einzuführen|
+vain|eitle|
+eleventh|elfte|
+recommends|empfehlt|
+opposite|entgegengesetzt|
+designed|entwarf|
+ground|erden|
+require|erfordern|
+fared|erging|
+scared|erschrocken|
+amazing|erstaunlichem|
+forced|erzwungen|
+spring|federn|
+hold|festzuhalten|
+diligence|fleiß|
+fifteenth|fünfzehnte|
+honored|geehrt|
+counted|gegolten|
+go|geh|
+heaped|gehäuft|
+laughter|gelächter|
+noted|gemerkt|
+avoided|gemieden|
+satisfaction|genugtuung|
+sacrificed|geopfert|
+rolled|gerollt|
+sung|gesungen|
+greedy|gierig|
+possible|glich|
+embers|glut|
+trenches|gräben|
+greets|grüßt|
+handful of|handvoll|
+hate|hassen|
+ideologist|ideologin|
+Home Secretary|innenminister|
+Irish|irische|
+chases|jagt|
+cheer|jubeln|
+Canadian|kanadisch|
+monastery|klosters|
+crack|knacks|
+complication|komplikation|
+crosses|kreuzt|
+career|laufbahn|
+bodily|leiblich|
+possible|lichte|
+Majesties|majestäten|
+methodology|methodik|
+descendant|nachfahre|
+demand|nachfrage|
+Nation-state|Nationalstaat|
+arrange|ordne|
+parallel|parallele|
+pound|pfund|
+problems|problemlos|
+provoke|provozierst|
+radically|radikal|
+lawfully|rechtmäßig|
+incentives|reize|
+buy upgraded|rüstest|
+soon|schnellst|
+hardly|schwerlich|
+sultry|schwül|
+longs|sehnt|
+sigh|seufze|
+certainly|sicherlich|
+seventh|siebent|
+symbol|sinnbild|
+immediate|sofortig|
+stroll|spaziere|
+static|statisch|
+shine|strahle|
+denied|stritt|
+scrap|stückchen|
+devil|teufel|
+cloudy|trüb|
+detour|umweg|
+unaffected|unberührt|
+lowest|unterste|
+inevitably|unweigerlich|
+whereabouts|verbleib|
+forget|vergiß|
+helped|verhalf|
+accomplished|vollbracht|
+Previous year|Vorjahr|
+providing for|vorsah|
+converts|wandelt|
+was|ward|
+were|warst|
+worthless|wertlos|
+roll|wickels|
+wanted|wolltest|
+tome|wälzer|
+sorceress|zauberin|
+rooms|zimmern|
+left behind|zurückgelassen|
+recover|zurückzugewinnen|
+got on|zustieg|
+attributable|zuzuschreiben|
+cynical|zynisch|
+annoy|ärgern|
+anger|ärgers|
+local|örtlich|
+Austria-Hungary|Österreich-Ungarn|
+encroachment|übergriff|
+discouraging|abschrecke|
+Adopt|adoptiere|
+household with|anschaffe|
+attack|attackieren|
+omitted|ausgelassen|
+mature|ausgereift|
+try out|ausprobiere|
+gifted|begabter|
+congratulate|beglückwünsche|
+leg hold|beinhalte|
+was conducting|dirigiere|
+invited|einlud|
+sensitive|empfindsam|
+inflame|entflamme|
+productive|ergiebig|
+redeem|erlösen|
+expanding|expandiere|
+terrible|furchtbarem|
+fearful|furchtsam|
+conducive|förderlich|
+razor|gestochen|
+tomb|grabmal|
+domestic|häuslich|
+intensify|intensivieren|
+irritate|irritiere|
+castrate|kastriere|
+comma diere|kommandiere|
+liquidate|liquidiere|
+localize|lokalisiere|
+collected IN QUESTION|misshandele|
+talkative|redselig|
+attractive|reizvoll|
+sleepy|schläfrig|
+Committee field|schussfeld|
+gay|schwuler|
+self-assured|selbstsicher|
+stimulate|stimuliere|
+strict|strenges|
+incorruptible|unbestechlich|
+inexplicable|unerklärlich|
+irreplaceable|unersetzlich|
+unsuitable|ungeeignet|
+unscholarly|ungelehrt|
+abdomen|unterleib|
+bleeding to death|verblute|
+Grant that|vergönne|
+Leaving|verlassend|
+embarrassed|verlegene|
+merge|verschmelze|
+square|viereck|
+pretend|vorgibst|
+cheating with|vortäusche|
+disgusting|widerlich|
+desirable|wünschenswert|
+angry|wütende|
+lead back|zurückführe|
+outlast|überdauere|
+come on|überkomme|
+operating rod|arbeitsstab|
+assistive animals|assistiere|
+intrusive|aufdringlich|
+freshening|auffrische|
+erected|aufgerichtet|
+fill out|ausfülle|
+root out|ausrotte|
+spying|ausspioniere|
+fear|bangen|
+considerable|beachtlich|
+defile|beschmutze|
+sprinkled|bespritze|
+busy|betriebsam|
+bloodthirsty|blutrünstig|
+hum|brummen|
+Baths|bäder|
+decorate|dekoriere|
+desert animals|desertiere|
+by working|durcharbeite|
+by combing|durchkämme|
+steeping|durchtränke|
+rummage|durchwühle|
+zeal|eifer|
+haunting|eindringlichem|
+simple|einfaches|
+glued|eingeklebt|
+classifies|einreihe|
+emotional|emotionell|
+devoid of|entbehre|
+inheriting|erbend|
+redeemed|erlöst|
+soften|erweiche|
+shiver|erzittere|
+sensitive|feinfühlig|
+Transforming|formiere|
+friendly|freundschaftliche|
+fanning|fächele|
+healthier|gesünder|
+conscientious|gewissenhaft|
+home search|heimsuche|
+devoted to|hingegeben|
+ugly|hässlich|
+scornfully|höhnisch|
+intervene|interveniere|
+consult|konsultiere|
+Crucify|kreuzige|
+artistically|kunstvoll|
+silently|lautlos|
+gullible|leichtgläubig|
+inferior|minderwertig|
+mount|montiere|
+neutralizing|neutralisiere|
+superficial|oberflächlich|
+pessimistic|pessimistisch|
+ram|rammen|
+respectable|respektabel|
+rich|sattem|
+speedy|schleunig|
+conclusions|schlüssen|
+gravel|schotter|
+Talented|talentierte|
+pregnant|trächtig|
+treacherous|tückisch|
+circumscribe|umschreibe|
+naughty|unartige|
+invincible|unbesiegbar|
+undecided|unentschieden|
+undecided|unentschlossen|
+irrelevant|unerheblich|
+undue|ungebührlich|
+implausible|unglaubwürdig|
+unyielding|unnachgiebig|
+unnatural|unnatürlich|
+under broad|unterbreite|
+inseparable|untrennbar|
+unforgivable|unverzeihlich|
+unreal|unwirklich|
+seductive|verführerisch|
+forgetful|vergesslich|
+fatal|verhängnisvoll|
+reliable|verlässlich|
+advantageous|vorteilhaft|
+changeful|wechselvollem|
+knowingly|wissentlich|
+Zugspitze|zuspitze|
+above average|überdurchschnittlich|
+hypersensitive|überempfindlich|
+cocky|übermütig|
+on stand|überstehe|
+heels|absätze|
+African|afrikanisch|
+made|angefertigt|
+reached|angelangt|
+first go|anhieb|
+don|anziehe|
+adapt|anzupassen|
+watch|anzuschauen|
+artillery|artillerie|
+noticed|auffiel|
+stood up|aufgestanden|
+prelude|auftakt|
+show|aufzuzeigen|
+discharged|ausgestoßen|
+exclusive|ausschließlichem|
+Australian|australisch|
+outside|außenseite|
+Balkans|balkan|
+Bavarian|bayerischem|
+needed|bedürfe|
+more convenient|bequemer|
+beast|bestie|
+pray|beten|
+Education|Bildungsweg|
+aperture|blende|
+Interpretation|Deutung|
+distance|distanz|
+continuous|durchlauf|
+roofs|dächer|
+just such|ebensolche|
+very own|eigenste|
+intervention|eingriff|
+agreement|einvernehmen|
+set up|einzurichten|
+accounted for|entfiel|
+considering|erwäge|
+ethically|ethisch|
+Etruria|etrurien|
+keep|fernzuhalten|
+set|festgesetzt|
+final|finale|
+raft|floß|
+erroneously|fälschlich|
+form|förmig|
+guarantees|garantien|
+Requested|gebetene|
+brew|gebräu|
+twisted|gedreht|
+belonging|gehörig|
+wrapped|gehüllt|
+cooked|gekocht|
+crossed|gekreuzt|
+paralyzed|gelähmt|
+surveyor|geometer|
+planted|gepflanzt|
+swollen|geschwollen|
+fed|gespeist|
+wound|gewickelt|
+rejected|gewiesen|
+willing|gewillt|
+honored|gewürdigt|
+blissful|glückselig|
+glaring|grell|
+borders|grenzt|
+cornerstone|grundstein|
+cherish|hege|
+excelled|hervortat|
+here over|hierüber|
+High mountains|Hochgebirg|
+university|hochschule|
+most frequently|häufigst|
+storing up|häufst|
+intact|intakt|
+complain|klagst|
+piano|klavier|
+garment|kleidungsstück|
+wise|kluges|
+hospitals|krankenhäuser|
+lifestyle|lebensstil|
+lesson|lektion|
+deny|leugne|
+song|lied|
+let go|loslasse|
+lorraine|lothringen|
+ventilating|lüfte|
+march|marschierst|
+mathematician|mathematiker|
+mile|meile|
+mix|mische|
+fatigue|müdigkeit|
+reverberation|nachhall|
+scar|narbe|
+national socialist|nationalsozialist|
+although|obgleich|
+Olympus|olymp|
+Oriental|orientalen|
+planted|pflanzt|
+racist|rassistisch|
+juice|saft|
+temple|schläfe|
+painful|schmerzhaft|
+bless|segnest|
+sensitive|sensibel|
+Social|sozialdemokrat|
+game plan|spielplan|
+jump|springe|
+brittle|spröd|
+State men|staatsmänner|
+stabbing|stachen|
+city ​​council|stadtrat|
+tribal|stamme|
+cancellation|storno|
+dispute|streitig|
+blunt|stumpf|
+viewfinder|sucher|
+Dances|tanzt|
+brave|tapfern|
+supporting|tragende|
+daughters|töchtern|
+unpredictable|unberechenbar|
+unbound|ungebunden|
+unequal|ungleiche|
+unrecognizable|unkenntlich|
+immature|unreif|
+unclean|unrein|
+set|untergegangen|
+intact|unversehrt|
+spoiled|verdarb|
+suspicious|verdächtig|
+leaves|verlässt|
+concealed|verschwieg|
+front|vorderste|
+occurred|vorgekommen|
+international law|völkerrechtliche|
+Forest|waldes|
+Way|weges|
+weekly|wöchentlich|
+more random|zufälligere|
+summarized|zusammengefasst|
+entitled|zustehen|
+moreover|überdies|
+was overcome|überkam|
+decreased|abnahm|
+affair|affäre|
+American|amerikaner|
+Approaches|Ansätze|
+trip|ausflug|
+ban|bann|
+control|beherrschung|
+best|bestes|
+reference|bezug|
+blows|bläst|
+between|dazwischen|
+darkness|dunkelheit|
+by measuring|durchmessen|
+Elites|Eliten|
+commitment|engagement|
+with Angels|engeln|
+family life|familienleben|
+fist|faust|
+footbath|fußbad|
+for|fürs|
+vow|gelübde|
+shouts|geschrei|
+mine|grube|
+senior secondary schools|gymnasien|
+hint|hauch|
+Hegemony|Hegemonie|
+hell|hölle|
+ideologist|ideologe|
+year-end|jahresende|
+jurgen|jürgen|
+dago|kanake|
+career|karriere|
+Classical|klassik|
+smallest|kleinst|
+cabbage|kohl|
+congress|kongress|
+Opponent|Kontrahent|
+cooperation|kooperation|
+correction|korrektur|
+living history|lebensgeschichte|
+years|lebensjahr|
+loyalty|loyalität|
+disagreement|meinungsverschiedenheit|
+members|mitgliedern|
+model|modell|
+shortcomings|mängel|
+partners|partnern|
+passengers|passagiere|
+keeper|pfleger|
+physics|physik|
+Polish|polnisch|
+Prague|prag|
+square meter|quadratmeter|
+rivalry|rivalität|
+crack|riß|
+radio|rundfunk|
+ship|schiff|
+writer|schriftsteller|
+shoemaker|schuster|
+swan|schwan|
+sings|singt|
+provided|sofern|
+foundation|stiftung|
+turks|türken|
+association|verein|
+wait|warte|
+pasture|weide|
+further develop|weiterentwickle|
+Assignment|Zuordnung|
+Teeth|zähne|
+footprints|abdrücke|
+skim off|abschöpfe|
+Feeders|abzweige|
+fooling|albere|
+antiquities|altertümer|
+As to|anbelange|
+was continuing|andauere|
+or offsetting|anrechne|
+enumerate|aufzähle|
+detailed|ausführlichem|
+turn off|ausschalte|
+crucial|ausschlaggebend|
+hand out|austeile|
+Harass|belästigst|
+notorious|berüchtigt|
+accuse|bezichtige|
+blink|blinzele|
+discrediting|diskreditiere|
+broke|durchbrach|
+by doing|durchmache|
+emotional|emotionalem|
+elicit|entlocke|
+any|etwaige|
+expansive|expansiv|
+ready to put|fertigstelle|
+momentous|folgenschwer|
+advanced|fortschrittliche|
+opposites|gegensätzlichem|
+cycled|geradelt|
+greyish|gräulich|
+pondering|grübele|
+Taking out|herausbilde|
+around comma diere|herumkommandiere|
+crouch|hockst|
+instruct|instruiere|
+fervently|inständig|
+precious|kostbares|
+costly|kostspielig|
+lucrative|lukrativ|
+relish|lustvoll|
+mathematically|mathematisch|
+lousy|mieser|
+jealous|neidisch|
+Eastern Front|ostfront|
+emotional|pathetisch|
+chat|plaudere|
+polarize|polarisiere|
+Ptolemies|ptolemäer|
+reactionary|reaktionär|
+abruptly|schlagartig|
+stroll|schlendere|
+panties|schlüpfer|
+pout|schmolle|
+playable|spielbar|
+clean|säubern|
+perfect|tadellos|
+totalitarian|totalitär|
+unsatisfactory|unbefriedigend|
+thoughtless|unbesonnen|
+undeniably|unbestreitbar|
+vital|unerlässlich|
+inexhaustible|unerschöpflich|
+uneducated|ungebildet|
+impartial|unparteiisch|
+inappropriate|unpassend|
+unrealistic|unrealistisch|
+unsympathetic|unsympathisch|
+substantiate|untermauere|
+embezzling|unterschlage|
+unfaithful|untreu|
+inevitable|unumgänglich|
+irresponsible|unverantwortlich|
+uncorrupted|unverdorben|
+unusual|unüblich|
+responsibly|verantwortungsvoll|
+vouch for|verbürge|
+thirsty|verdurste|
+admirable|verehrungswürdig|
+seduce|verführe|
+bury|vergrabe|
+complicate|verkompliziere|
+varied|verschiedenartig|
+surprising|verwunderlich|
+preventing their|vorbeuge|
+withholding|vorenthalte|
+perceptible|wahrnehmbar|
+more telling|weitererzähle|
+keep going|weitermache|
+respectable|wohlanständig|
+delicate|zartere|
+disruptive|zerrüttend|
+together at the|zusammenstelle|
+inevitably|zwangsläufig|
+resemble|ähnele|
+bedspread|überdecke|
+weary|überdrüssig|
+haughty|überheblichem|
+excessively|übermäßig|
+add|addieren|
+stare at|anstarre|
+breathe|atmest|
+authorize|autorisiere|
+meaningless|bedeutungslos|
+Take command|befehlige|
+numb|betäubst|
+urgent|dringlich|
+insert|einfügen|
+freeze to death|erfriere|
+sustaining|erhaltende|
+serious|ernstere|
+exotic|exotischem|
+continued life|fortdauer|
+Galicia|galizien|
+civilized|gesittet|
+hot|heißer|
+indiscreet|indiskretem|
+communicating|kommuniziere|
+puke|kotzen|
+Beginning of the war|Kriegsbeginn|
+curious|neugierigem|
+Peter|petrus|
+motionless|regungslos|
+shy|scheu|
+pretty|schmucke|
+stamp|stempeln|
+embroidering|stickend|
+sadness|traurigkeit|
+imperfect|unvollkommen|
+irresponsible|verantwortungslos|
+darn|verflixt|
+wrong|verkehrt|
+very much|vielmals|
+full draw|vollziehe|
+prevails|vorherrsche|
+above|vorstehe|
+vulgar|vulgäre|
+waver|wanken|
+washable|waschbar|
+brickworks|ziegelei|
+lived|zusammengelebt|
+on going|überfahre|
+Castalia|Kastalien|
+superstitious|abergläubisch|
+resigned|abgefunden|
+deported|abgeschoben|
+matched|abgestimmt|
+blocked|abgewehrt|
+distract|abzulenken|
+refrain|abzusehen|
+ape|affen|
+Alpine|alpin|
+suggestive|andeute|
+incoming|ankomme|
+mess|anlegst|
+adapts|anpasst|
+to create|anzulegen|
+to make|anzustellen|
+aristocrat|aristokrat|
+doctor|arzt|
+breath|atemzug|
+breaking open|aufbreche|
+cleaned up|aufgeräumt|
+written|aufgeschrieben|
+risen|aufgestiegen|
+grew up|aufgewachsen|
+came up|aufkam|
+orders|aufträge|
+raise|aufzubringen|
+develop|ausbauen|
+held|ausgetragen|
+foreigner|ausländerin|
+develop|auszuarbeiten|
+deliver|auszuliefern|
+off|auszuschalten|
+exclude|auszuschließen|
+exchange|auszutauschen|
+bathroom|bad|
+Bavarian|bayerin|
+civil servant|beamter|
+needs|bedürfnisse|
+commit|begehst|
+laden|belade|
+envy|beneide|
+shoed|beschlug|
+property|besitztum|
+Fine|bildende|
+cheaper|billiger|
+approves|billigt|
+blew|blies|
+brow|braue|
+castles|burgen|
+Alliances|Bündnisse|
+memorable|denkwürdig|
+dominant|dominierend|
+crouch|duckst|
+dark|dunkeln|
+darkest|dunkelst|
+perform|durchzuführen|
+lost|eingebüßt|
+penetrated|eingedrungen|
+submitted|eingereicht|
+given|eingeräumt|
+divided|eingeteilt|
+inlet|einlass|
+observed|einzuhalten|
+involved|einzulassen|
+take|einzunehmen|
+set|einzustellen|
+elbow|ellenbogen|
+escaped|entging|
+escaped|entkam|
+taken from|entnommen|
+get tired|ermüde|
+conquer|erobere|
+external|externe|
+fencing|fechte|
+flexible|flexibel|
+formed|formte|
+gone|fortgegangen|
+asked|fragten|
+pleasures|freuden|
+foundation|fundament|
+princess|fürstin|
+feared|gebangt|
+favor|gefälligkeit|
+joint|gelenks|
+curly|gelockt|
+justice|gerechtigkeit|
+looked|geschaut|
+damaged|geschädigt|
+washed|gewaschen|
+gun|gewehr|
+the same name|gleichnamig|
+equivalent|gleichwertig|
+global|globalem|
+greeting|gruß|
+grudge|gönn|
+headquarters|hauptsitz|
+general|heerführer|
+healer|heiler|
+heals|heilt|
+heroism|heldenmut|
+came on|herankam|
+conventional|herkömmlich|
+produce|herzustellen|
+sat down|hingesetzt|
+limp|hinkst|
+tribunals|höfe|
+horns|hörner|
+institutional|institutionell|
+erring|irrend|
+peacefully|kampflos|
+dress|kleid|
+trifle|kleinigkeit|
+composites|komposita|
+head|kopfes|
+curve|kurve|
+short-term|kurzfristig|
+short-term|kurzzeitig|
+logistics|logistik|
+casual|lässig|
+maid|magd|
+majestic|majest|
+matron|matrone|
+maximum|maximale|
+medium-sized|mittelgroß|
+Central Powers|Mittelmächte|
+marble|murmel|
+survey|mustern|
+grumpy|mürrisch|
+forbearance|nachsicht|
+look up|nachzusehen|
+prove|nachzuweisen|
+nationality|nationalität|
+National Assembly|Nationalversammlung|
+latest|neuste|
+void|nichtig|
+openness|offenheit|
+panic-stricken|panisch|
+Fantastic|phantastik|
+poster|plakat|
+planned|plante|
+Pliny|Plinius|
+procession|prozession|
+prehistoric|prähistorisch|
+furious|rasende|
+director|regisseur|
+crack|riss|
+tube|röhre|
+actress|schauspielerin|
+joke|scherze|
+awry|schief|
+squint|schielst|
+scolds|schilt|
+cords|schnüre|
+safe|sicheres|
+feeds|speist|
+sphere|sphäre|
+point of view|standpunkt|
+swot|streber|
+underline|streiche|
+prank|streichs|
+folly|torheit|
+killed|umgebracht|
+to kill|umzubringen|
+implement|umzusetzen|
+inexorably|unaufhaltsam|
+approximate|ungefähre|
+impetuous|ungestüm|
+unhappy|unglückliches|
+inferior|unterlegene|
+unimaginable|unvorstellbar|
+inadvertently|versehentlich|
+promise|versprecht|
+Defenders|Verteidigern|
+foreword|vorwort|
+It also reflects|vorzufinden|
+preferable|vorzuziehen|
+perceive|wahrzunehmen|
+wart|warze|
+graze|weiden|
+wide|weites|
+widely|weiträumig|
+ideological|weltanschaulich|
+world-famous|weltberühmt|
+man of the world|weltmann|
+blast|windstoß|
+vortex|wirbel|
+know|wüßte|
+goat|ziege|
+added|zugegeben|
+attributed|zugeschrieben|
+agreed|zugestimmt|
+occurred|zugetragen|
+permitted|zulässig|
+recalled|zurückgerufen|
+return|zurückzugeben|
+drawn together|zusammengezogen|
+was related|zusammenhing|
+growth|zuwachs|
+twin|zwilling|
+barren|öde|
+extremely|überaus|
+exaggerate|übertreib|
+lush|üppig|
+sideboard|anrichte|
+was preparing|anschicke|
+tune a|anstimme|
+an effort|anstrenge|
+Arcadian|arkadi|
+resurrect|auferstehe|
+put up|aufgelegen|
+look up|aufschaue|
+SELECTING|auswähle|
+speedy|baldig|
+shelled|beschoss|
+climb|besteige|
+cough up|blechen|
+thicker|dickere|
+three times|dreifach|
+announcement|durchsage|
+inspire in|einflöße|
+enters|einreist|
+intimidating|einschüchternd|
+once before|einstehe|
+infuriated|erbost|
+erotic|erotischem|
+butterfly|falter|
+ridge|first|
+formulas|formeln|
+go away|fortgehe|
+sparkling|funkelnd|
+shaped|geformt|
+Witty|geistreiche|
+ingenious|genial|
+enjoyed|genoß|
+terrible|grauenhaft|
+greenest|grünst|
+cheerful|heitern|
+into appliances|hineingerate|
+pride|hochmut|
+breezy|kessem|
+ankle|knöchel|
+goblins|kobolde|
+headless|kopflos|
+pathological|krankhaft|
+apprentice|lehrling|
+machine gun|maschinengewehr|
+cap|mütze|
+useless|nutzlos|
+box on the ears|ohrfeige|
+relic|relikt|
+round|runder|
+residual|rückständigem|
+shake|rütteln|
+nasty|scheußliche|
+loop|schlaufe|
+loop|schlinge|
+sniff|schnuppern|
+hexagon|sechseck|
+solid|solide|
+speculate|spekuliere|
+gimmick|spielerei|
+bubble|sprudeln|
+constant|unentwegt|
+inexorably|unerbittlich|
+undoubted|unzweifelhaft|
+make sure|vergewissere|
+degenerate|verkommende|
+fully bring|vollbringe|
+wistful|wehmütigem|
+more travel|weiterreise|
+adverse|widriger|
+contemporary|zeitgemäß|
+fragile|zerbrechlichem|
+get back|zurückbekomme|
+send back|zurückschicke|
+WOULD together|zusammenwirke|
+convincing|überzeugendem|
+Seconded|abgeordneter|
+assumptions|annahmen|
+employees|arbeitern|
+Labor market|Arbeitsmarkt|
+mode of expression|ausdrucksweise|
+accompaniment|begleitung|
+break|brecht|
+mayor|bürgermeister|
+dialogue|dialog|
+thirteen|dreizehn|
+energy|energie|
+designs|entwürfe|
+create|erstelle|
+narrator|erzähler|
+windows|fenstern|
+stains|flecke|
+period|frist|
+guarantor|garant|
+laugh|gelacht|
+winning|gewinnt|
+graphic|grafik|
+halfway|halbwegs|
+safely|heil|
+over|herüber|
+dogs|hunde|
+Jesuit|jesuiten|
+empress|kaiserin|
+under no circumstances|keinesfalls|
+child|kindes|
+clarity|klarheit|
+curia|kurie|
+textbook|lehrbuch|
+reading|lesung|
+fair|messe|
+at midday|mittags|
+midnight|mitternacht|
+sometimes|mitunter|
+munich|münchner|
+retrospect|nachhinein|
+close|nah|
+grade|note|
+uncle|onkel|
+uncles|onkeln|
+victim|opfers|
+embarrassing|peinlich|
+plague|pest|
+platform|plattform|
+poetry|poesie|
+portrait|porträt|
+virtually|quasi|
+rescue|rettung|
+pink|rosa|
+shame|schande|
+referee|schiedsrichter|
+Swabian|Schwabe|
+sulfur|schwefel|
+stopped|stehengeblieben|
+verse|strophe|
+storm|sturm|
+south|süd|
+dead|toter|
+killing|tötung|
+surroundings|umfeld|
+free|umsonst|
+signing|unterzeichnung|
+a priori|vornherein|
+commodity|ware|
+warns|warnt|
+meanwhile|währenddessen|
+benefit|zugute|
+incident|zwischenfall|
+over|übers|
+Alchemist|Alchimist|
+adventurer|abenteurer|
+strayed|abgekommen|
+expired|abgelaufen|
+cut off|abgeschlagen|
+discontinued|abgesetzt|
+isolated|abgesondert|
+away|abgewandt|
+abysmal|abgrundtief|
+pay her|abstatte|
+dismisses|abweise|
+file|akte|
+all this|alledem|
+ubiquitous|allgegenwärtig|
+andalucia|andalusien|
+tethered|angebunden|
+logged|angemeldet|
+found|angetroffen|
+arrogates|anmaßt|
+look at|ansiehst|
+Antwerp|antwerpen|
+put on|anziehst|
+to listen|anzuhören|
+disputing|anzweifele|
+unemployed|arbeitsloser|
+Armenia|armenien|
+ash|asche|
+depleted|aufgebraucht|
+found|aufgefunden|
+torn|aufgerissen|
+called|aufgerufen|
+occurred|aufgetreten|
+shall hear,|aufhorche|
+resident|aufhält|
+clean up|aufräume|
+awaken|aufwecke|
+broken|ausgebrochen|
+extinguished|ausgelöscht|
+displayed|ausgestellt|
+replaced|ausgetauscht|
+paid|ausgezahlt|
+laugh at|auslache|
+extent|ausmass|
+exclamation|ausruf|
+Austrasia|austrien|
+basilica|basilika|
+deplorable|bedauernswert|
+, cover|bedecke|
+buried|beigesetzt|
+exemplary|beispielhaft|
+should attend|beiwohne|
+concerns|belange|
+teach|belehre|
+kid|bengel|
+behave|benimm|
+provided|bereitgestellt|
+professional|beruflichem|
+is based|beruhe|
+better knowledge|besserwissens|
+fraudulent|betrüge|
+trillion|billion|
+bites|bisse|
+little|bißchen|
+Looking|blickend|
+blood-red|blutrot|
+Lake Constance|Bodensee|
+Brazilian|brasilianisch|
+villain|bösewicht|
+charm|charme|
+decadence|dekadenz|
+distances|distanzen|
+thirteen|dreizehnjährig|
+open|durchbrochen|
+pierce|durchstoße|
+the finest|edelstem|
+efficient|effizient|
+wife|ehefrau|
+property|eigentum|
+Influence|Einflusse|
+introduced|eingebracht|
+broken|eingebrochen|
+asleep|eingeschlafen|
+wrapped|eingewickelt|
+be clear|einleuchten|
+grants|einräume|
+objection|einwände|
+elf|elfen|
+parents' house|elternhaus|
+precludes|entgegenstehe|
+more decisive|entscheidendere|
+climb up|erklimme|
+adult|erwachsener|
+create|erzeuge|
+favorite|favorit|
+completed|fertiggestellt|
+ankle|fessel|
+greasy|fettig|
+Finland|finnland|
+airport|flughafen|
+freer|freiern|
+releasing|freigebe|
+free do|freimache|
+strange|fremdartig|
+fruits|früchten|
+due|fällig|
+bilious|gallig|
+humiliated|gedemütigt|
+commemorates|gedenkt|
+made|gefertigt|
+flown|geflogen|
+happy|gefreut|
+dyed|gefärbt|
+felt|gefühlt|
+given|gegebener|
+confront|gegenüberstehe|
+smoothed|geglättet|
+prevented|gehindert|
+deleted|gelöscht|
+hired|gemietet|
+geologist|geologe|
+Georgia|georgi|
+Court of Justice|gerichtshof|
+Forged|geschmiedet|
+split|gespalten|
+cleaned|gesäubert|
+maintained|gewahrt|
+delayed|gezögert|
+nevertheless|gleichwohl|
+slip|gleite|
+glowing|glühende|
+Great Powers|Großmächte|
+basic Act|grundgesetzes|
+report|gutachten|
+detention|haft|
+adhere|haften|
+resin|harz|
+the main thing|hauptsache|
+booklets|hefte|
+entertain|hegen|
+healing|heilende|
+haunted|heimgesucht|
+conjured up|heraufbeschwor|
+find out|herausfinde|
+brought|hergebracht|
+helpful|hilfreich|
+drawn|hineingezogen|
+put into|hineinstecke|
+pointed|hingewiesen|
+go back|hintergehe|
+add|hinzufüge|
+unofficially|inoffiziell|
+for centuries|jahrhundertelang|
+decades|jahrzehntelang|
+combative|kampfes|
+candle|kerze|
+tickle|kitzeln|
+Dress|kleide|
+clarify|kläre|
+continental|kontinentale|
+continents|kontinente|
+controls|kontrollen|
+convention|konvent|
+corrections|korrekturen|
+box|kästchen|
+bodies|körpern|
+laboratories|laboratorien|
+lamp|lampe|
+map|landkarte|
+lurks|lauert|
+let|laß|
+Resumes|lebensläufe|
+lights|lichtern|
+reads|liest|
+Honorable|lobende|
+Blaze|lodere|
+development|lung|
+flawless|makellos|
+medallion|medaillon|
+drug|medikament|
+perennial|mehrjährig|
+mastering|meistere|
+noticeably|merklich|
+Messiah|messias|
+bring with|mitbringe|
+moments|momente|
+for months|monatelang|
+Tomorrow|morgige|
+mother tongue|muttersprache|
+imitated|nachgeahmt|
+designated|namhaft|
+National Socialism|Nationalsozialismus|
+Neptune|neptun|
+recently|neulich|
+precipitation|niederschlag|
+mean|niederträchtig|
+take|nimm|
+Norwegian|norwegisch|
+Nuremberg|Nürnberg|
+profitable|nütze|
+East Prussian|ostpreuße|
+game|partie|
+gate|pforte|
+plastic|plastik|
+flat|platt|
+celebrities|promis|
+Protector|Protektor|
+plaster|putz|
+tormentor|quäler|
+rat|ratte|
+clean|reinige|
+riding|reit|
+reserves|reserven|
+disrespectful|respektlos|
+rival|rivale|
+pipe|rohr|
+edges|ränder|
+relapse|rückfall|
+gently|sacht|
+salty|salzig|
+chess game|schachspiel|
+pubic hair|schamhaar|
+shudder|schaudern|
+mariners|schiffern|
+battlefield|schlachtfeld|
+grinds|schleift|
+shot|schoss|
+swelled|schwoll|
+oath|schwur|
+estimates|schätzungen|
+creator|schöpferin|
+see|sehn|
+shallow|seicht|
+ensure|sichergestellt|
+Slovene|Slowene|
+Spanish|spanisch|
+nickname|spitzname|
+sport|sportart|
+commercial|spot|
+came|stammte|
+shrub|staude|
+put|stecke|
+structure|struktur|
+stormy|stürmisch|
+swamp|sumpf|
+Syrian|syrisch|
+Marshes|sümpfe|
+sins|sünden|
+day out|tagein|
+participated|teilgenommen|
+pace|tempo|
+expensive|teuer|
+theatrical|theatralisch|
+tables|tische|
+titanium|titan|
+rages|tobt|
+comforting|tröstens|
+killed|umgekommen|
+envelope|umschlag|
+unintentionally|unabsichtlich|
+unceasingly|unaufhörlich|
+undisputed|unbestritten|
+enormously|ungeheuer|
+bothersome|unleidig|
+inhuman|unmenschlich|
+lower|untere|
+Ran|unterging|
+undermines|untergrabe|
+ceasing|unterlaß|
+be signed|unterschreib|
+underline|unterstreiche|
+submerging|untertauche|
+variant|variante|
+despise|verachtest|
+forbid|verbiet|
+burn|verbrenn|
+compare|vergleichst|
+encrypting|verschlüsselns|
+sinking|versinke|
+passed|verstrich|
+neglect|versäume|
+Forgive|verzeih|
+a wry|verzog|
+quarter of an hour|viertelstunde|
+go ahead|vorangehe|
+bring before|vorführe|
+predetermining|vorgebe|
+seemed|vorkam|
+conceivable|vorstellbar|
+wake up|wacht|
+venture|wagnis|
+omitted|weggelassen|
+moved away|weggezogen|
+reasonably chicke|wegschicke|
+Christmas ball|weihnachtsball|
+make up for|wettmache|
+again recognize|wiedererkenne|
+reproduced|wiedergegeben|
+acting|wirkende|
+scientist|wissenschaftlerin|
+feel comfortable|wohlfühle|
+place of residence|wohnort|
+silent|wortlos|
+conjures up|zaubert|
+lacerated|zerfetzt|
+disintegrated|zerfiel|
+contrite|zerknirscht|
+twitch|zuckst|
+to each other|zueinander|
+Affiliation|Zugehörigkeit|
+authorized|zugelassen|
+increased|zugenommen|
+assured|zugesichert|
+access|zugriff|
+Additions|zugänge|
+recycled|zurückgeführt|
+returned|zurückgegeben|
+retained|zurückgehalten|
+withdrawn|zurückgenommen|
+rejected|zurückgewiesen|
+thrown back|zurückgeworfen|
+stand back|zurückstehe|
+commitment|zusage|
+met|zusammengetreten|
+second largest|zweitgrößte|
+twenty-two|zweiundzwanzig|
+overflow|überlauf|
+Petticoat|Unterkleid|
+become lonely|vereinsamen|
+shoulders|achseln|
+Alchemy|Alchimie|
+befriend|anfreunden|
+tense|angespannt|
+monoexponential|angleiche|
+hill|anhöhe|
+address|anzugehen|
+conspicuous|auffällig|
+bloated|aufgebläht|
+alert|aufgeweckt|
+open|aufschlagen|
+selected|ausgesucht|
+will settle|begleiche|
+blessed|begnadet|
+unprecedented|beispiellos|
+pitiful|bemitleidenswert|
+prune|beschneide|
+coarse|derb|
+Triangles|dreiecke|
+duel|duellieren|
+skinny|dürrer|
+springs from|entspringe|
+shake|erbeben|
+sublime|erhabenes|
+crave|ersehnst|
+colored|farbig|
+stunned|fassungslos|
+bondage|fesselns|
+confession|gebeichtet|
+gradient|gefälle|
+justified|gerechtfertigt|
+shaken|geschüttelt|
+Plant|Gewächs|
+shudder|graust|
+go out|herausgehe|
+helpful|hilfsbereit|
+look into it|hineinsehe|
+scheming|intrigant|
+competently|kompetent|
+confederal|konföderal|
+brim|krempe|
+legal|legale|
+powerless|machtlos|
+many|mancherlei|
+Mecca|mekka|
+compassion|mitgefühl|
+take with|mitnehme|
+Lower Saxony|Niedersachsen|
+penetrating|penetrant|
+prominent|prominenter|
+bump up|pusteln|
+district|reviers|
+revolt|revoltieren|
+Knight|ritterin|
+ritual|rituell|
+pucker|runzeln|
+gentler|sanftere|
+enamel|schmelzes|
+unprotected|schutzlos|
+settled|sesshaft|
+steadfast|standhaft|
+lift|stemmen|
+Saxon|sächsische|
+would look|sähe|
+some have|teilhabt|
+kill|umbringe|
+inappropriate|unangebracht|
+thoughtless|unbedacht|
+unconcerned|unbekümmert|
+unlimited|unbeschränkt|
+unguarded|unbewacht|
+uncovered|ungedeckt|
+uninteresting|uninteressant|
+unfavorable|unvorteilhaft|
+reward|vergelte|
+relatively|verhältnismäßig|
+get lost|verirrst|
+TO MEASURE|vermesse|
+traitor|verräterin|
+oversleep|verschlafe|
+protest|verwahre|
+quartered|vierteilen|
+people|volks|
+set|vorgegeben|
+predict|vorhersagen|
+prefer|vorziehe|
+blowing|wehend|
+recurring|wiederkehrende|
+licentiousness|wollüste|
+early|zeitig|
+time hole|zeitloch|
+smash|zerschlag|
+tremble|zitterst|
+Customs|zoll|
+listen|zuhörst|
+rebuke|zurechtweise|
+back in its|zurückgelegen|
+together|zusammengefügt|
+bring about|überbringe|
+Supercharged|überlud|
+lupine|lupin|
+Phoenicia|phönizien|
+shit|scheißen|
+cancellation|absage|
+copy|abschrift|
+ammonia|ammoniak|
+amulet|amulett|
+anecdote|anekdote|
+incentive|ansporn|
+applying|anwende|
+architect|architekt|
+Assyrian|assyrer|
+canceling|aufhebe|
+absorb|aufnimmst|
+equipment|ausrüstung|
+bankrupt|bankrott|
+threatening|bedrohe|
+deal|befasse|
+entitlement|berechtigung|
+cheating|betrog|
+blinding|blendendem|
+good|brav|
+characters|charaktere|
+roof|dach|
+bow and scrape|dienern|
+document|dokumentes|
+village|dorfes|
+thirst|durst|
+dry|dürr|
+effect|effekt|
+lizard|eidechse|
+bucket|eimer|
+remember|entsinne|
+detected|erfaßt|
+fictitious|erfundenem|
+poured|ergoss|
+murder|ermorde|
+appoint|ernenne|
+feeding|ernähre|
+warm it|erwärme|
+flag|fahne|
+vehicles|fahrzeuge|
+TV station|fernsehsender|
+running|fließendem|
+flight time|flugzeit|
+flood|flut|
+food|fraß|
+freezing|frier|
+catch|fängst|
+caught|gefangener|
+endangering|gefährdung|
+return|gegenzug|
+hoped|gehofft|
+sidewalk|gehsteig|
+sheared|geschert|
+skill|geschick|
+ordinary|gewöhn|
+church services|gottesdienste|
+grave stone|grabstein|
+degrees|graden|
+gray|grau|
+goodness|güte|
+hatred|haß|
+heroine|heldin|
+Handles|henkeln|
+internal|intern|
+be wrong|irren|
+anniversary|jahrestag|
+Empire|Kaisertum|
+germs|keime|
+dresses|kleidern|
+corridor|korridor|
+beetle|käfer|
+maze|labyrinth|
+country house|landhaus|
+farmer|landwirt|
+agriculture|landwirtschaft|
+vice|laster|
+Suffering|leidens|
+leader|leiterin|
+songs|lieder|
+workflows|läufe|
+delete|lösch|
+manuscript|manuskript|
+market|markt|
+massacre|massaker|
+mechanics|mechanik|
+metropolis|metropole|
+mothers|mütter|
+maternal|mütterlich|
+neighbor|nachbarin|
+complements are|nachträge|
+Napoleonic|napoleonische|
+nurturing|nähre|
+oracle|orakel|
+orientable|orientier|
+Persia|persien|
+parish|pfarrei|
+physical|physischem|
+planning|planung|
+Prussia|Preußens|
+rehearse|proben|
+programs|programme|
+Papal|päpstliche|
+quartet|quartett|
+space|raume|
+React|reagier|
+rings|ringe|
+rolls|rollt|
+reprimand|rüge|
+ointment|salbe|
+sands|sanden|
+shank|schaft|
+Scheldt|schelde|
+Pain|schmerzes|
+crashing|schmettere|
+desks|schreibtische|
+skulls|schädeln|
+Peer to peer|seinesgleichen|
+Serb|serbe|
+declining|sinkende|
+Slovak|Slowake|
+Speaking|Sprachraum|
+saying|spruch|
+Polity|Staatswesen|
+locations|standorte|
+steal|stehle|
+tight|straff|
+warriors|streitern|
+groan|stöhne|
+Symptoms|symptome|
+scenarios|szenarien|
+scene of the crime|tatort|
+appeared|tauchten|
+Participants|Teilnehmern|
+Carpets|teppiche|
+theaters|theatern|
+therapy|therapie|
+lowest|tiefste|
+meeting place|treffpunkt|
+dances|tänzen|
+bypassed|umging|
+look around|umsehe|
+underworld|unterwelt|
+author|urheber|
+will destroy|vertilge|
+preference|vorzug|
+blows|weht|
+cry|weinst|
+World Council|weltrat|
+race|wettlauf|
+smudge|wisch|
+wonder|wundere|
+consciously|wusst|
+tore|zerriss|
+present|zugegen|
+feel like|zumute|
+teamed up|zusammengetan|
+forestalled|zuvorkam|
+two|zweige|
+modified|abgewandelt|
+worshiped|angebetet|
+pending|anhängig|
+accuse|anklagen|
+view|anzuzeigen|
+breathe|atme|
+set off|aufbrach|
+enlighten|aufkläre|
+baggy|ausgebeult|
+dying out|aussterbe|
+influenced|beeinflusst|
+desiring|begehrende|
+Summon|beschwörst|
+mourn|betraure|
+brotherly|brüderlich|
+belonging to|dazugehörig|
+disciplines|disziplinen|
+by cutting|durchschneide|
+stubbornness|eigensinn|
+been bombarded with|eingestürmt|
+crept|einschlich|
+flee|entfliehe|
+reveal|enthülle|
+renounce|entsagst|
+dispose|entsorge|
+Epilogue|Epilog|
+epic|episch|
+extort|erpresse|
+created|erschaffene|
+opened up|erschloss|
+explosive|explosiv|
+would progress|fortschreite|
+friendliness|freundlichkeit|
+piety|frömmigkeit|
+customs|gebräuchen|
+damped|gedämpft|
+the found|gefundenem|
+looped|geschleift|
+blown up|gesprengt|
+poison gas|giftgas|
+greenish|grünliche|
+Semi-long|halblang|
+condescending|herablasse|
+outstanding|herausrage|
+go out|hinausgehe|
+Add to this|hinzunehme|
+crater|krater|
+cooler|kühler|
+lautering|läuterns|
+mummy|mumie|
+musician|musikant|
+Coats|mäntel|
+afterimage|nachbilde|
+to imitate|nachzuahmen|
+pavement|pflaster|
+rob|rauben|
+realistic|realistisch|
+risking|riskierst|
+sacral|sakral|
+melt|schmelze|
+chatter|schwatze|
+sensitive|sensible|
+emeralds|smaragdes|
+walk|spaziert|
+Territory|Staatsgebiet|
+Stretch your|streckst|
+piece|stücks|
+tactical|taktisch|
+tonearm|tonarm|
+tragedy|trauerspiel|
+overturned|umgeworfen|
+radius|umkreises|
+insensitive|unempfindlich|
+universal|universale|
+irregularly|unregelmäßig|
+outrageous|unverschämt|
+marginally|unwesentlich|
+urn|urne|
+wasting|vergeude|
+entice|verlocke|
+sank|versank|
+swallow|verschlinge|
+conspire|verschwöre|
+amazement|verwunde|
+intended|vorgehabt|
+reproach|vorhalten|
+stocks|vorräte|
+away|weggeführt|
+leave out|weglasse|
+pioneering|wegweisend|
+withered|welk|
+unruly|widerspenstig|
+resistant|widerstandsfähig|
+charitable|wohltätig|
+go|zugehen|
+demolition|abbruch|
+departments|abteilungen|
+leave|abzug|
+africa|afrikas|
+old town|altstadt|
+employer|arbeitgeber|
+stock market|börse|
+of those|derer|
+document|dokument|
+print|drucken|
+england|englands|
+fat|fett|
+finances|finanzen|
+fish|fisch|
+flag|flagge|
+photo|foto|
+site|gelände|
+siblings|geschwistern|
+grain|getreide|
+cock|hahn|
+raises|hebt|
+hot|heiß|
+up|herauf|
+in turn|ihrerseits|
+owner|inhaber|
+to what extent|inwieweit|
+context|kontext|
+food|lebensmittel|
+license|lizenz|
+masses|massen|
+networks|netze|
+top layer|oberschicht|
+Easter|ostern|
+plans|plant|
+prose|prosa|
+most|reichste|
+shoots|schießt|
+as such|schlechthin|
+narrow|schmal|
+senate|senats|
+steel|stahl|
+stepmother|stiefmutter|
+shock|stoß|
+during the day|tagsüber|
+to look|umzusehen|
+recently|unlängst|
+discrepancies|unstimmigkeiten|
+Vatican|vatikan|
+more|weiterer|
+weather|wetters|
+reconstruction|wiederaufbau|
+living room|wohnzimmer|
+that|wonach|
+words|wörter|
+two and a half|zweieinhalb|
+basal|basalem|
+Castalia|Kastaliens|
+arbitrating|schlichtend|
+On Game|aufspiele|
+one towers|einstürme|
+serious|ernstlich|
+Horcrux|horkrux|
+on sleep|überschlafe|
+break off|abbreche|
+fall|abfallen|
+to agreement|abspreche|
+commonplace|alltäglich|
+analog|analogem|
+Beginner|Anfängerin|
+fish|angeln|
+salutation|anrede|
+connection|anschluß|
+considerable|ansehnliche|
+attracted|anzog|
+argon|argons|
+association|assoziation|
+which has|aufweise|
+up|aufwärts|
+merciful|barmherzig|
+oppressing|bedränge|
+persistent|beharrlich|
+affirm|bejahe|
+illuminating|beleuchte|
+remarkable|bemerkenswerte|
+mountaineering|bergsteige|
+nature|beschaffenheit|
+recollect|besinnst|
+stands the test|bewähre|
+pale|blass|
+pale|bleich|
+bearded|bärtig|
+dialectic|dialektik|
+tolerate|dulde|
+by breaking|durchbreche|
+get through|durchkomme|
+look through|durchsehe|
+dawns|dämmert|
+selfish|egoistisch|
+Self-will|eigenwille|
+objection|einwandes|
+icy|eisig|
+decapitate|enthaupte|
+vomit|erbreche|
+conceived|erdacht|
+inconclusive|ergebnislos|
+sounding|erklinge|
+explaining|erklärens|
+Revive|erquicke|
+amazing|erstaunliches|
+give|geb|
+counterattack|gegenangriff|
+successful|geglückt|
+piercing|gellend|
+business leaders|geschäftsführend|
+stink|gestank|
+watched|gewacht|
+ordinary|gewöhnliches|
+approve|gutheiße|
+glove|handschuh|
+helmets|helme|
+helpless|hilfloses|
+to give|hinzugebe|
+intimate|intim|
+Virgo|jungfrau|
+Emperors|Kaisern|
+cook|kochen|
+scratch|kratzer|
+Declaration of war|kriegserklärung|
+lavender|lavendel|
+for life|lebenslänglich|
+PROVIDING|lieferst|
+Diversity|Mannigfaltigkeit|
+massaging|massierst|
+rent|mieten|
+misusing|missbrauchst|
+unfortunate|misslich|
+taken|mitgenommen|
+idle|müßig|
+imitate|nachahme|
+resign|niederzulegen|
+original|originell|
+burst|platzen|
+Protestant|protestantisch|
+representative|repräsentativ|
+Swabian|schwäbische|
+Serve|serviere|
+sigh|seufzt|
+soft|softem|
+claims|sprüche|
+stop|stoppen|
+gradually|stufenweise|
+phone|telefonisch|
+mourn|trauern|
+intoxicated|trunkene|
+paraphrased|umschrieb|
+uncertain|ungewiss|
+processing|verarbeite|
+pretending|verstellst|
+segment passing|verstreiche|
+ence in|wegbereich|
+viniculture|weinbau|
+werewolf|werwolf|
+wonderful|wunderbares|
+tear|zerreiße|
+silly|zickig|
+ignite|zünden|
+annoying|ärgerlich|
+Azkaban|askaban|
+by travels|durchreist|
+flourished|geblüht|
+resigned|resigniere|
+image|abbild|
+live out|ableben|
+distracted|ablenke|
+depose|absetze|
+graduate|absolvent|
+strip off|abstreife|
+address|adresse|
+actor|akteur|
+age|altern|
+americans|amerikanern|
+adaptive|anpasse|
+bad|arg|
+eye|auges|
+interpret|auslege|
+statement|ausspruch|
+by heart|auswendig|
+platform|bahnsteig|
+Basel|Basler|
+belly|bauch|
+quakes|bebt|
+Belgrade|belgrad|
+visitors|besuchern|
+review|bewerte|
+bee|biene|
+heyday|blütezeit|
+Bust|Brustbild|
+Jack|bube|
+bull|bulle|
+federal court|bundesgericht|
+volume|bändige|
+Ally|Bündnispartner|
+guarantor|bürge|
+, character|charakters|
+editor in chief|chefredakteur|
+choir|chor|
+Chromium|chroms|
+Monarchy|Donaumonarchie|
+chou|dschou|
+dips|einbrüche|
+revenue|einnahmen|
+entries|einträge|
+moved|einzog|
+ince|eit|
+emancipation|emanzipation|
+British|engländern|
+grandchildren|enkeln|
+hijacked|entführ|
+inherits|erbt|
+rejoice|erfreue|
+recognizable|erkenn|
+explore|erkunde|
+achieved|erziele|
+owl|eule|
+extreme|extrem|
+specialists|fachleute|
+procedure|fahrens|
+family member|familienmitglied|
+flyer|flieger|
+airline|fluggesellschaft|
+river|flusse|
+hospitality|gastfreundschaft|
+crook|gauner|
+territory require|gebietes|
+fallen|gefallenem|
+clotted|gerann|
+directed|gerichtetem|
+cruelty|grausamkeit|
+guests|gästen|
+half-brother|halbbruder|
+manual|handbuch|
+main reason|hauptgrund|
+general problem|hauptproblem|
+home|heim|
+heroism|heldentum|
+shell|hülle|
+guardian|hüter|
+imperil|imperii|
+into each other|ineinander|
+authority|instanz|
+dump|kaff|
+hood|kapuze|
+guy|kerl|
+Kiev|kiew|
+classmate|klassenkamerad|
+commander|kommandant|
+denomination|konfession|
+constitution|konstitution|
+contacts|kontakte|
+grain|korn|
+cruisers|kreuzern|
+crawl|kriechst|
+state of war|kriegszustand|
+cultures|kulturen|
+cultural history|kulturgeschichte|
+courses|kursen|
+could|könntest|
+District Court|Landgericht|
+State election|Landtagswahl|
+read|lies|
+praises|lobt|
+logic|logik|
+noise|lärm|
+Wages|löhne|
+standards|maßstäbe|
+championship|meisterschaft|
+mentality|mentalität|
+expression|miene|
+fashion|mode|
+models|modellen|
+shell|muschel|
+pattern pupil|musterschüler|
+miller|müller|
+think|nachzudenken|
+nineteen|neunzehn|
+ninety|neunzig|
+Election|Neuwahl|
+lower|niedrigerem|
+niche|nische|
+north|nord|
+North|nordens|
+Northwest|nordwesten|
+use|nutzung|
+benefits|nützt|
+Upper|ober|
+olive|oliv|
+organizer|organisator|
+range|palette|
+bad luck|pech|
+pilgrim|pilger|
+sample|probe|
+producer|produzent|
+mercury|quecksilber|
+notch|raste|
+town hall|rathaus|
+purest|reinstem|
+rip|reiße|
+run|renne|
+Rhineland|Rheinland|
+advised|riet|
+sacraments|sakramente|
+satellite|satellit|
+vagina|scheide|
+transparent world|scheinwelt|
+melted|schmolz|
+tail|schweif|
+swear|schwörst|
+sector|sektor|
+bliss|seligkeit|
+wins|siegt|
+Scandinavia|skandinavien|
+Socrates|sokrates|
+sunset|sonnenuntergang|
+speaking|spräche|
+at the latest|spätestens|
+statesman|staatsmann|
+statute|statut|
+stands|sticht|
+schedule|stundenplan|
+site|stätte|
+dancers|tänzerinnen|
+pots|töpfe|
+under take|unternehmt|
+betroth|verlobe|
+word|vokabel|
+economics|volkswirtschaft|
+presenting|vorlege|
+chairmanship|vorsitz|
+fend|wehre|
+advertising|werbung|
+contest|wettstreit|
+unconstitutional|widrig|
+weighed|wog|
+Desiring|wunsche|
+wolves|wölfen|
+dignitary|würdenträger|
+centers|zentren|
+access|zutritt|
+forced labor|zwangsarbeit|
+doubt|zweifle|
+turn|abbiegen|
+distract|ablenkst|
+store|abzulegen|
+omnipotent|allmächtig|
+hinting|andeutens|
+seizures|anfälle|
+swells|anschwelle|
+addressed|ansprach|
+was rising|ansteige|
+to attract|anzuziehen|
+working day|arbeitstag|
+East Atlantic|atlantiks|
+upset|aufrege|
+sincere|aufrichtiges|
+raises|aufwerfe|
+find|aufzufinden|
+think out|ausdenke|
+painted|ausgemalt|
+looked|aussah|
+Bathing|badend|
+builder|baumeister|
+cotton|baumwolle|
+brood|behütest|
+confessor|beichtvater|
+attend|beizuwohnen|
+used|benützt|
+remembered|besann|
+bestride|beschreite|
+discussed|besprochen|
+drunk|betrunken|
+applied|bewarb|
+evaluating|bewertens|
+biogenic|biogen|
+flash|blitzen|
+Bolshevik|bolschewik|
+slow down|bremsen|
+dictate|diktiere|
+tolerate|duldest|
+avid|eifriges|
+buried|eingegraben|
+incising|einschneide|
+hermit|einsiedler|
+invite|einzuladen|
+ice-cold|eiskalt|
+English|engl|
+bring against|entgegenbringe|
+demilitarize|entmilitarisieren|
+vanish|entschwinde|
+stabbed|erstach|
+endured|ertrug|
+Exports|Exporte|
+fair|faires|
+fencer|fechter|
+stay away|fernbleibe|
+fundamental|fundamentale|
+Appellant|führerin|
+suspected|geahnt|
+stooping|gebückt|
+against stellst|gegenüberstellst|
+hum|gemurmel|
+tortured|gequält|
+molten|geschmolzen|
+decorated|geschmückt|
+minded|gesonnen|
+affected|geziert|
+gigantic|gigantisch|
+thank goodness|gottlob|
+gruesome|grausig|
+guesthouse|gästehaus|
+bring out|herausbringe|
+came in|hereinkam|
+fall down|hinfalle|
+sustained|hinhalte|
+to get|hinzukomme|
+idealistically|idealisch|
+chins|kinne|
+vices|lastern|
+lukewarm|lau|
+delicious|leckere|
+carelessness|leichtsinn|
+senior|leitende|
+loving|liebreich|
+get away|loskomme|
+mutiny|meuterei|
+given|mitgegeben|
+complicity|mitschuld|
+imitated|nachgemacht|
+pickings|nachlese|
+nationalist|nationalistisch|
+go down|niedergehe|
+tear down|niederreiße|
+top|oberteil|
+pathologist|pathologe|
+slip|patzer|
+peripheral|peripher|
+Pomerania|Pommern|
+primacy|primat|
+program|programmieren|
+predestine|prädestinieren|
+psychiatry|psychiatrie|
+register|registriere|
+rub|reiben|
+lovely|reizende|
+shalom|schalom|
+scheme|schema|
+push|schieben|
+hurl|schleuderst|
+Carving|schnitzt|
+melancholy|schwermut|
+STUDENT|SCHÜLERS|
+calmness|seelenruhe|
+sail|segelst|
+complacent|selbstgefällig|
+social policy|sozialpolitik|
+South German|süddeutsch|
+, moving around|umherziehe|
+untouchable|unantastbar|
+unfree|unfreies|
+unresolved|ungelöst|
+incredible|unglaublichem|
+submitted|unterwarf|
+irresistible|unwiderstehlich|
+unwillingness|unwille|
+Americans|US-Amerikaner|
+astound|verblüffe|
+forgot|vergass|
+haggard|verhärmt|
+enticing|verleitens|
+note|vermerks|
+mine|verminen|
+missed|verpasst|
+decayed|verwest|
+leading|vorlauf|
+lectures|vorlesungen|
+wash|waschen|
+space|weltall|
+effective|wirksames|
+choke|würgen|
+quarreled|zerstritt|
+angry|zornig|
+been listening|zugehörst|
+falling back|zurückgreife|
+taken together|zusammengenommen|
+attributing|zuschreibe|
+Austro-Hungarian|österreichisch-ungarische|
+on offer|überbiete|
+on male|übermale|
+skip|überspringe|
+exposing|exponiere|
+Colossal|kolossalem|
+Civilize|zivilisiere|
+whitewash|beschönige|
+tattoo|tätowiere|
+bulky|unförmig|
+virtuoso|virtuoser|
+rhymes together|zusammenreime|
+leave|abgehen|
+secluded|abgeschieden|
+discouraged|abriet|
+wash up|abwasche|
+chords|akkorde|
+Albanian|albanische|
+gracefully|anmutig|
+like|artig|
+Rising|Aufgang|
+waves with|aufsehens|
+endured|ausgehalten|
+plundered|ausgeplündert|
+devise|auszudenken|
+deals|befasst|
+hairy|behaart|
+pity|bemitleide|
+regret|bereue|
+mountainous|bergig|
+advised|beriet|
+moving|bewegend|
+defeated|bezwungen|
+biological|biologisch|
+Federal President|Bundespräsident|
+nationwide|bundesweit|
+Graubünden|bünden|
+run away|davonlaufe|
+lathe|drehbank|
+transit|durchreise|
+roam|durchstreife|
+demonic|dämonie|
+independent|eigenständige|
+should capture|einfange|
+admitted|eingelassen|
+purchases|einkaufe|
+initiate|einzuleiten|
+view|einzusehen|
+By accepting|entgegennehme|
+decision-making|entscheidens|
+disappoint|enttäusch|
+soil|erdreich|
+hearest|erhörst|
+blush|errötest|
+instigate|ersinner|
+extremist|extremistin|
+Fascist|faschistin|
+rotting|faulend|
+coward|feigling|
+fineness|feinheit|
+men's field|feldherr|
+holiday|festtag|
+fireworks|feuerwerk|
+nasty|fies|
+film|filmen|
+go away|fortfahre|
+continued|fortgeführt|
+run away|fortlaufe|
+branded|gebrandet|
+whisper|geflüster|
+cut|gehauen|
+Chambers|gemächer|
+Enjoyment|Genuß|
+orderly|geordnetem|
+trained|geschult|
+fast|geschwind|
+gun|geschütz|
+blessed|gesegnet|
+donated|gestiftet|
+fancied|gewähnt|
+grenade|granate|
+make up|gutzumachen|
+gybing|halse|
+harmless|harmloses|
+Hebrew|hebräisch|
+came out|heraustrat|
+walk around|herumlaufe|
+invalid|hinfällig|
+accepted|hingenommen|
+attracted|hingezogen|
+go up|hochfahre|
+occupied|innegehabt|
+interaction|interaktion|
+Iraqi|irakisch|
+virgin|jungfräulich|
+rake in|kassierst|
+bud|knospe|
+Unbutton|knöpf|
+Cossack|kosake|
+Outbreak of war|Kriegsausbruch|
+slow|langsames|
+Lectureship|Lehrauftrag|
+Rulers|lineale|
+detached|losgelöst|
+manage|managen|
+maneuver|manövriere|
+significantly|maßgeblich|
+misunderstood|missverstand|
+was helping to|mithelfe|
+Mongolian|mongolin|
+monotonous|monoton|
+merry|munter|
+mystical|mystisch|
+murderous|mörderisch|
+nameless|namenlos|
+newcomer|neuankömmling|
+newborn|neugeboren|
+burn down|niederbrenne|
+Located down|niedergelegen|
+original|originale|
+periodically|periodisch|
+potentially|potentiell|
+percent|prozentig|
+Whorl|Quirls|
+rub|reibst|
+all around|rundum|
+reddish|rötlich|
+back|rückseite|
+Sardis|sardes|
+acumen|scharfsinn|
+sleepless|schlaflos|
+forges|schmiedet|
+beautiful|schone|
+sparest|schonst|
+abrupt|schroff|
+skip|schwänzen|
+shabby|schäbig|
+longing|sehnend|
+longings|sehnsüchte|
+silk|seidene|
+self-confident|selbstbewusst|
+sender of|senderin|
+Siberia|sibirien|
+seal|siegeln|
+moral|sittlich|
+freckle|sommersprosse|
+sunny|sonnig|
+specialty|spezialität|
+reflect|spiegeln|
+game rules|spielregel|
+language|sprachlich|
+punishable|strafbar|
+urban|städtisch|
+subtle|subtil|
+seeker|suchende|
+hum|surren|
+rate|tarif|
+diving|tauchend|
+telepaths|telepathen|
+devilry|teufelei|
+animal|tierisch|
+tourist|touristin|
+trojan|trojanisch|
+drum|trommeln|
+deadly|tödliches|
+do pottery|töpfern|
+surrounded|umgab|
+cape|umhang|
+retune|umzustimmen|
+unclear|unklares|
+failed|unterließ|
+underlined|unterstrich|
+inadequate|unzulänglich|
+Forgive|vergib|
+Gilding|Vergoldung|
+heinous|verrucht|
+overslept|verschlief|
+merged|verschmolz|
+disguise|verstelle|
+condemn|verwerft|
+much year round|vieljährig|
+four-year|vierjährig|
+vital|vitalem|
+outlaw|vogelfrei|
+complete|vollzählig|
+rash|voreilig|
+excellent|vortrefflich|
+carry forward|vorzutragen|
+genocide|völkermord|
+international law|völkerrecht|
+vigilant|wachsam|
+watchful|wachsames|
+running away|weglaufe|
+take away|wegnehme|
+soft|weicher|
+continue|weiterzuführen|
+far-reaching|weitreichend|
+importance|wichtigkeit|
+amends|wiedergutzumachen|
+warmer|wärmer|
+countless|zahllos|
+central|zentraler|
+assigned|zugewiesen|
+lagged|zurücklag|
+resign|zurücktrete|
+to cover|zurückzulegen|
+struck|zuschlug|
+twentieth|zwanzigste|
+twice|zweifach|
+day after tomorrow|übermorgen|
+supernatural|übernatürlich|
+nationwide|überregional|
+via chat|überschattest|
+gave|abgab|
+crash|absturz|
+leave|abzureisen|
+everyday|alltages|
+alternative|alternativ|
+ant|ameise|
+offered|anbot|
+appeal|appell|
+Association|Arbeitsgemeinschaft|
+arene|aren|
+athlete|athlet|
+delay|aufschub|
+expenditure|aufwand|
+eyewitness|augenzeuge|
+identify|ausfindig|
+poured|ausgoß|
+Information|auskünfte|
+highways|autobahnen|
+liberator|befreier|
+convenience|bequemlichkeit|
+reporting|berichterstattung|
+Bestow|beschenke|
+bribe|bestecht|
+emphasis|betonung|
+awareness|bewusstsein|
+hidest|birgst|
+flashes|blitze|
+blocks|blöcke|
+boxing|boxe|
+burns|brennt|
+Fountain|Brunnens|
+bow|bug|
+bush|busch|
+so|dermaßen|
+dictatorship|diktatur|
+conductor|dirigent|
+thesis|doktorarbeit|
+Dominik|dominiks|
+noble|edel|
+EDWARD|eduard|
+disgusting|ekelig|
+up|empor|
+enthusiasm|enthusiasmus|
+reap|erntest|
+fairies|feen|
+freely give|freigebt|
+voluntary|freiwilliger|
+Peace treaty|Friedensschluss|
+floor|fußboden|
+Elite|Führungsschicht|
+fifteen|fünfzehn|
+mindful|gedenkst|
+brains|gehirne|
+skill|geschicklichkeit|
+ghost|gespenst|
+gestures|gesten|
+drink|getränk|
+grass|gras|
+half-year|halbjahr|
+just|halt|
+harp|harfe|
+central station|hauptbahnhof|
+protagonist|hauptfigur|
+exploit|heldentat|
+hereby|hiermit|
+honey|honig|
+dogs|hunden|
+anthem|hymne|
+idealism|idealismus|
+engineers|ingenieure|
+inmate|insasse|
+insect|insekt|
+the extent|insoweit|
+integrity|integrität|
+intensity|intensität|
+Ireland|irland|
+chase|jagen|
+always|jeher|
+Chambers|kammern|
+fighting spirit|kampfgeist|
+barracks|kaserne|
+catalyst|katalysator|
+heretic|ketzer|
+target class|klassenziel|
+combinations|kombinationen|
+Constance|konstanz|
+continuity|kontinuität|
+corporations|konzerne|
+concession|konzession|
+ill|kranker|
+Criminal Investigation Department|kriminalpolizei|
+kiss|kuß|
+reduction|kürzung|
+country people|landsleute|
+zest for life|lebensfreude|
+educational master|lehrmeister|
+learn|lerne|
+linden|linde|
+air-raid|luftangriff|
+elongated|länglich|
+Takeover|Machtübernahme|
+painted|malten|
+scale|maßstab|
+medal|medaille|
+mine|meins|
+Mexico|mexiko|
+Moses|mose|
+disadvantages|nachteilen|
+incidentally|nebenbei|
+networks|netzen|
+nun|nonne|
+North German|norddeutsch|
+music|noten|
+number|nummer|
+fool|närrin|
+Pope|papste|
+partnership|partnerschaft|
+portraits|porträts|
+press release|pressemitteilung|
+princess|prinzessin|
+priority|priorität|
+privacy|privatleben|
+process|prozess|
+wheel|rad|
+case law|rechtsprechung|
+Reflection|reflektiere|
+riches|reichtümer|
+recruit|rekrut|
+pension|rente|
+mining|rohstoffe|
+rom|roms|
+equip|rüste|
+say|sag|
+sandal|sandale|
+suction|saug|
+divorce|scheidung|
+shilling|schilling|
+veil|schleier|
+shock|schock|
+Self-determination|Selbstbestimmung|
+suicide|selbstmord|
+self-confidence|selbstvertrauen|
+Seniors|Senioren|
+seventeen|siebzehn|
+syllable|silbe|
+slavery|sklaverei|
+sunbeam|sonnenstrahl|
+special unit|spezialeinheit|
+specialist|spezialist|
+scope|spielraum|
+athlete|sportler|
+blow up|sprengst|
+stable|stall|
+statistics|statistiken|
+Capricorn|steinbock|
+stamp|stempel|
+firmer|straffer|
+punishes|straft|
+tram|straßenbahn|
+disputes|streitigkeiten|
+sublimate|sublimieren|
+meets|tagt|
+camouflage|tarnung|
+Tatars|tataren|
+engineer|techniker|
+technologist|technologe|
+agony|todesangst|
+pot|topf|
+traumatic|traumatisch|
+triad|triade|
+dry|trockene|
+consolation|trost|
+tower|turm|
+gymnast|turner|
+do|tust|
+turnover|umsatz|
+inconvenience|unannehmlichkeit|
+nonsense|unfug|
+inorganic|unorganisch|
+incorrect|unrichtig|
+accommodation|unterkunft|
+subdue|unterwerft|
+Lord's prayer|vaterunser|
+Annoyance|Verdruss|
+rot|verfaule|
+failure|versager|
+waste|verschwendung|
+perfects|vervollkommne|
+forefathers|vorväter|
+Libra|waage|
+Web Links|Weblinks|
+cry|weine|
+see again|wiederzusehen|
+whirl|wirble|
+widow|witwe|
+live|wohne|
+about which|worüber|
+wash|wäschst|
+centimeter|zentimeter|
+room|zimmers|
+watched|zugesehen|
+viewers|zuschauern|
+esthete|ästhet|
+overcoming|überwindung|
+, accents|akzentuiere|
+pathetic|armselig|
+irrigate|bewässere|
+Herod|Herodes|
+collegial|kollegialem|
+relativizing|relativiere|
+ruin|ruiniere|
+stutter|stottere|
+tick|ticken|
+tolerate|toleriere|
+spiritualize|vergeistige|
+soiled|verschmutze|
+beautify|verschönere|
+Egyptians|Ägyptern|
+impression|abdruck|
+evening|abendlich|
+waste|abfälle|
+blown off|abgeblasen|
+collusive|abgekartet|
+deposits|absetzt|
+reject|abzulehnen|
+deliver|abzuliefern|
+to avert|abzuwenden|
+congenital|angeboren|
+opened|angebrochen|
+painted|angestrichen|
+acceptable|annehmbar|
+call|anrufs|
+Antarctica|antarktika|
+anthropologist|anthropologe|
+to stop|anzuhalten|
+to attach|anzuhängen|
+workaholic|arbeitstier|
+Civility|Artigkeit|
+risen|aufgegangen|
+recited|aufgesagt|
+open|aufgeschlossen|
+placed|aufgesetzt|
+repeal|aufzuheben|
+off|ausgeschaltet|
+cut|ausgeschnitten|
+spread|auszubreiten|
+drive a car|autofahren|
+bacterium|bakterie|
+tree trunk|baumstamm|
+influence|beeinflussung|
+sought|begehr|
+confessional|beichtens|
+manning|bemannen|
+wetted|benetzt|
+aged|betagt|
+admirable|bewundernswert|
+bidder|bietend|
+fading|blendens|
+Bosnian|bosnische|
+book|buchen|
+library|bücherei|
+Canon|Canons|
+epee|degen|
+stupid|dumme|
+made by|durchgemacht|
+hold out|durchhalten|
+underwent|durchlief|
+dynasty|dynastie|
+strange|eigenartiges|
+home|eigenheim|
+estimated|eingeschätzt|
+meanwhile|einstweilen|
+consent|einverständnis|
+incorporate|einzubauen|
+include|einzubeziehen|
+capture|einzufangen|
+Knuckle|eisbein|
+relaxing|entspann|
+invented|erfand|
+suffer|erleide|
+frightening|erschreckende|
+expert|fachmann|
+torch|fackel|
+falling|fallende|
+ceremony|feierlichkeit|
+Vacation course|Ferienkurs|
+friendly|freundlichere|
+bent|gebeugt|
+blown|geblasen|
+fried|gebraten|
+rushed|geeilt|
+precipitated|gefallt|
+braided|geflochten|
+fake|gefälscht|
+resistance|gegenwehr|
+granted|gegönnt|
+mysterious|geheimnisvollere|
+uneasy|geheuer|
+horny|geil|
+crucified|gekreuzigt|
+yellowish|gelblich|
+listed|gelistet|
+forced|genötigt|
+geographer|geographin|
+straight|geradlinig|
+grated|gerieben|
+jewelry|geschmeide|
+separately|gesondert|
+staring|gestarrt|
+embroidered|gestickt|
+true|getreu|
+, drink|getränks|
+resisted|gewehrt|
+crafty|gewieft|
+equal|gleichberechtigt|
+equaled|gleichkam|
+smoothness|glätte|
+glow|glühst|
+merciless|gnadenlos|
+great prince|großfürst|
+large spaces|großräume|
+basic wage|grundlohn|
+liable|haftbar|
+handbreadth|handbreit|
+household|haushalt|
+way home|heimweg|
+induced|herbeigeführt|
+came down|herunterkam|
+Hesse|hessen|
+howling|heulend|
+from this|hiervon|
+written down|hingeschrieben|
+highly revered|hochverehrt|
+homage|huldige|
+heads design|häupter|
+ugly|häßlich|
+incompetent|inkompetent|
+Iranian|iranisch|
+earthly|irdisch|
+Israeli|israelisch|
+combat action|kampfhandlung|
+Carthage|karthago|
+Celtic|keltisch|
+identify signatories|kennzeichnern|
+works|klappt|
+climatic|klimatisch|
+tuber|knolle|
+Come|komm|
+constellation|konstellation|
+basket|korb|
+correct|korrektes|
+creative|kreatives|
+warship|kriegsschiff|
+knowledgeable|kundig|
+Kurdish|kurdisch|
+lively|lebhaftes|
+lustful|lüstern|
+power politics|machtpolitisch|
+Mantle|Mantels|
+massive|massig|
+people living|menschenleben|
+co worker|mitarbeiters|
+mediatrix|mittlerin|
+take|mitzunehmen|
+Moser|mosers|
+musty|muffig|
+mythologist|mythologe|
+discounts|nachlässe|
+intelligence|nachrichtendienst|
+incidental|nebensächlich|
+settled|niedergelassen|
+emergency|notlage|
+organ|orgel|
+pass|paß|
+Pompeian|pompeja|
+proportions|proportionen|
+protégé|protegé|
+accurate|präzis|
+adolescent|pubertär|
+mob|pöbel|
+Takest|rastest|
+restless|rastlos|
+rushing|rauschende|
+righteous|rechtschaffen|
+shelves|regale|
+Rhine|rheinisch|
+Ruhr|Ruhrgebiet|
+puzzle|rätseln|
+back workflows|rückläufe|
+boast|rühmst|
+Shoveling|schaufelt|
+shin|schienbein|
+butchers|schlachtern|
+selfish|selbstsüchtig|
+stranger|seltsamere|
+separately|separat|
+care|sorgfalt|
+walk|spaziergang|
+blocks|sperrt|
+injected|spritzt|
+Stein|Steins|
+Road|Straßenverkehr|
+strip|strippen|
+currents|ströme|
+stockings|strümpfe|
+sin|sünde|
+'re no|taugst|
+test|testen|
+topography|topografie|
+homicide|totschlag|
+fantastic|traumhaft|
+Chechen|tschetschene|
+careless|unachtsam|
+unannounced|unangemeldet|
+unarmed|unbewaffnet|
+unthinkable|undenkbar|
+of inadequate|ungenügen|
+offense|ungut|
+disaster|unheil|
+underwent|unterzog|
+irretrievably|unwiederbringlich|
+corrupt|verderbt|
+changing constitutional|verfassungsändernd|
+reasonable|vernünftiges|
+trusting|vertrauensvoll|
+confused|verworren|
+virtual|virtuell|
+submitted|vorgebracht|
+pretend|vorzugeben|
+calf|wade|
+setting say|weissagst|
+to pass|weiterzugeben|
+whitish|weißlich|
