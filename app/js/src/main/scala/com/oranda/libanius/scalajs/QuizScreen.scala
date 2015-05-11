@@ -18,25 +18,14 @@
 
 package com.oranda.libanius.scalajs
 
-import com.oranda.libanius.model.UserResponses
-import com.oranda.libanius.model.quizgroup.{WordMapping, QuizGroupHeader}
-import com.oranda.libanius.model.quizitem._
 import japgolly.scalajs.react.vdom.prefix_<^._
-import org.scalajs.dom.{alert, document}
-import scala.concurrent.Future
+import org.scalajs.dom.document
 import scalajs.concurrent.JSExecutionContext.Implicits.runNow
-import org.scalajs.dom
 import org.scalajs.dom.ext.Ajax
 import scala.scalajs.js.timers._
 import japgolly.scalajs.react._
-import upickle._
-
-//import scalatags.JsDom.all._
-
-//import japgolly.scalajs.react.vdom.all._
 
 import scala.scalajs.js.annotation.JSExport
-//import scalatags.JsDom.all._
 
 @JSExport
 object QuizScreen {
@@ -56,7 +45,7 @@ object QuizScreen {
       val response = QuizItemResponse.construct(curQuizItem, choice)
       val data = upickle.write(response)
 
-      val sleepMillis: Double = if (response.isCorrect) 100 else 500
+      val sleepMillis: Double = if (response.isCorrect) 200 else 1000
       Ajax.post(url, data).foreach { xhr =>
         setTimeout(sleepMillis) { updateStateFromAjaxCall(xhr.responseText, scope) }
       }
@@ -72,7 +61,6 @@ object QuizScreen {
         // Set new quiz item and switch curQuizItem into the prevQuizItem position
         scope.setState(State(newQuizItem, curQuizItem, quizItemData.scoreText))
     }
-
   }
 
   val ScoreText = ReactComponentB[String]("ScoreText")
@@ -80,22 +68,11 @@ object QuizScreen {
         "Score: " + scoreText))
     .build
 
-  case class ButtonState()
-
-  val DeleteButton = ReactComponentB[Unit]("DeleteButton")
-    .initialState(ButtonState())
-    .render(_ =>
-      <.span(^.className := "alignright",
-      <.button(^.id := "delete-button", ^.onClick --> alert("TODO: removeCurrentWord()"), "DEL")))
-    .build
-
   val Header = ReactComponentB[String]("Header")
     .render(scoreText =>
-      <.span(^.id := "header-wrapper", ScoreText(scoreText),
-        DeleteButton(ButtonState())))
+      <.span(^.id := "header-wrapper", ScoreText(scoreText)))
     .build
 
-  // TODO: have better types
   case class Question(promptWord: String, responseType: String, numCorrectResponsesInARow: Int)
 
   val QuestionArea = ReactComponentB[Question]("Question")
@@ -129,7 +106,7 @@ object QuizScreen {
     .build
 
   val PreviousQuizItemArea = ReactComponentB[Option[QuizItemReact]]("PreviousQuizItem")
-    .render(previousQuizItem => previousQuizItem match {
+    .render(_ match {
         case Some(previousQuizItem: QuizItemReact) =>
           <.span(^.id := "footer-wrapper",
             PreviousPrompt(previousQuizItem.prompt),
@@ -145,10 +122,10 @@ object QuizScreen {
       String =
     chosen match {
       case None => ""
-      case Some(chosen) =>
+      case Some(chosenResponse) =>
         if (correctResponse == buttonValue) "correct-response"
         else {
-          if (chosen != buttonValue) "" else "incorrect-response"
+          if (chosenResponse != buttonValue) "" else "incorrect-response"
         }
     }
 

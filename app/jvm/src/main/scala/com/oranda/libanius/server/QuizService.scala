@@ -39,14 +39,11 @@ object QuizService extends AppDependencyAccess {
   val promptType = config.getString("promptType")
   val responseType = config.getString("responseType")
 
-  //val useMultipleChoiceUntil = config.getString("useMultipleChoiceUntil")
-
   val qgh = dataStore.findQuizGroupHeader(promptType, responseType, WordMapping)
   val qghReverse = dataStore.findQuizGroupHeader(responseType, promptType, WordMapping)
 
   // Persistent (immutable) data structure used in this single-user local web application.
   var quiz: Quiz = loadQuiz
-
 
   private def loadQuiz: Quiz = {
     val quizGroupHeaders = Seq(qgh, qghReverse).flatten
@@ -54,20 +51,19 @@ object QuizService extends AppDependencyAccess {
   }
 
   private def findPresentableQuizItem: Option[QuizItemViewWithChoices] =
-      produceQuizItem(quiz, NoParams())
+    produceQuizItem(quiz, NoParams())
 
   def findNextQuizItem: DataToClient = {
     val quizItemReact = findPresentableQuizItem.map { qiv =>
       val promptResponseMap = makePromptResponseMap(qiv.allChoices, qiv.quizGroupHeader)
       QuizItemReact.construct(qiv, promptResponseMap)
     }
-    DataToClient(quizItemReact, score)
+    DataToClient(quizItemReact, scoreText)
   }
 
-  def score: String = StringUtil.formatScore(quiz.scoreSoFar)
+  def scoreText: String = StringUtil.formatScore(quiz.scoreSoFar)
 
   def processUserResponse(qir: QuizItemResponse): DataToClient = {
-
     for {
       qgh <- dataStore.findQuizGroupHeader(qir.promptType, qir.responseType)
       quizItem <- quiz.findQuizItem(qgh, qir.prompt, qir.correctResponse)
@@ -82,10 +78,11 @@ object QuizService extends AppDependencyAccess {
 
   private def promptToResponses(choice: String, quizGroupHeader: QuizGroupHeader):
       Tuple2[String, String] = {
-    val values = (quiz.findPromptsFor(choice, quizGroupHeader) match {
+    val values = quiz.findPromptsFor(choice, quizGroupHeader) match {
       case Nil => quiz.findResponsesFor(choice, quizGroupHeader.reverse)
-      case values => values
-    }).toList
+      case v => v
+    }
+
     (choice, values.mkString(", "))
   }
 }

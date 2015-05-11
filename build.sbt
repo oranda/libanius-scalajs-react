@@ -1,7 +1,5 @@
 import sbt.Keys._
 
-enablePlugins(ScalaJSPlugin)
-
 name := "Libanius Scala.js front-end"
 
 scalaJSStage in Global := FastOptStage
@@ -26,8 +24,7 @@ val app = crossProject.settings(
     "com.github.japgolly.scalajs-react" %%% "extra" % "0.8.3",
     "com.lihaoyi" %%% "scalarx" % "0.2.8"
   ),
-  // React itself
-  //   (react-with-addons.js can be react.js, react.min.js, react-with-addons.min.js)
+  // React itself (react-with-addons.js can be react.js, react.min.js, react-with-addons.min.js)
   jsDependencies += "org.webjars" % "react" % "0.13.1" / "react-with-addons.js" commonJSName "React",
   skip in packageJSDependencies := false // creates app-jsdeps.js with the react JS lib inside
 
@@ -55,6 +52,7 @@ lazy val appJVM = app.jvm.settings(
   // copy resources like quiz.css to the server
   resourceDirectory in Compile <<= baseDirectory(_ / "../shared/src/main/resources"),
 
+  // allow the server to access shared source
   unmanagedSourceDirectories in Compile <+= baseDirectory(_ / "../shared/src/main/scala"),
 
   // application.conf too must be in the classpath
