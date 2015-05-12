@@ -1,3 +1,10 @@
+== 0.2 May 13 2015
+
+ * Multiple simultaneous users now supported.
+
+ * Added DELETE item button and functionality.
+
+
 == 0.1 May 12 2015
 
  * Multiple-choice functionality (QuizScreen). Only works for a single user and a single quiz group.

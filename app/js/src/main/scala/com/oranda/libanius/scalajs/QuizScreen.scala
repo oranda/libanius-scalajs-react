@@ -30,7 +30,7 @@ import scala.scalajs.js.annotation.JSExport
 @JSExport
 object QuizScreen {
 
-  case class State(currentQuizItem: Option[QuizItemReact] = None,
+  case class State(userToken: String, currentQuizItem: Option[QuizItemReact] = None,
       prevQuizItem: Option[QuizItemReact] = None, scoreText: String = "",
       chosen: Option[String] = None, status: String = "") {
 
@@ -39,10 +39,10 @@ object QuizScreen {
   }
 
   class Backend(scope: BackendScope[Unit, State]) {
-    def submitResponse(choice: String, curQuizItem: QuizItemReact): Unit = {
+    def submitResponse(choice: String, curQuizItem: QuizItemReact) {
       scope.modState(_.copy(chosen = Some(choice)))
       val url = "/processUserResponse"
-      val response = QuizItemResponse.construct(curQuizItem, choice)
+      val response = QuizItemAnswer.construct(scope.state.userToken, curQuizItem, choice)
       val data = upickle.write(response)
 
       val sleepMillis: Double = if (response.isCorrect) 200 else 1000
@@ -50,27 +50,31 @@ object QuizScreen {
         setTimeout(sleepMillis) { updateStateFromAjaxCall(xhr.responseText, scope) }
       }
     }
+
+    def removeCurrentWordAndShowNextItem(curQuizItem: QuizItemReact) {
+      val url = "/removeCurrentWordAndShowNextItem"
+      val response = QuizItemAnswer.construct(scope.state.userToken, curQuizItem, "")
+      val data = upickle.write(response)
+      Ajax.post(url, data).foreach { xhr =>
+        updateStateFromAjaxCall(xhr.responseText, scope)
+      }
+    }
   }
 
   def updateStateFromAjaxCall(responseText: String, scope: BackendScope[Unit, State]): Unit = {
-
     val curQuizItem = scope.state.currentQuizItem
     upickle.read[DataToClient](responseText) match {
       case quizItemData: DataToClient =>
         val newQuizItem = quizItemData.quizItemReact
         // Set new quiz item and switch curQuizItem into the prevQuizItem position
-        scope.setState(State(newQuizItem, curQuizItem, quizItemData.scoreText))
+        scope.setState(State(scope.state.userToken, newQuizItem, curQuizItem,
+            quizItemData.scoreText))
     }
   }
 
   val ScoreText = ReactComponentB[String]("ScoreText")
     .render(scoreText => <.span(^.id := "score-text", ^.className := "alignleft",
         "Score: " + scoreText))
-    .build
-
-  val Header = ReactComponentB[String]("Header")
-    .render(scoreText =>
-      <.span(^.id := "header-wrapper", ScoreText(scoreText)))
     .build
 
   case class Question(promptWord: String, responseType: String, numCorrectResponsesInARow: Int)
@@ -129,13 +133,22 @@ object QuizScreen {
         }
     }
 
+  private[this] def generateUserToken =
+    System.currentTimeMillis + "" + scala.util.Random.nextInt(1000)
+
   val QuizScreen = ReactComponentB[Unit]("QuizScreen")
-    .initialState(State())
+    .initialState(State(generateUserToken))
     .backend(new Backend(_))
     .render((_, state, backend) => state.currentQuizItem match {
       // Only show the page if there is a quiz item
       case Some(currentQuizItem: QuizItemReact) =>
-        <.div(Header(state.scoreText),
+        <.div(
+          <.span(^.id := "header-wrapper", ScoreText(state.scoreText),
+            <.span(^.className := "alignright",
+              <.button(^.id := "delete-button",
+                ^.onClick --> backend.removeCurrentWordAndShowNextItem(currentQuizItem),
+                    "DELETE WORD"))
+          ),
           QuestionArea(Question(currentQuizItem.prompt,
               currentQuizItem.responseType,
               currentQuizItem.numCorrectResponsesInARow)),
@@ -157,12 +170,12 @@ object QuizScreen {
     })
     .componentDidMount(scope => {
       // Make the Ajax call for the first quiz item
-      val url = "/findNextQuizItem"
+      val url = "/findFirstQuizItem?userToken=" + scope.state.userToken
       Ajax.get(url).foreach { xhr =>
         val quizData = upickle.read[DataToClient](xhr.responseText)
         val newQuizItem = quizData.quizItemReact
-        // Set new quiz item and switch curQuizItem into the prevQuizItem position
-        scope.setState(State(newQuizItem, None, quizData.scoreText))
+        // Set new quiz item
+        scope.setState(State(scope.state.userToken, newQuizItem, None, quizData.scoreText))
       }}
     )
     .buildU

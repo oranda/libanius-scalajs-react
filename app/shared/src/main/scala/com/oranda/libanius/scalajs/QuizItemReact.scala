@@ -39,15 +39,19 @@ object QuizItemReact {
         qi.numCorrectResponsesInARow, promptResponseMap)
 }
 
-case class QuizItemResponse(prompt: String, correctResponse: String,
-    promptType: String, responseType: String, response: String) {
+abstract class RequestToServer(val userToken: String)
+
+case class QuizItemAnswer(override val userToken: String, prompt: String, correctResponse: String,
+    promptType: String, responseType: String, response: String)
+  extends RequestToServer(userToken) {
 
   def isCorrect = correctResponse == response
 }
 
-object QuizItemResponse {
+object QuizItemAnswer {
 
   // Should be apply, but upickle complains.
-  def construct(qi: QuizItemReact, choice: String): QuizItemResponse =
-    QuizItemResponse(qi.prompt, qi.correctResponse, qi.promptType, qi.responseType, choice)
+  def construct(userToken: String, qi: QuizItemReact, choice: String): QuizItemAnswer =
+    QuizItemAnswer(userToken, qi.prompt, qi.correctResponse, qi.promptType,
+        qi.responseType, choice)
 }

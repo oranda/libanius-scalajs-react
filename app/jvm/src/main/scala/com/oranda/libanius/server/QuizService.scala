@@ -31,58 +31,108 @@ import com.oranda.libanius.scalajs._
 import QuizItemSource._
 import modelComponentsAsQuizItemSources._
 
+import scala.concurrent._
+import scala.concurrent.ExecutionContext.Implicits.global
+
+import scala.collection.immutable.ListMap
 
 object QuizService extends AppDependencyAccess {
 
-  val config = ConfigFactory.load().getConfig("libanius")
+  private[this] val config = ConfigFactory.load().getConfig("libanius")
 
-  val promptType = config.getString("promptType")
-  val responseType = config.getString("responseType")
+  private[this] val promptType = config.getString("promptType")
+  private[this] val responseType = config.getString("responseType")
 
-  val qgh = dataStore.findQuizGroupHeader(promptType, responseType, WordMapping)
-  val qghReverse = dataStore.findQuizGroupHeader(responseType, promptType, WordMapping)
+  private[this] val qgh = dataStore.findQuizGroupHeader(promptType, responseType, WordMapping)
+  private[this] val qghReverse = dataStore.findQuizGroupHeader(responseType, promptType,
+      WordMapping)
 
-  // Persistent (immutable) data structure used in this single-user local web application.
-  var quiz: Quiz = loadQuiz
+  // Map of user tokens to quizzes (in lieu of a proper database)
+  private[this] var userQuizMap: Map[String, Quiz] = ListMap()
 
-  private def loadQuiz: Quiz = {
-    val quizGroupHeaders = Seq(qgh, qghReverse).flatten
-    Quiz(quizGroupHeaders.map(qgh => (qgh, dataStore.loadQuizGroup(qgh))).toMap)
+
+  def findFirstQuizItem(userToken: String) = {
+    val quiz = loadQuiz
+    userQuizMap += (userToken -> quiz)
+    saveQuiz(userToken)
+    DataToClient(findQuizItem(quiz), scoreText(quiz))
   }
 
-  private def findPresentableQuizItem: Option[QuizItemViewWithChoices] =
+  def processUserResponse(qia: QuizItemAnswer): DataToClient = {
+    val quiz = getQuiz(qia.userToken)
+    for {
+      qgh <- dataStore.findQuizGroupHeader(qia.promptType, qia.responseType)
+      quizItem <- quiz.findQuizItem(qgh, qia.prompt, qia.correctResponse)
+    } yield Util.stopwatch(updateWithUserResponse(qia.userToken, qia.isCorrect, qgh, quizItem))
+
+    saveQuiz(qia.userToken)
+    findNextQuizItem(qia.userToken)
+  }
+
+  def removeCurrentWordAndShowNextItem(qia: QuizItemAnswer): DataToClient = {
+    qgh.foreach(removeWord(qia.userToken, _, qia.prompt, qia.correctResponse))
+    saveQuiz(qia.userToken)
+    findNextQuizItem(qia.userToken)
+  }
+
+  private[this] def loadQuiz: Quiz = {
+    val quizGroupHeaders = Seq(qgh, qghReverse).flatten
+    Quiz(quizGroupHeaders.map(qgh => (qgh, dataStore.initQuizGroup(qgh))).toMap)
+  }
+
+  private[this] def findPresentableQuizItem(quiz: Quiz): Option[QuizItemViewWithChoices] =
     produceQuizItem(quiz, NoParams())
 
-  def findNextQuizItem: DataToClient = {
-    val quizItemReact = findPresentableQuizItem.map { qiv =>
-      val promptResponseMap = makePromptResponseMap(qiv.allChoices, qiv.quizGroupHeader)
+  private[this] def findNextQuizItem(userToken: String): DataToClient = {
+    val quiz = getQuiz(userToken)
+    DataToClient(findQuizItem(quiz), scoreText(quiz))
+  }
+
+  private[this] def findQuizItem(quiz: Quiz): Option[QuizItemReact] =
+    findPresentableQuizItem(quiz).map { qiv =>
+      val promptResponseMap = makePromptResponseMap(quiz, qiv.allChoices, qiv.quizGroupHeader)
       QuizItemReact.construct(qiv, promptResponseMap)
     }
-    DataToClient(quizItemReact, scoreText)
+
+  private[this] def scoreText(quiz: Quiz): String = StringUtil.formatScore(quiz.scoreSoFar)
+
+  private[this] def getQuiz(userToken: String) = userQuizMap.getOrElse(userToken, loadQuiz)
+
+  private[this] def updateWithUserResponse(userToken: String, isCorrect: Boolean,
+      qgh: QuizGroupHeader, quizItem: QuizItem) {
+    val quiz = getQuiz(userToken)
+    val updatedQuiz = quiz.updateWithUserResponse(isCorrect, qgh, quizItem)
+    userQuizMap += (userToken -> updatedQuiz)
   }
 
-  def scoreText: String = StringUtil.formatScore(quiz.scoreSoFar)
+  private[this] def makePromptResponseMap(quiz: Quiz, choices: Seq[String],
+      quizGroupHeader: QuizGroupHeader): Seq[(String, String)] =
+    choices.map(promptToResponses(quiz, _, quizGroupHeader))
 
-  def processUserResponse(qir: QuizItemResponse): DataToClient = {
-    for {
-      qgh <- dataStore.findQuizGroupHeader(qir.promptType, qir.responseType)
-      quizItem <- quiz.findQuizItem(qgh, qir.prompt, qir.correctResponse)
-    } yield Util.stopwatch(quiz = quiz.updateWithUserResponse(qir.isCorrect, qgh, quizItem))
-
-    findNextQuizItem
-  }
-
-  private def makePromptResponseMap(choices: Seq[String], quizGroupHeader: QuizGroupHeader):
-      Seq[(String, String)] =
-    choices.map(promptToResponses(_, quizGroupHeader))
-
-  private def promptToResponses(choice: String, quizGroupHeader: QuizGroupHeader):
+  private[this] def promptToResponses(quiz: Quiz, choice: String, quizGroupHeader: QuizGroupHeader):
       Tuple2[String, String] = {
+
     val values = quiz.findPromptsFor(choice, quizGroupHeader) match {
       case Nil => quiz.findResponsesFor(choice, quizGroupHeader.reverse)
       case v => v
     }
 
     (choice, values.mkString(", "))
+  }
+
+  private[this] def removeWord(userToken: String, qgh: QuizGroupHeader, prompt: String,
+     correctResponse: String) {
+
+    val quiz = getQuiz(userToken)
+    val quizItem = QuizItem(prompt, correctResponse)
+    val (updatedQuiz, wasRemoved) = quiz.removeQuizItem(quizItem, qgh)
+    userQuizMap += (userToken -> updatedQuiz)
+    if (wasRemoved) l.log("Deleted quiz item " + quizItem)
+    else l.logError("Failed to remove " + quizItem)
+  }
+
+  private[this] def saveQuiz(userToken: String) {
+    val quiz = getQuiz(userToken)
+    Future { dataStore.saveQuiz(quiz, conf.filesDir, userToken) }
   }
 }

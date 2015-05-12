@@ -41,9 +41,11 @@ object Server extends SimpleRoutingApp with AppDependencyAccess {
             )
           }
         } ~
-        path("findNextQuizItem") {
-          complete {
-            upickle.write(QuizService.findNextQuizItem)
+        path("findFirstQuizItem") {
+          parameter("userToken") { userToken =>
+            complete {
+              upickle.write(QuizService.findFirstQuizItem(userToken))
+            }
           }
         } ~
         // serve other requests directly from the resource directory
@@ -53,8 +55,16 @@ object Server extends SimpleRoutingApp with AppDependencyAccess {
         path("processUserResponse") {
           extract(_.request.entity.asString) { e =>
             complete {
-              val quizItemResponse = upickle.read[QuizItemResponse](e)
-              upickle.write(QuizService.processUserResponse(quizItemResponse))
+              val quizItemAnswer = upickle.read[QuizItemAnswer](e)
+              upickle.write(QuizService.processUserResponse(quizItemAnswer))
+            }
+          }
+        } ~
+        path("removeCurrentWordAndShowNextItem") {
+          extract(_.request.entity.asString) { e =>
+            complete {
+              val quizItemAnswer = upickle.read[QuizItemAnswer](e)
+              upickle.write(QuizService.removeCurrentWordAndShowNextItem(quizItemAnswer))
             }
           }
         }
