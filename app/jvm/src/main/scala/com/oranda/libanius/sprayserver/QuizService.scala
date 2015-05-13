@@ -16,25 +16,22 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oranda.libanius.server
+package com.oranda.libanius.sprayserver
 
-
-import com.oranda.libanius.model.Quiz
-import com.oranda.libanius.model.action.{modelComponentsAsQuizItemSources, QuizItemSource, NoParams}
-import com.typesafe.config.ConfigFactory
-import com.oranda.libanius.model.quizgroup.{QuizGroupHeader, WordMapping}
 import com.oranda.libanius.dependencies.AppDependencyAccess
-import com.oranda.libanius.util.{StringUtil, Util}
+import com.oranda.libanius.model.Quiz
+import com.oranda.libanius.model.action.QuizItemSource._
+import com.oranda.libanius.model.action.modelComponentsAsQuizItemSources._
+import com.oranda.libanius.model.action.{NoParams, QuizItemSource, modelComponentsAsQuizItemSources}
+import com.oranda.libanius.model.quizgroup.{QuizGroupHeader, WordMapping}
 import com.oranda.libanius.model.quizitem._
 import com.oranda.libanius.scalajs._
-
-import QuizItemSource._
-import modelComponentsAsQuizItemSources._
-
-import scala.concurrent._
-import scala.concurrent.ExecutionContext.Implicits.global
+import com.oranda.libanius.util.{StringUtil, Util}
+import com.typesafe.config.ConfigFactory
 
 import scala.collection.immutable.ListMap
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent._
 
 object QuizService extends AppDependencyAccess {
 

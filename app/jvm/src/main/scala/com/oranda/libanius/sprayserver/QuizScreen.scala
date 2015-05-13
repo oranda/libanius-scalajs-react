@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oranda.libanius.server
+package com.oranda.libanius.sprayserver
 
 import scalatags.Text.all._
 
@@ -33,7 +33,6 @@ object QuizScreen {
       ),
       body(
         script(src:="/app-fastopt.js"),
-        //onload:=boot,
         div(cls:="center", id:="container"),
         script("com.oranda.libanius.scalajs.QuizScreen().main()")
       )

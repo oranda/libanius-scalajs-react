@@ -16,14 +16,14 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oranda.libanius.server
+package com.oranda.libanius.sprayserver
 
 import akka.actor.ActorSystem
 import com.oranda.libanius.dependencies.AppDependencyAccess
-import spray.http._
-import spray.routing.SimpleRoutingApp
 import com.oranda.libanius.scalajs._
 import com.typesafe.config.ConfigFactory
+import spray.http._
+import spray.routing.SimpleRoutingApp
 
 object Server extends SimpleRoutingApp with AppDependencyAccess {
   def main(args: Array[String]): Unit = {
