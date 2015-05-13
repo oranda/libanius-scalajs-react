@@ -45,6 +45,12 @@ As usual, the data store maintained by the Libanius core for the quiz is just a 
 files representing quiz groups.
 
 
+Screenshots
+===========
+
+![Libanius](https://github.com/oranda/libanius-scalajs-react/raw/master/docs/libanius-scalajs-react-v0.2-screenshot.png)
+
+
 License
 =======
 
