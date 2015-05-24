@@ -23,7 +23,7 @@ To install, either download the zip file for this project or clone it with git:
 
     git clone git://github.com/oranda/libanius-scalajs-react
 
-Then cd to the libanius-play directory and run it:
+Then cd to the libanius-scalajs-react directory and run it:
 
     sbt appJVM/run
 
