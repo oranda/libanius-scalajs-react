@@ -47,13 +47,10 @@ object QuizService extends AppDependencyAccess {
   // Map of user tokens to quizzes (in lieu of a proper database)
   private[this] var userQuizMap: Map[String, Quiz] = ListMap()
 
+  private[this] val initialQuiz = loadQuiz
 
-  def findFirstQuizItem(userToken: String) = {
-    val quiz = loadQuiz
-    userQuizMap += (userToken -> quiz)
-    saveQuiz(userToken)
-    DataToClient(findQuizItem(quiz), scoreText(quiz))
-  }
+  def findFirstQuizItem(userToken: String) =
+    findNextQuizItem(userToken, initialize = true)
 
   def processUserResponse(qia: QuizItemAnswer): DataToClient = {
     val quiz = getQuiz(qia.userToken)
@@ -80,8 +77,9 @@ object QuizService extends AppDependencyAccess {
   private[this] def findPresentableQuizItem(quiz: Quiz): Option[QuizItemViewWithChoices] =
     produceQuizItem(quiz, NoParams())
 
-  private[this] def findNextQuizItem(userToken: String): DataToClient = {
-    val quiz = getQuiz(userToken)
+  private[this] def findNextQuizItem(userToken: String, initialize: Boolean = false):
+      DataToClient = {
+    val quiz = getQuiz(userToken, initialize)
     DataToClient(findQuizItem(quiz), scoreText(quiz))
   }
 
@@ -93,13 +91,26 @@ object QuizService extends AppDependencyAccess {
 
   private[this] def scoreText(quiz: Quiz): String = StringUtil.formatScore(quiz.scoreSoFar)
 
-  private[this] def getQuiz(userToken: String) = userQuizMap.getOrElse(userToken, loadQuiz)
+  private[this] def getQuiz(userToken: String, initialize: Boolean = false): Quiz = {
+    def dealWithNoQuizFound: Quiz = {
+      if (!initialize) l.logError("Quiz expected for userToken " + userToken + " but not found")
+      updateUserQuizMap(userToken, initialQuiz)
+      initialQuiz
+    }
+    userQuizMap.getOrElse(userToken, dealWithNoQuizFound)
+  }
+
+  private[this] def updateUserQuizMap(userToken: String, quiz: Quiz) {
+    userQuizMap.synchronized {
+      userQuizMap += (userToken -> quiz)
+    }
+  }
 
   private[this] def updateWithUserResponse(userToken: String, isCorrect: Boolean,
       qgh: QuizGroupHeader, quizItem: QuizItem) {
     val quiz = getQuiz(userToken)
     val updatedQuiz = quiz.updateWithUserResponse(isCorrect, qgh, quizItem)
-    userQuizMap += (userToken -> updatedQuiz)
+    updateUserQuizMap(userToken, updatedQuiz)
   }
 
   private[this] def makePromptResponseMap(quiz: Quiz, choices: Seq[String],
@@ -123,7 +134,7 @@ object QuizService extends AppDependencyAccess {
     val quiz = getQuiz(userToken)
     val quizItem = QuizItem(prompt, correctResponse)
     val (updatedQuiz, wasRemoved) = quiz.removeQuizItem(quizItem, qgh)
-    userQuizMap += (userToken -> updatedQuiz)
+    updateUserQuizMap(userToken, updatedQuiz)
     if (wasRemoved) l.log("Deleted quiz item " + quizItem)
     else l.logError("Failed to remove " + quizItem)
   }
