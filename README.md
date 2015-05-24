@@ -17,8 +17,7 @@ James McCabe <james@oranda.com>
 Install
 =======
 
-Currently this is just a single-user application and you need to have Scala installed to run it. 
-It has been testted with Scala 2.11.6, Java 8, and sbt 0.13.6.
+You need to have Scala installed to run Libanius-ScalaJs-React. It has been tested with Scala 2.11.6, Java 8, and sbt 0.13.6.
 
 To install, either download the zip file for this project or clone it with git:
 
@@ -29,6 +28,8 @@ Then cd to the libanius-play directory and run it:
     sbt appJVM/run
 
 Then just open your browser at http://localhost:8080/
+
+Different users will get their own separate instances of the quiz.
 
 
 Implementation
@@ -54,7 +55,7 @@ Screenshots
 License
 =======
 
-Most Libanius-Play source files are made available under the terms of the GNU Affero General Public License (AGPL).
+Most Libanius-ScalaJs-React source files are made available under the terms of the GNU Affero General Public License (AGPL).
 See individual files for details.
 
 Attribution info is in [SOURCES](SOURCES.md).
