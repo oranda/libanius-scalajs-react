@@ -1,6 +1,7 @@
 .DS_Store
 logs
 project/project
+project/boot
 project/target
 target
 tmp

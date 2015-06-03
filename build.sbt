@@ -1,3 +1,6 @@
+import org.scalajs.sbtplugin.ScalaJSPlugin.autoImport._
+import sbt._
+
 import sbt.Keys._
 
 name := "Libanius Scala.js front-end"
@@ -45,6 +48,8 @@ lazy val appJS = app.js.settings(
 
 lazy val appJVM = app.jvm.settings(
 
+  mainClass in Compile := Some("com.oranda.libanius.sprayserver.Server"),
+
   // JS files like app-fastopt.js and app-jsdeps.js need to be copied to the server
   (resources in Compile) += (fastOptJS in (appJS, Compile)).value.data,
   (resources in Compile) += (packageJSDependencies in (appJS, Compile)).value,
@@ -60,4 +65,4 @@ lazy val appJVM = app.jvm.settings(
 
   // include the libanius core JAR
   unmanagedBase <<= baseDirectory(_ / "../shared/lib")
-)
+).enablePlugins(JavaAppPackaging)
