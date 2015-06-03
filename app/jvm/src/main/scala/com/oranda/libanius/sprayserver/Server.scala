@@ -24,12 +24,14 @@ import com.oranda.libanius.scalajs._
 import com.typesafe.config.ConfigFactory
 import spray.http._
 import spray.routing.SimpleRoutingApp
+import util.Properties
 
 object Server extends SimpleRoutingApp with AppDependencyAccess {
   def main(args: Array[String]): Unit = {
     implicit val system = ActorSystem()
     lazy val config = ConfigFactory.load()
-    val port = config.getInt("libanius.port")
+
+    val port = Properties.envOrElse("PORT", "8080").toInt // for Heroku compatibility
 
     startServer("0.0.0.0", port = port) {
       get {
