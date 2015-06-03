@@ -48,8 +48,6 @@ lazy val appJS = app.js.settings(
 
 lazy val appJVM = app.jvm.settings(
 
-  mainClass in Compile := Some("com.oranda.libanius.sprayserver.Server"),
-
   // JS files like app-fastopt.js and app-jsdeps.js need to be copied to the server
   (resources in Compile) += (fastOptJS in (appJS, Compile)).value.data,
   (resources in Compile) += (packageJSDependencies in (appJS, Compile)).value,
