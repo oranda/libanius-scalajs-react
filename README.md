@@ -52,6 +52,16 @@ Screenshots
 ![Libanius](https://github.com/oranda/libanius-scalajs-react/raw/master/docs/libanius-scalajs-react-v0.2-screenshot.png)
 
 
+Demo
+====
+
+As of writing, Libanius is deployed on Heroku at:
+
+https://thawing-stream-3905.herokuapp.com/
+
+However, this may not be supported indefinitely.
+
+
 License
 =======
 
