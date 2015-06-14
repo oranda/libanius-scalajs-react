@@ -1,4 +1,4 @@
-#quizGroup type="WordMapping" promptType="German word" responseType="English word" mainSeparator="|" currentPromptNumber="0" isActive="true"
+#quizGroup type="WordMapping" promptType="German word" responseType="English word" mainSeparator="|" useMultipleChoiceUntil="6" currentPromptNumber="0" isActive="true"
 #quizGroupPartition numCorrectResponsesInARow="0" repetitionInterval="0"
 auf|on|
 als|as|
