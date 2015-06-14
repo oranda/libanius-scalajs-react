@@ -97,7 +97,9 @@ object QuizService extends AppDependencyAccess {
       updateUserQuizMap(userToken, initialQuiz)
       initialQuiz
     }
-    userQuizMap.getOrElse(userToken, dealWithNoQuizFound)
+    userQuizMap.synchronized {
+      userQuizMap.get(userToken)
+    }.getOrElse(dealWithNoQuizFound)
   }
 
   private[this] def updateUserQuizMap(userToken: String, quiz: Quiz) {
