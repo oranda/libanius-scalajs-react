@@ -30,12 +30,26 @@ import scala.scalajs.js.annotation.JSExport
 @JSExport
 object QuizScreen {
 
-  case class State(userToken: String, currentQuizItem: Option[QuizItemReact] = None,
+  case class State(userToken: String, availableQuizGroups: Seq[QuizGroupKey] = Seq.empty,
+      currentQuizItem: Option[QuizItemReact] = None,
       prevQuizItem: Option[QuizItemReact] = None, scoreText: String = "",
       chosen: Option[String] = None, status: String = "") {
 
     def quizNotStarted = !currentQuizItem.isDefined && !prevQuizItem.isDefined
     def quizEnded = !currentQuizItem.isDefined && prevQuizItem.isDefined
+
+    def otherQuizGroups =
+      currentQuizItem.map { cqi =>
+        availableQuizGroups.filterNot(_ == QuizGroupKey(cqi.promptType, cqi.responseType))
+      }.getOrElse(availableQuizGroups)
+  }
+
+
+  private[this] def initialState(userToken: String, responseText: String): State = {
+    val quizData = upickle.read[InitialDataToClient](responseText)
+    val newQuizItem = quizData.quizItemReact
+    val availableQuizGroups: Seq[QuizGroupKey] = quizData.quizGroupHeaders
+    State(userToken, availableQuizGroups, newQuizItem, None, "0.0%")
   }
 
   class Backend(scope: BackendScope[Unit, State]) {
@@ -44,7 +58,6 @@ object QuizScreen {
       val url = "/processUserResponse"
       val response = QuizItemAnswer.construct(scope.state.userToken, curQuizItem, choice)
       val data = upickle.write(response)
-
       val sleepMillis: Double = if (response.isCorrect) 200 else 1000
       Ajax.post(url, data).foreach { xhr =>
         setTimeout(sleepMillis) { updateStateFromAjaxCall(xhr.responseText, scope) }
@@ -59,16 +72,24 @@ object QuizScreen {
         updateStateFromAjaxCall(xhr.responseText, scope)
       }
     }
+
+    def loadNewQuiz(qgKey: QuizGroupKey) {
+      val url = "/loadNewQuiz"
+      val data = upickle.write(LoadNewQuizRequest(scope.state.userToken, qgKey))
+      Ajax.post(url, data).foreach { xhr =>
+        scope.setState(initialState(scope.state.userToken, xhr.responseText))
+      }
+    }
   }
 
-  def updateStateFromAjaxCall(responseText: String, scope: BackendScope[Unit, State]): Unit = {
+  private[this] def updateStateFromAjaxCall(responseText: String, scope: BackendScope[Unit, State]) {
     val curQuizItem = scope.state.currentQuizItem
-    upickle.read[DataToClient](responseText) match {
-      case quizItemData: DataToClient =>
+    upickle.read[NewQuizItemToClient](responseText) match {
+      case quizItemData: NewQuizItemToClient =>
         val newQuizItem = quizItemData.quizItemReact
         // Set new quiz item and switch curQuizItem into the prevQuizItem position
-        scope.setState(State(scope.state.userToken, newQuizItem, curQuizItem,
-            quizItemData.scoreText))
+        scope.setState(State(scope.state.userToken, scope.state.availableQuizGroups,
+            newQuizItem, curQuizItem, quizItemData.scoreText))
     }
   }
 
@@ -83,7 +104,8 @@ object QuizScreen {
     .render(question =>
       <.span(
         <.span(^.id :=  "prompt-word", question.promptWord),
-        <.p("What is the ", <.span(^.id := "response-type", question.responseType), "? ",
+        <.p(^.id :=  "question-text",
+          "What is the ", <.span(^.id := "response-type", question.responseType), "? ",
           <.span("(correctly answered ", question.numCorrectResponsesInARow, " times)")),
         <.br()))
     .build
@@ -122,7 +144,7 @@ object QuizScreen {
     .render(statusText => <.p(^.className := "status-text", statusText))
     .build
 
-  def cssClassForChosen(buttonValue: String, chosen: Option[String], correctResponse: String):
+  private[this] def cssClassForChosen(buttonValue: String, chosen: Option[String], correctResponse: String):
       String =
     chosen match {
       case None => ""
@@ -161,7 +183,18 @@ object QuizScreen {
                 ^.onClick --> backend.submitResponse(choice, currentQuizItem), choice))
             )}),
           PreviousQuizItemArea(state.prevQuizItem),
-          StatusText(state.status))
+          StatusText(state.status),
+          <.br(),<.br(),
+          <.span(
+            <.span(^.id := "other-quiz-groups-header", "Other Quiz Groups"),
+            <.br(), <.br(), <.br(),
+            state.otherQuizGroups.map { qgKey =>
+              <.span(
+                ^.onClick --> backend.loadNewQuiz(qgKey),
+                ^.className := "other-quiz-group-text",
+                <.a(qgKey.promptType + " - " + qgKey.responseType),
+                <.br(), <.br())
+            }))
       case None =>
         if (!state.quizEnded)
           <.div("Loading...")
@@ -170,12 +203,9 @@ object QuizScreen {
     })
     .componentDidMount(scope => {
       // Make the Ajax call for the first quiz item
-      val url = "/findFirstQuizItem?userToken=" + scope.state.userToken
+      val url = "/initialQuizData?userToken=" + scope.state.userToken
       Ajax.get(url).foreach { xhr =>
-        val quizData = upickle.read[DataToClient](xhr.responseText)
-        val newQuizItem = quizData.quizItemReact
-        // Set new quiz item
-        scope.setState(State(scope.state.userToken, newQuizItem, None, quizData.scoreText))
+        scope.setState(initialState(scope.state.userToken, xhr.responseText))
       }}
     )
     .buildU

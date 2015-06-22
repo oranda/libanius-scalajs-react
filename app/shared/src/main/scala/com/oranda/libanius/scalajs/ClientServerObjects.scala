@@ -20,7 +20,20 @@ package com.oranda.libanius.scalajs
 
 import com.oranda.libanius.model.quizitem.QuizItemViewWithChoices
 
-case class DataToClient(quizItemReact: Option[QuizItemReact], scoreText: String)
+import scala.collection.immutable.Set
+
+abstract class DataToClient(val quizItemReact: Option[QuizItemReact])
+
+
+case class InitialDataToClient(override val quizItemReact: Option[QuizItemReact],
+    quizGroupHeaders: Seq[QuizGroupKey])
+  extends DataToClient(quizItemReact)
+
+case class NewQuizItemToClient(override val quizItemReact: Option[QuizItemReact],
+    scoreText: String)
+  extends DataToClient(quizItemReact)
+
+case class QuizGroupKey(promptType: String, responseType: String)
 
 // Note: for promptResponseMap, ListMap does not work with upickle
 case class QuizItemReact(prompt: String, correctResponse: String,
@@ -47,6 +60,9 @@ case class QuizItemAnswer(override val userToken: String, prompt: String, correc
 
   def isCorrect = correctResponse == response
 }
+
+case class LoadNewQuizRequest(override val userToken: String, qgKey: QuizGroupKey)
+  extends RequestToServer(userToken)
 
 object QuizItemAnswer {
 
