@@ -30,13 +30,21 @@ import scala.scalajs.js.annotation.JSExport
 @JSExport
 object QuizScreen {
 
-  case class State(userToken: String, availableQuizGroups: Seq[QuizGroupKey] = Seq.empty,
+  case class State(userToken: String, version: String,
+      availableQuizGroups: Seq[QuizGroupKey] = Seq.empty,
       currentQuizItem: Option[QuizItemReact] = None,
       prevQuizItem: Option[QuizItemReact] = None, scoreText: String = "",
       chosen: Option[String] = None, status: String = "") {
 
     def quizNotStarted = !currentQuizItem.isDefined && !prevQuizItem.isDefined
     def quizEnded = !currentQuizItem.isDefined && prevQuizItem.isDefined
+
+    def onNewQuizItem(newQuizItem: Option[QuizItemReact], score: String): State =
+      copy(prevQuizItem = currentQuizItem, currentQuizItem = newQuizItem, scoreText = score)
+
+    def onNewQuiz(availableQuizGroups: Seq[QuizGroupKey], newQuizItem: Option[QuizItemReact]):
+        State =
+      State(userToken, version, availableQuizGroups, newQuizItem, None, "0.0%")
 
     def otherQuizGroups =
       currentQuizItem.map { cqi =>
@@ -45,11 +53,11 @@ object QuizScreen {
   }
 
 
-  private[this] def initialState(userToken: String, responseText: String): State = {
+  private[this] def newQuizState(responseText: String, state: State): State = {
     val quizData = upickle.read[InitialDataToClient](responseText)
     val newQuizItem = quizData.quizItemReact
     val availableQuizGroups: Seq[QuizGroupKey] = quizData.quizGroupHeaders
-    State(userToken, availableQuizGroups, newQuizItem, None, "0.0%")
+    state.onNewQuiz(availableQuizGroups, newQuizItem)
   }
 
   class Backend(scope: BackendScope[Unit, State]) {
@@ -60,7 +68,7 @@ object QuizScreen {
       val data = upickle.write(response)
       val sleepMillis: Double = if (response.isCorrect) 200 else 1000
       Ajax.post(url, data).foreach { xhr =>
-        setTimeout(sleepMillis) { updateStateFromAjaxCall(xhr.responseText, scope) }
+        setTimeout(sleepMillis) { updatedStateNewQuizItem(xhr.responseText, scope.state) }
       }
     }
 
@@ -69,7 +77,7 @@ object QuizScreen {
       val response = QuizItemAnswer.construct(scope.state.userToken, curQuizItem, "")
       val data = upickle.write(response)
       Ajax.post(url, data).foreach { xhr =>
-        updateStateFromAjaxCall(xhr.responseText, scope)
+        scope.setState(updatedStateNewQuizItem(xhr.responseText, scope.state))
       }
     }
 
@@ -77,21 +85,18 @@ object QuizScreen {
       val url = "/loadNewQuiz"
       val data = upickle.write(LoadNewQuizRequest(scope.state.userToken, qgKey))
       Ajax.post(url, data).foreach { xhr =>
-        scope.setState(initialState(scope.state.userToken, xhr.responseText))
+        scope.setState(newQuizState(xhr.responseText, scope.state))
       }
     }
   }
 
-  private[this] def updateStateFromAjaxCall(responseText: String, scope: BackendScope[Unit, State]) {
-    val curQuizItem = scope.state.currentQuizItem
+  private[this] def updatedStateNewQuizItem(responseText: String, state: State): State =
     upickle.read[NewQuizItemToClient](responseText) match {
       case quizItemData: NewQuizItemToClient =>
         val newQuizItem = quizItemData.quizItemReact
-        // Set new quiz item and switch curQuizItem into the prevQuizItem position
-        scope.setState(State(scope.state.userToken, scope.state.availableQuizGroups,
-            newQuizItem, curQuizItem, quizItemData.scoreText))
+        // Make a new quiz state with the new quiz item: curQuizItem becomes the prevQuizItem
+        state.onNewQuizItem(newQuizItem, quizItemData.scoreText)
     }
-  }
 
   val ScoreText = ReactComponentB[String]("ScoreText")
     .render(scoreText => <.span(^.id := "score-text", ^.className := "alignleft",
@@ -159,7 +164,7 @@ object QuizScreen {
     System.currentTimeMillis + "" + scala.util.Random.nextInt(1000)
 
   val QuizScreen = ReactComponentB[Unit]("QuizScreen")
-    .initialState(State(generateUserToken))
+    .initialState(State(generateUserToken, ""))
     .backend(new Backend(_))
     .render((_, state, backend) => state.currentQuizItem match {
       // Only show the page if there is a quiz item
@@ -194,7 +199,8 @@ object QuizScreen {
                 ^.className := "other-quiz-group-text",
                 <.a(qgKey.promptType + " - " + qgKey.responseType),
                 <.br(), <.br())
-            }))
+            })
+          )
       case None =>
         if (!state.quizEnded)
           <.div("Loading...")
@@ -205,7 +211,7 @@ object QuizScreen {
       // Make the Ajax call for the first quiz item
       val url = "/initialQuizData?userToken=" + scope.state.userToken
       Ajax.get(url).foreach { xhr =>
-        scope.setState(initialState(scope.state.userToken, xhr.responseText))
+        scope.setState(newQuizState(xhr.responseText))
       }}
     )
     .buildU
