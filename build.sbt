@@ -7,13 +7,12 @@ name := "Libanius Scala.js front-end"
 
 version := "0.31"
 
-scalaVersion := "2.11.6"
-
 scalaJSStage in Global := FastOptStage
 
 skip in packageJSDependencies := false
 
 val app = crossProject.settings(
+  scalaVersion := "2.11.6",
 
   unmanagedSourceDirectories in Compile +=
     baseDirectory.value  / "shared" / "main" / "scala",
