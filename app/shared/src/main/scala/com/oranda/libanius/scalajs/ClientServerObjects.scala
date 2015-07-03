@@ -25,8 +25,8 @@ import scala.collection.immutable.Set
 abstract class DataToClient(val quizItemReact: Option[QuizItemReact])
 
 
-case class InitialDataToClient(override val quizItemReact: Option[QuizItemReact],
-    quizGroupHeaders: Seq[QuizGroupKey])
+case class InitialDataToClient(appVersion: String, quizGroupHeaders: Seq[QuizGroupKey],
+    override val quizItemReact: Option[QuizItemReact])
   extends DataToClient(quizItemReact)
 
 case class NewQuizItemToClient(override val quizItemReact: Option[QuizItemReact],

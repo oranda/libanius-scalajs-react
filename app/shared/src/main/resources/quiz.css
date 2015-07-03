@@ -10,28 +10,34 @@
         }
 
         #prompt-word {
-            font-size: 28px;
+            font-size: 24px;
             font-weight: bold;
         }
 
         #question-text {
-            font-size: 20px;
+            font-size: 18px;
         }
 
         #score-text {
-            font-size: 16px;
+            font-size: 14px;
             color: #9999FF;
             text-align: center
         }
 
         .status-text {
-            font-size: 16px;
+            font-size: 14px;
             text-align: center
         }
 
+        #descriptive-text {
+            font-size: 10px;
+            color: #FFFFFF;
+            text-align: right
+        }
+
         .response-choice-button {
-            font-size: 28px;
-            width: 600px;
+            font-size: 24px;
+            width: 550px;
             height: 120px;
             vertical-align: middle;
         }
@@ -45,7 +51,7 @@
         }
 
         .prev-choice {
-            font-size: 16px;
+            font-size: 14px;
         }
 
         .prev-choice.correct-response {
@@ -58,16 +64,16 @@
 
         #delete-button {
             color: red;
-            font-size: 14px;
+            font-size: 12px;
             width: 75px;
             height: 40px;
         }
 
         #header-wrapper {
-            width: 600px;
-            height: 28px;
+            width: 550px;
+            height: 24px;
             display: table;
-            padding: 0px;
+            padding: 0;
             margin-left: auto;
             margin-right: auto;
         }
@@ -80,21 +86,21 @@
         }
 
         #footer-wrapper {
-            width:600px;
-            height:50px;
+            width: 550px;
+            height: 45px;
             display: table;
-            padding: 0px;
+            padding: 0;
             margin-left: auto;
             margin-right: auto;
         }
 
         #other-quiz-groups-header {
-            font-size: 32px;
+            font-size: 28px;
             font-weight: bold;
         }
 
         .other-quiz-group-text {
-            font-size: 28px;
+            font-size: 24px;
             color: #0000FF;
             text-decoration: underline;
         }

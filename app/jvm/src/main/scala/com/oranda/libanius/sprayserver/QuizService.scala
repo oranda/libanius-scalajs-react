@@ -47,25 +47,25 @@ object QuizService extends AppDependencyAccess {
 
   private[this] val initialQuiz = loadQuiz(initQgh)
 
-
   def initialQuizData(userToken: String): InitialDataToClient = {
     val quiz = getQuiz(userToken)
-    val availableQuizGroups: Set[QuizGroupHeader] = dataStore.findAvailableQuizGroups
-    val quizGroupHeaders = availableQuizGroups.map(
-        qgh => QuizGroupKey(qgh.promptType, qgh.responseType)).toSeq
-    InitialDataToClient(findQuizItem(quiz), quizGroupHeaders)
+    initialDataToClient(quiz)
   }
 
   def loadNewQuiz(lnqRequest: LoadNewQuizRequest): InitialDataToClient = {
-
     val (promptType, responseType) = (lnqRequest.qgKey.promptType, lnqRequest.qgKey.responseType)
     val qgh = dataStore.findQuizGroupHeader(promptType, responseType, WordMapping)
     val quiz = initQuiz(lnqRequest.userToken, qgh)
+    initialDataToClient(quiz)
+  }
+
+  private[this] def initialDataToClient(quiz: Quiz): InitialDataToClient = {
     // Refresh the availableQuizGroups in case another source has altered them.
     val availableQuizGroups: Set[QuizGroupHeader] = dataStore.findAvailableQuizGroups
     val quizGroupHeaders = availableQuizGroups.map(
-        qgh => QuizGroupKey(qgh.promptType, qgh.responseType)).toSeq
-    InitialDataToClient(findQuizItem(quiz), quizGroupHeaders)
+      qgh => QuizGroupKey(qgh.promptType, qgh.responseType)).toSeq
+    val appVersion: String = config.getString("appVersion")
+    InitialDataToClient(appVersion, quizGroupHeaders, findQuizItem(quiz))
   }
 
   def processUserResponse(qia: QuizItemAnswer): NewQuizItemToClient = {

@@ -5,11 +5,16 @@ import sbt.Keys._
 
 name := "Libanius Scala.js front-end"
 
+version := "0.31"
+
+scalaVersion := "2.11.6"
+
 scalaJSStage in Global := FastOptStage
 
 skip in packageJSDependencies := false
 
 val app = crossProject.settings(
+
   unmanagedSourceDirectories in Compile +=
     baseDirectory.value  / "shared" / "main" / "scala",
 
@@ -18,8 +23,8 @@ val app = crossProject.settings(
     "com.lihaoyi" %%% "utest" % "0.3.0",
     "com.lihaoyi" %%% "upickle" % "0.2.8"
   ),
-  scalaVersion := "2.11.6",
   testFrameworks += new TestFramework("utest.runner.Framework")
+
 ).jsSettings(
   libraryDependencies ++= Seq(
     "org.scala-js" %%% "scalajs-dom" % "0.8.0",
@@ -48,6 +53,9 @@ lazy val appJS = app.js.settings(
 
 lazy val appJVM = app.jvm.settings(
 
+
+  version := "0.31",
+
   // JS files like app-fastopt.js and app-jsdeps.js need to be copied to the server
   (resources in Compile) += (fastOptJS in (appJS, Compile)).value.data,
   (resources in Compile) += (packageJSDependencies in (appJS, Compile)).value,
@@ -63,4 +71,5 @@ lazy val appJVM = app.jvm.settings(
 
   // include the libanius core JAR
   unmanagedBase <<= baseDirectory(_ / "../shared/lib")
+
 ).enablePlugins(JavaAppPackaging)

@@ -1,3 +1,8 @@
+== 0.31 July 2 2015
+
+ * Display version number to help testing, and link to source code.
+
+
 == 0.3 June 22 2015
 
  * Now has multiple quizzes. (In this client, only one quiz group is allowed per quiz at any one time.)

@@ -18,6 +18,7 @@
 
 package com.oranda.libanius.scalajs
 
+import com.oranda.libanius.dependencies.AppDependencyAccess
 import japgolly.scalajs.react.vdom.prefix_<^._
 import org.scalajs.dom.document
 import scalajs.concurrent.JSExecutionContext.Implicits.runNow
@@ -30,7 +31,7 @@ import scala.scalajs.js.annotation.JSExport
 @JSExport
 object QuizScreen {
 
-  case class State(userToken: String, version: String,
+  case class State(userToken: String, appVersion: String,
       availableQuizGroups: Seq[QuizGroupKey] = Seq.empty,
       currentQuizItem: Option[QuizItemReact] = None,
       prevQuizItem: Option[QuizItemReact] = None, scoreText: String = "",
@@ -40,11 +41,11 @@ object QuizScreen {
     def quizEnded = !currentQuizItem.isDefined && prevQuizItem.isDefined
 
     def onNewQuizItem(newQuizItem: Option[QuizItemReact], score: String): State =
-      copy(prevQuizItem = currentQuizItem, currentQuizItem = newQuizItem, scoreText = score)
+      State(userToken, appVersion, availableQuizGroups, newQuizItem, currentQuizItem, score)
 
-    def onNewQuiz(availableQuizGroups: Seq[QuizGroupKey], newQuizItem: Option[QuizItemReact]):
-        State =
-      State(userToken, version, availableQuizGroups, newQuizItem, None, "0.0%")
+    def onNewQuiz(appVersion: String, availableQuizGroups: Seq[QuizGroupKey],
+        newQuizItem: Option[QuizItemReact]): State =
+      State(userToken, appVersion, availableQuizGroups, newQuizItem, None, "0.0%")
 
     def otherQuizGroups =
       currentQuizItem.map { cqi =>
@@ -55,9 +56,10 @@ object QuizScreen {
 
   private[this] def newQuizState(responseText: String, state: State): State = {
     val quizData = upickle.read[InitialDataToClient](responseText)
-    val newQuizItem = quizData.quizItemReact
+    val appVersion = quizData.appVersion
     val availableQuizGroups: Seq[QuizGroupKey] = quizData.quizGroupHeaders
-    state.onNewQuiz(availableQuizGroups, newQuizItem)
+    val newQuizItem = quizData.quizItemReact
+    state.onNewQuiz(appVersion, availableQuizGroups, newQuizItem)
   }
 
   class Backend(scope: BackendScope[Unit, State]) {
@@ -68,9 +70,19 @@ object QuizScreen {
       val data = upickle.write(response)
       val sleepMillis: Double = if (response.isCorrect) 200 else 1000
       Ajax.post(url, data).foreach { xhr =>
-        setTimeout(sleepMillis) { updatedStateNewQuizItem(xhr.responseText, scope.state) }
+        setTimeout(sleepMillis) {
+          scope.setState(updatedStateNewQuizItem(xhr.responseText, scope.state))
+        }
       }
     }
+
+    private[this] def updatedStateNewQuizItem(responseText: String, state: State): State =
+      upickle.read[NewQuizItemToClient](responseText) match {
+        case quizItemData: NewQuizItemToClient =>
+          val newQuizItem = quizItemData.quizItemReact
+          // Make a new quiz state with the new quiz item: curQuizItem becomes the prevQuizItem
+          state.onNewQuizItem(newQuizItem, quizItemData.scoreText)
+      }
 
     def removeCurrentWordAndShowNextItem(curQuizItem: QuizItemReact) {
       val url = "/removeCurrentWordAndShowNextItem"
@@ -89,14 +101,6 @@ object QuizScreen {
       }
     }
   }
-
-  private[this] def updatedStateNewQuizItem(responseText: String, state: State): State =
-    upickle.read[NewQuizItemToClient](responseText) match {
-      case quizItemData: NewQuizItemToClient =>
-        val newQuizItem = quizItemData.quizItemReact
-        // Make a new quiz state with the new quiz item: curQuizItem becomes the prevQuizItem
-        state.onNewQuizItem(newQuizItem, quizItemData.scoreText)
-    }
 
   val ScoreText = ReactComponentB[String]("ScoreText")
     .render(scoreText => <.span(^.id := "score-text", ^.className := "alignleft",
@@ -149,6 +153,14 @@ object QuizScreen {
     .render(statusText => <.p(^.className := "status-text", statusText))
     .build
 
+  val DescriptiveText = ReactComponentB[String]("DescriptiveText")
+    .render(appVersion => <.span(^.id := "descriptive-text",
+        <.a(^.href := "https://github.com/oranda/libanius-scalajs-react",
+          "libanius-scalajs-react"),
+        <.span(" v" + appVersion + " by "),
+        <.a(^.href := "https://scala-bility.blogspot.de/", "James McCabe")))
+    .build
+
   private[this] def cssClassForChosen(buttonValue: String, chosen: Option[String], correctResponse: String):
       String =
     chosen match {
@@ -199,8 +211,10 @@ object QuizScreen {
                 ^.className := "other-quiz-group-text",
                 <.a(qgKey.promptType + " - " + qgKey.responseType),
                 <.br(), <.br())
-            })
-          )
+            }),
+          <.br(),<.br(),<.br(),<.br(),
+          DescriptiveText(state.appVersion)
+        )
       case None =>
         if (!state.quizEnded)
           <.div("Loading...")
@@ -211,7 +225,7 @@ object QuizScreen {
       // Make the Ajax call for the first quiz item
       val url = "/initialQuizData?userToken=" + scope.state.userToken
       Ajax.get(url).foreach { xhr =>
-        scope.setState(newQuizState(xhr.responseText))
+        scope.setState(newQuizState(xhr.responseText, scope.state))
       }}
     )
     .buildU
