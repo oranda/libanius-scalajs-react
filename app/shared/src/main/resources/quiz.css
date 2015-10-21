@@ -104,3 +104,22 @@
             color: #0000FF;
             text-decoration: underline;
         }
+
+        #quiz-persistence-area {
+            width: 550px;
+            color: #888800;
+            display: table;
+            padding: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #restore-data {
+            width: 200px;
+            float: left;
+        }
+
+        #save-data {
+            width: 200px;
+            float: right;
+        }

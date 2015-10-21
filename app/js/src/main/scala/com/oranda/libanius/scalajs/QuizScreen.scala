@@ -23,6 +23,7 @@ import japgolly.scalajs.react.vdom.prefix_<^._
 import org.scalajs.dom.document
 import scalajs.concurrent.JSExecutionContext.Implicits.runNow
 import org.scalajs.dom.ext.Ajax
+import org.scalajs.dom.window
 import scala.scalajs.js.timers._
 import japgolly.scalajs.react._
 
@@ -63,6 +64,7 @@ object QuizScreen {
   }
 
   class Backend(scope: BackendScope[Unit, State]) {
+
     def submitResponse(choice: String, curQuizItem: QuizItemReact) {
       scope.modState(_.copy(chosen = Some(choice)))
       val url = "/processUserResponse"
@@ -75,6 +77,7 @@ object QuizScreen {
         }
       }
     }
+
 
     private[this] def updatedStateNewQuizItem(responseText: String, state: State): State =
       upickle.read[NewQuizItemToClient](responseText) match {
@@ -149,6 +152,28 @@ object QuizScreen {
         case None => <.span()
       }).build
 
+  val QuizPersistenceArea = ReactComponentB[(String, Backend)]("QuizPersistenceArea")
+    .render(P => {
+        val (userToken, backend) = P
+        <.span(^.id := "quiz-persistence-area",
+          <.span(^.id := "restore-data",
+            <.form("Restore quiz group state from local disk: ",
+              ^.action := "/restoreQuizLocal",
+              ^.method := "post",
+              ^.encType := "multipart/form-data",
+              // hidden input with userToken
+              <.input(^.name := "userToken", ^.`type` := "hidden", ^.value := userToken),
+              <.input(^.id := "restore-button", ^.`type` := "file", ^.name := "fileQuizGroupData"),
+              <.input(^.`type` := "submit")
+            )),
+          <.span(^.id := "save-data",
+            <.span("Save quiz group state to local disk: "),
+            <.br(),
+            <.button(^.id := "save-button",
+              ^.onClick --> window.location.assign("/saveQuizLocal?userToken=" + userToken),
+              "Save"))
+    )}).build
+
   val StatusText = ReactComponentB[String]("StatusText")
     .render(statusText => <.p(^.className := "status-text", statusText))
     .build
@@ -171,6 +196,10 @@ object QuizScreen {
           if (chosenResponse != buttonValue) "" else "incorrect-response"
         }
     }
+
+  // TODO: check if a userToken already exists in a cookie
+  // println("raw cookies = " + dom.document.cookie)
+  // println(cookies)
 
   private[this] def generateUserToken =
     System.currentTimeMillis + "" + scala.util.Random.nextInt(1000)
@@ -202,6 +231,8 @@ object QuizScreen {
           PreviousQuizItemArea(state.prevQuizItem),
           StatusText(state.status),
           <.br(),<.br(),
+          QuizPersistenceArea((state.userToken, backend)),
+          <.br(),<.br(),<.br(),<.br(),
           <.span(
             <.span(^.id := "other-quiz-groups-header", "Other Quiz Groups"),
             <.br(), <.br(), <.br(),

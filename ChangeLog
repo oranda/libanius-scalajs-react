@@ -1,3 +1,8 @@
+== 0.4 (Nov 2015)
+
+ * Allow the user to persist quiz data to his/her local computer.
+
+
 == 0.31 July 2 2015
 
  * Display version number to help testing, and link to source code.

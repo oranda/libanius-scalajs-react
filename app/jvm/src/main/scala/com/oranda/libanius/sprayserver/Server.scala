@@ -22,21 +22,28 @@ import akka.actor.ActorSystem
 import com.oranda.libanius.dependencies.AppDependencyAccess
 import com.oranda.libanius.scalajs._
 import com.typesafe.config.ConfigFactory
+import spray.http.MediaTypes._
 import spray.http._
+import spray.http.HttpHeaders._
+import spray.http.ContentType
+import spray.http.MediaTypes
+
 import spray.routing.SimpleRoutingApp
-import util.Properties
+
+case class ImageUploaded(size: Int)
 
 object Server extends SimpleRoutingApp with AppDependencyAccess {
   def main(args: Array[String]): Unit = {
     implicit val system = ActorSystem()
-    lazy val config = ConfigFactory.load()
 
-    val port = Properties.envOrElse("PORT", "8080").toInt // for Heroku compatibility
+    val config = ConfigFactory.load().getConfig("libanius")
+
+    val port = config.getInt("port") // for Heroku compatibility
 
     startServer("0.0.0.0", port = port) {
       get {
         pathSingleSlash {
-          complete{
+          complete {
             HttpEntity(
               MediaTypes.`text/html`,
               QuizScreen.skeleton.render
@@ -48,6 +55,14 @@ object Server extends SimpleRoutingApp with AppDependencyAccess {
             complete {
               val initialDataToClient: InitialDataToClient = QuizService.initialQuizData(userToken)
               upickle.write(initialDataToClient)
+            }
+          }
+        } ~
+        path("saveQuizLocal") {
+          parameter("userToken") { userToken =>
+            // cause a "Save As" dialog
+            respondWithHeader(`Content-Disposition`("attachment", Map(("filename", "quiz.txt")))) {
+              complete(QuizService.quizDataToSave(userToken))
             }
           }
         } ~
@@ -78,6 +93,25 @@ object Server extends SimpleRoutingApp with AppDependencyAccess {
               val lnqRequest = upickle.read[LoadNewQuizRequest](e)
               upickle.write(QuizService.loadNewQuiz(lnqRequest))
             }
+          }
+        } ~
+        path("restoreQuizLocal") {
+          handleWith { data: MultipartFormData =>
+
+            val userToken = data.get("userToken").map(_.entity.asString).getOrElse("")
+            val strQuizGroup = data.get("fileQuizGroupData").map(_.entity.asString).getOrElse("")
+
+            l.log("userToken: " + userToken)
+            l.log("strQuizGroup: " + strQuizGroup)
+
+            upickle.write(QuizService.parseQuiz(strQuizGroup, userToken))
+          }
+          complete {
+            // set a cookie with the userToken
+            HttpEntity(
+              MediaTypes.`text/html`,
+              QuizScreen.skeleton.render // TODO: QuizScreen.skeleton.render(Some(userToken))
+            )
           }
         }
       }

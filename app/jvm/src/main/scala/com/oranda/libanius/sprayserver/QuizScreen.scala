@@ -22,7 +22,11 @@ import scalatags.Text.all._
 
 object QuizScreen {
 
-  val skeleton =
+  /*
+   * By default the userToken is None here, and is generated on initialization,
+   * but there is a possibility of loading data for an existing user.
+   */
+  val skeleton =  // TODO: def skeleton(userToken: Option[String] = None)
     html(
       head(
         link(
@@ -31,6 +35,7 @@ object QuizScreen {
         ),
         script(src:="/app-jsdeps.js")
       ),
+      // set a userToken in a hidden div or something like that if it exists
       body(
         script(src:="/app-fastopt.js"),
         div(cls:="center", id:="container"),

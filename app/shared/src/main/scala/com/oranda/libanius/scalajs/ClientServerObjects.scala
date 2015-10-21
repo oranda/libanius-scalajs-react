@@ -64,6 +64,9 @@ case class QuizItemAnswer(override val userToken: String, prompt: String, correc
 case class LoadNewQuizRequest(override val userToken: String, qgKey: QuizGroupKey)
   extends RequestToServer(userToken)
 
+//case class RestoreQuizLocalRequest(override val userToken: String, quizData: org.scalajs.dom.File)
+//  extends RequestToServer(userToken)
+
 object QuizItemAnswer {
 
   // Should be apply, but upickle complains.

@@ -22,8 +22,11 @@ import com.oranda.libanius.dependencies.AppDependencyAccess
 import com.oranda.libanius.model.Quiz
 import com.oranda.libanius.model.action.QuizItemSource._
 import com.oranda.libanius.model.action.modelComponentsAsQuizItemSources._
+import com.oranda.libanius.model.action.serialize.CustomFormat._
+import com.oranda.libanius.model.action.serialize.CustomFormatForModelComponents._
+import com.oranda.libanius.model.action.serialize.Separator
 import com.oranda.libanius.model.action.{NoParams, QuizItemSource, modelComponentsAsQuizItemSources}
-import com.oranda.libanius.model.quizgroup.{QuizGroupHeader, WordMapping}
+import com.oranda.libanius.model.quizgroup.{QuizGroupWithHeader, QuizGroupHeader, WordMapping}
 import com.oranda.libanius.model.quizitem._
 import com.oranda.libanius.scalajs._
 import com.oranda.libanius.util.{StringUtil, Util}
@@ -79,11 +82,30 @@ object QuizService extends AppDependencyAccess {
     findNextQuizItem(qia.userToken)
   }
 
+  def parseQuiz(strQuizGroup: String, userToken: String) {
+    val qgwh: QuizGroupWithHeader = deserialize[QuizGroupWithHeader, Separator](
+        strQuizGroup, Separator("|"))
+    val quiz = new Quiz().addQuizGroup(qgwh.header, qgwh.quizGroup)
+    updateUserQuizMap(userToken, quiz)
+    //initialDataToClient(quiz)
+  }
+
   def removeCurrentWordAndShowNextItem(qia: QuizItemAnswer): NewQuizItemToClient = {
     val qgh = dataStore.findQuizGroupHeader(qia.promptType, qia.responseType)
     qgh.foreach(removeWord(qia.userToken, _, qia.prompt, qia.correctResponse))
     saveQuiz(qia.userToken)
     findNextQuizItem(qia.userToken)
+  }
+
+  def quizDataToSave(userToken: String): String = {
+    val quiz = getQuiz(userToken)
+    // Assumes the Quiz holds a single quiz group.
+    quiz.activeQuizGroups.toList.lift(0) match {
+      case Some(Tuple2(header, quizGroup)) =>
+        val qgwh = QuizGroupWithHeader(header, quizGroup)
+        qgwh.toCustomFormat
+      case None => ""
+    }
   }
 
   private[this] def loadQuiz(qghOpt: Option[QuizGroupHeader]): Quiz = {
@@ -100,8 +122,7 @@ object QuizService extends AppDependencyAccess {
   private[this] def findPresentableQuizItem(quiz: Quiz): Option[QuizItemViewWithChoices] =
     produceQuizItem(quiz, NoParams())
 
-  private[this] def findNextQuizItem(userToken: String):
-      NewQuizItemToClient = {
+  private[this] def findNextQuizItem(userToken: String): NewQuizItemToClient = {
     val quiz = getQuiz(userToken)
     NewQuizItemToClient(findQuizItem(quiz), scoreText(quiz))
   }

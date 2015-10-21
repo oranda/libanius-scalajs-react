@@ -5,8 +5,6 @@ import sbt.Keys._
 
 name := "Libanius Scala.js front-end"
 
-version := "0.31"
-
 scalaJSStage in Global := FastOptStage
 
 skip in packageJSDependencies := false
