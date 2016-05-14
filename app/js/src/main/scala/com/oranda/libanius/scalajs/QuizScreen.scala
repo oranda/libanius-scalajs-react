@@ -18,7 +18,6 @@
 
 package com.oranda.libanius.scalajs
 
-import com.oranda.libanius.dependencies.AppDependencyAccess
 import japgolly.scalajs.react.vdom.prefix_<^._
 import org.scalajs.dom.document
 import scalajs.concurrent.JSExecutionContext.Implicits.runNow
@@ -44,9 +43,8 @@ object QuizScreen {
     def onNewQuizItem(newQuizItem: Option[QuizItemReact], score: String): State =
       State(userToken, appVersion, availableQuizGroups, newQuizItem, currentQuizItem, score)
 
-    def onNewQuiz(appVersion: String, availableQuizGroups: Seq[QuizGroupKey],
-        newQuizItem: Option[QuizItemReact]): State =
-      State(userToken, appVersion, availableQuizGroups, newQuizItem, None, "0.0%")
+    def onNewQuiz(appVersion: String, availableQuizGroups: Seq[QuizGroupKey]): State =
+      State(userToken, appVersion, availableQuizGroups, None, None, "0.0%")
 
     def otherQuizGroups =
       currentQuizItem.map { cqi =>
@@ -54,16 +52,19 @@ object QuizScreen {
       }.getOrElse(availableQuizGroups)
   }
 
-
-  private[this] def newQuizState(responseText: String, state: State): State = {
-    val quizData = upickle.read[InitialDataToClient](responseText)
+  private[this] def newQuizStateFromStaticData(responseText: String, state: State): State = {
+    val quizData = upickle.read[StaticDataToClient](responseText)
     val appVersion = quizData.appVersion
     val availableQuizGroups: Seq[QuizGroupKey] = quizData.quizGroupHeaders
-    val newQuizItem = quizData.quizItemReact
-    state.onNewQuiz(appVersion, availableQuizGroups, newQuizItem)
+    state.onNewQuiz(appVersion, availableQuizGroups)
   }
 
-  class Backend(scope: BackendScope[Unit, State]) {
+  private[this] def newQuizStateFromQuizItem(responseText: String, state: State): State = {
+    val newQuizItem = upickle.read[NewQuizItemToClient](responseText)
+    state.onNewQuizItem(newQuizItem.quizItemReact, newQuizItem.scoreText)
+  }
+
+  class Backend(scope: BackendScope[String, State]) {
 
     def submitResponse(choice: String, curQuizItem: QuizItemReact) {
       scope.modState(_.copy(chosen = Some(choice)))
@@ -77,7 +78,6 @@ object QuizScreen {
         }
       }
     }
-
 
     private[this] def updatedStateNewQuizItem(responseText: String, state: State): State =
       upickle.read[NewQuizItemToClient](responseText) match {
@@ -100,7 +100,10 @@ object QuizScreen {
       val url = "/loadNewQuiz"
       val data = upickle.write(LoadNewQuizRequest(scope.state.userToken, qgKey))
       Ajax.post(url, data).foreach { xhr =>
-        scope.setState(newQuizState(xhr.responseText, scope.state))
+        scope.setState(newQuizStateFromStaticData(xhr.responseText, scope.state))
+      }
+      Ajax.get("/findNextQuizItem?userToken=" + scope.state.userToken).foreach { xhr =>
+        scope.setState(newQuizStateFromQuizItem(xhr.responseText, scope.state))
       }
     }
   }
@@ -157,7 +160,10 @@ object QuizScreen {
         val (userToken, backend) = P
         <.span(^.id := "quiz-persistence-area",
           <.span(^.id := "restore-data",
-            <.form("Restore quiz group state from local disk: ",
+            <.span("Restore quiz group state from local disk: "),
+            <.br(),
+            <.br(),
+            <.form(
               ^.action := "/restoreQuizLocal",
               ^.method := "post",
               ^.encType := "multipart/form-data",
@@ -168,6 +174,7 @@ object QuizScreen {
             )),
           <.span(^.id := "save-data",
             <.span("Save quiz group state to local disk: "),
+            <.br(),
             <.br(),
             <.button(^.id := "save-button",
               ^.onClick --> window.location.assign("/saveQuizLocal?userToken=" + userToken),
@@ -186,8 +193,8 @@ object QuizScreen {
         <.a(^.href := "https://scala-bility.blogspot.de/", "James McCabe")))
     .build
 
-  private[this] def cssClassForChosen(buttonValue: String, chosen: Option[String], correctResponse: String):
-      String =
+  private[this] def cssClassForChosen(buttonValue: String, chosen: Option[String],
+      correctResponse: String): String =
     chosen match {
       case None => ""
       case Some(chosenResponse) =>
@@ -197,15 +204,12 @@ object QuizScreen {
         }
     }
 
-  // TODO: check if a userToken already exists in a cookie
-  // println("raw cookies = " + dom.document.cookie)
-  // println(cookies)
+  private[this] def getOrGenerateUserToken(userToken: String) =
+    if (userToken.nonEmpty) userToken
+    else System.currentTimeMillis + "" + scala.util.Random.nextInt(1000)
 
-  private[this] def generateUserToken =
-    System.currentTimeMillis + "" + scala.util.Random.nextInt(1000)
-
-  val QuizScreen = ReactComponentB[Unit]("QuizScreen")
-    .initialState(State(generateUserToken, ""))
+  val QuizScreen = ReactComponentB[String]("QuizScreen")
+    .initialStateP(props => State(getOrGenerateUserToken(props), ""))
     .backend(new Backend(_))
     .render((_, state, backend) => state.currentQuizItem match {
       // Only show the page if there is a quiz item
@@ -253,17 +257,21 @@ object QuizScreen {
           <.div("Congratulations! Quiz complete. Score: " + state.scoreText)
     })
     .componentDidMount(scope => {
-      // Make the Ajax call for the first quiz item
-      val url = "/initialQuizData?userToken=" + scope.state.userToken
-      Ajax.get(url).foreach { xhr =>
-        scope.setState(newQuizState(xhr.responseText, scope.state))
-      }}
+        def withUserToken(url: String) = url + "?userToken=" + scope.state.userToken
+        Ajax.get(withUserToken("/staticQuizData")).foreach { xhr =>
+          scope.setState(newQuizStateFromStaticData(xhr.responseText, scope.state))
+        }
+        Ajax.get(withUserToken("/findNextQuizItem")).foreach { xhr =>
+          scope.setState(newQuizStateFromQuizItem(xhr.responseText, scope.state))
+        }
+      }
     )
-    .buildU
+    .build
 
   @JSExport
-  def main(): Unit = {
-    QuizScreen() render document.getElementById("container")
+  def main(userToken: String) {
+    // userToken may be empty, in which case a new unique userToken will be generated
+    QuizScreen(userToken) render document.getElementById("container")
   }
 }
 

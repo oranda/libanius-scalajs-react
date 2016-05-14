@@ -25,7 +25,7 @@ import com.oranda.libanius.model.action.modelComponentsAsQuizItemSources._
 import com.oranda.libanius.model.action.serialize.CustomFormat._
 import com.oranda.libanius.model.action.serialize.CustomFormatForModelComponents._
 import com.oranda.libanius.model.action.serialize.Separator
-import com.oranda.libanius.model.action.{NoParams, QuizItemSource, modelComponentsAsQuizItemSources}
+import com.oranda.libanius.model.action.NoParams
 import com.oranda.libanius.model.quizgroup.{QuizGroupWithHeader, QuizGroupHeader, WordMapping}
 import com.oranda.libanius.model.quizitem._
 import com.oranda.libanius.scalajs._
@@ -50,25 +50,25 @@ object QuizService extends AppDependencyAccess {
 
   private[this] val initialQuiz = loadQuiz(initQgh)
 
-  def initialQuizData(userToken: String): InitialDataToClient = {
+  def staticQuizData(userToken: String): StaticDataToClient = {
     val quiz = getQuiz(userToken)
-    initialDataToClient(quiz)
+    staticDataToClient(quiz)
   }
 
-  def loadNewQuiz(lnqRequest: LoadNewQuizRequest): InitialDataToClient = {
+  def loadNewQuiz(lnqRequest: LoadNewQuizRequest): StaticDataToClient = {
     val (promptType, responseType) = (lnqRequest.qgKey.promptType, lnqRequest.qgKey.responseType)
     val qgh = dataStore.findQuizGroupHeader(promptType, responseType, WordMapping)
     val quiz = initQuiz(lnqRequest.userToken, qgh)
-    initialDataToClient(quiz)
+    staticDataToClient(quiz)
   }
 
-  private[this] def initialDataToClient(quiz: Quiz): InitialDataToClient = {
+  private[this] def staticDataToClient(quiz: Quiz): StaticDataToClient = {
     // Refresh the availableQuizGroups in case another source has altered them.
     val availableQuizGroups: Set[QuizGroupHeader] = dataStore.findAvailableQuizGroups
     val quizGroupHeaders = availableQuizGroups.map(
-      qgh => QuizGroupKey(qgh.promptType, qgh.responseType)).toSeq
-    val appVersion: String = config.getString("appVersion")
-    InitialDataToClient(appVersion, quizGroupHeaders, findQuizItem(quiz))
+        qgh => QuizGroupKey(qgh.promptType, qgh.responseType)).toSeq
+    val appVersion = config.getString("appVersion")
+    StaticDataToClient(appVersion, quizGroupHeaders)
   }
 
   def processUserResponse(qia: QuizItemAnswer): NewQuizItemToClient = {
@@ -82,12 +82,13 @@ object QuizService extends AppDependencyAccess {
     findNextQuizItem(qia.userToken)
   }
 
-  def parseQuiz(strQuizGroup: String, userToken: String) {
+  def parseQuiz(strQuizGroup: String, userToken: String) = {
     val qgwh: QuizGroupWithHeader = deserialize[QuizGroupWithHeader, Separator](
         strQuizGroup, Separator("|"))
     val quiz = new Quiz().addQuizGroup(qgwh.header, qgwh.quizGroup)
     updateUserQuizMap(userToken, quiz)
-    //initialDataToClient(quiz)
+    saveQuiz(userToken)
+    staticDataToClient(quiz)
   }
 
   def removeCurrentWordAndShowNextItem(qia: QuizItemAnswer): NewQuizItemToClient = {
@@ -100,7 +101,7 @@ object QuizService extends AppDependencyAccess {
   def quizDataToSave(userToken: String): String = {
     val quiz = getQuiz(userToken)
     // Assumes the Quiz holds a single quiz group.
-    quiz.activeQuizGroups.toList.lift(0) match {
+    quiz.activeQuizGroups.toList.headOption match {
       case Some(Tuple2(header, quizGroup)) =>
         val qgwh = QuizGroupWithHeader(header, quizGroup)
         qgwh.toCustomFormat
@@ -109,20 +110,14 @@ object QuizService extends AppDependencyAccess {
   }
 
   private[this] def loadQuiz(qghOpt: Option[QuizGroupHeader]): Quiz = {
-
-    val qghReverse = for {
-      qgh <- qghOpt
-      qghR <- dataStore.findQuizGroupHeader(qgh.responseType, qgh.promptType, WordMapping)
-    } yield qghR
-    val quizGroupHeaders =  Seq[Option[QuizGroupHeader]](qghOpt, qghReverse).flatten
-
+    val quizGroupHeaders = qghOpt.toSeq
     Quiz(quizGroupHeaders.map(qgh => (qgh, dataStore.initQuizGroup(qgh))).toMap)
   }
 
   private[this] def findPresentableQuizItem(quiz: Quiz): Option[QuizItemViewWithChoices] =
     produceQuizItem(quiz, NoParams())
 
-  private[this] def findNextQuizItem(userToken: String): NewQuizItemToClient = {
+  def findNextQuizItem(userToken: String): NewQuizItemToClient = {
     val quiz = getQuiz(userToken)
     NewQuizItemToClient(findQuizItem(quiz), scoreText(quiz))
   }
@@ -150,6 +145,7 @@ object QuizService extends AppDependencyAccess {
   private[this] def initQuiz(userToken: String, qgHeader: Option[QuizGroupHeader]): Quiz = {
     val loadedQuiz = loadQuiz(qgHeader)
     updateUserQuizMap(userToken, loadedQuiz)
+    saveQuiz(userToken)
     loadedQuiz
   }
 
@@ -171,7 +167,7 @@ object QuizService extends AppDependencyAccess {
     choices.map(promptToResponses(quiz, _, quizGroupHeader))
 
   private[this] def promptToResponses(quiz: Quiz, choice: String, quizGroupHeader: QuizGroupHeader):
-      Tuple2[String, String] = {
+      (String, String) = {
 
     val values = quiz.findPromptsFor(choice, quizGroupHeader) match {
       case Nil => quiz.findResponsesFor(choice, quizGroupHeader.reverse)

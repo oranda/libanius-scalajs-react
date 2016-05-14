@@ -21,6 +21,7 @@ package com.oranda.libanius.sprayserver
 import akka.actor.ActorSystem
 import com.oranda.libanius.dependencies.AppDependencyAccess
 import com.oranda.libanius.scalajs._
+import com.oranda.libanius.sprayserver.QuizService._
 import com.typesafe.config.ConfigFactory
 import spray.http.MediaTypes._
 import spray.http._
@@ -44,17 +45,19 @@ object Server extends SimpleRoutingApp with AppDependencyAccess {
       get {
         pathSingleSlash {
           complete {
+            l.log("Server pathSingleSlash")
             HttpEntity(
               MediaTypes.`text/html`,
-              QuizScreen.skeleton.render
+              QuizScreen.skeleton().render
             )
           }
         } ~
-        path("initialQuizData") {
+        path("staticQuizData") {
           parameter("userToken") { userToken =>
             complete {
-              val initialDataToClient: InitialDataToClient = QuizService.initialQuizData(userToken)
-              upickle.write(initialDataToClient)
+              l.log("Server: staticQuizData " + userToken)
+              val staticDataToClient: StaticDataToClient = QuizService.staticQuizData(userToken)
+              upickle.write(staticDataToClient)
             }
           }
         } ~
@@ -63,6 +66,15 @@ object Server extends SimpleRoutingApp with AppDependencyAccess {
             // cause a "Save As" dialog
             respondWithHeader(`Content-Disposition`("attachment", Map(("filename", "quiz.txt")))) {
               complete(QuizService.quizDataToSave(userToken))
+            }
+          }
+        } ~
+        path("findNextQuizItem") {
+          parameter("userToken") { userToken =>
+            complete {
+              l.log("Server: findNextQuizItem " + userToken)
+              val newQuizItemToClient: NewQuizItemToClient = QuizService.findNextQuizItem(userToken)
+              upickle.write(newQuizItemToClient)
             }
           }
         } ~
@@ -79,41 +91,62 @@ object Server extends SimpleRoutingApp with AppDependencyAccess {
             }
           }
         } ~
-        path("removeCurrentWordAndShowNextItem") {
-          extract(_.request.entity.asString) { e =>
-            complete {
-              val quizItemAnswer = upickle.read[QuizItemAnswer](e)
-              upickle.write(QuizService.removeCurrentWordAndShowNextItem(quizItemAnswer))
+          path("removeCurrentWordAndShowNextItem") {
+            extract(_.request.entity.asString) { e =>
+              complete {
+                val quizItemAnswer = upickle.read[QuizItemAnswer](e)
+                upickle.write(QuizService.removeCurrentWordAndShowNextItem(quizItemAnswer))
+              }
+            }
+          } ~
+          path("loadNewQuiz") {
+            extract(_.request.entity.asString) { e =>
+              complete {
+                val lnqRequest = upickle.read[LoadNewQuizRequest](e)
+                upickle.write(QuizService.loadNewQuiz(lnqRequest))
+              }
+            }
+          } ~
+          /*path("restoreQuizLocal") {
+          post {
+            entity(as[MultipartFormData]) { formData =>
+              l.log("restoreQuizLocal called")
+              complete {
+                l.log("complete restoreQuizLocal")
+                formData.fields.map { _.entity.asString }.flatten.foldLeft("")(_ + _)
+              }
             }
           }
-        } ~
-        path("loadNewQuiz") {
-          extract(_.request.entity.asString) { e =>
-            complete {
-              val lnqRequest = upickle.read[LoadNewQuizRequest](e)
-              upickle.write(QuizService.loadNewQuiz(lnqRequest))
+        }*/
+          path("restoreQuizLocal") {
+            post {
+              entity(as[MultipartFormData]) { data =>
+                l.log("restoreQuizLocal called")
+                complete {
+
+                  l.log("restoreQuizLocal called")
+
+                  val userToken = data.get("userToken").map(_.entity.asString).getOrElse("")
+                  val strQuizGroup = data.get("fileQuizGroupData").map(_.entity.asString).getOrElse("")
+
+                  l.log("userToken: " + userToken)
+                  l.log("strQuizGroup num lines: " + strQuizGroup.count(_ == '\n'))
+
+                  QuizService.parseQuiz(strQuizGroup, userToken)
+
+                  // We would like to just write back a new userToken here in Ajax style, but for multipart
+                  // data this requires XHR2 -- which org.scalajs.dom doesn't appear to support.
+                  // So instead, render the page again with the userToken.
+
+                  HttpEntity(
+                    MediaTypes.`text/html`,
+                    //QuizScreen.skeleton.render
+                    QuizScreen.skeleton(Some(userToken)).render
+                  )
+                }
+              }
             }
           }
-        } ~
-        path("restoreQuizLocal") {
-          handleWith { data: MultipartFormData =>
-
-            val userToken = data.get("userToken").map(_.entity.asString).getOrElse("")
-            val strQuizGroup = data.get("fileQuizGroupData").map(_.entity.asString).getOrElse("")
-
-            l.log("userToken: " + userToken)
-            l.log("strQuizGroup: " + strQuizGroup)
-
-            upickle.write(QuizService.parseQuiz(strQuizGroup, userToken))
-          }
-          complete {
-            // set a cookie with the userToken
-            HttpEntity(
-              MediaTypes.`text/html`,
-              QuizScreen.skeleton.render // TODO: QuizScreen.skeleton.render(Some(userToken))
-            )
-          }
-        }
       }
     }
   }

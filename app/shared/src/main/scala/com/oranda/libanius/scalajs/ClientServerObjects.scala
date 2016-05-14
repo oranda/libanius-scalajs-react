@@ -20,18 +20,14 @@ package com.oranda.libanius.scalajs
 
 import com.oranda.libanius.model.quizitem.QuizItemViewWithChoices
 
-import scala.collection.immutable.Set
+abstract class DataToClient
 
-abstract class DataToClient(val quizItemReact: Option[QuizItemReact])
+// Data that changes so infrequently it only needs to be sent on loading a new quiz
+case class StaticDataToClient(appVersion: String, quizGroupHeaders: Seq[QuizGroupKey])
+  extends DataToClient
 
-
-case class InitialDataToClient(appVersion: String, quizGroupHeaders: Seq[QuizGroupKey],
-    override val quizItemReact: Option[QuizItemReact])
-  extends DataToClient(quizItemReact)
-
-case class NewQuizItemToClient(override val quizItemReact: Option[QuizItemReact],
-    scoreText: String)
-  extends DataToClient(quizItemReact)
+case class NewQuizItemToClient(quizItemReact: Option[QuizItemReact], scoreText: String)
+  extends DataToClient
 
 case class QuizGroupKey(promptType: String, responseType: String)
 
@@ -63,9 +59,6 @@ case class QuizItemAnswer(override val userToken: String, prompt: String, correc
 
 case class LoadNewQuizRequest(override val userToken: String, qgKey: QuizGroupKey)
   extends RequestToServer(userToken)
-
-//case class RestoreQuizLocalRequest(override val userToken: String, quizData: org.scalajs.dom.File)
-//  extends RequestToServer(userToken)
 
 object QuizItemAnswer {
 
