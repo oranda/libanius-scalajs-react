@@ -55,7 +55,6 @@ object Server extends SimpleRoutingApp with AppDependencyAccess {
         path("staticQuizData") {
           parameter("userToken") { userToken =>
             complete {
-              l.log("Server: staticQuizData " + userToken)
               val staticDataToClient: StaticDataToClient = QuizService.staticQuizData(userToken)
               upickle.write(staticDataToClient)
             }
@@ -72,7 +71,6 @@ object Server extends SimpleRoutingApp with AppDependencyAccess {
         path("findNextQuizItem") {
           parameter("userToken") { userToken =>
             complete {
-              l.log("Server: findNextQuizItem " + userToken)
               val newQuizItemToClient: NewQuizItemToClient = QuizService.findNextQuizItem(userToken)
               upickle.write(newQuizItemToClient)
             }
@@ -121,17 +119,9 @@ object Server extends SimpleRoutingApp with AppDependencyAccess {
           path("restoreQuizLocal") {
             post {
               entity(as[MultipartFormData]) { data =>
-                l.log("restoreQuizLocal called")
                 complete {
-
-                  l.log("restoreQuizLocal called")
-
                   val userToken = data.get("userToken").map(_.entity.asString).getOrElse("")
                   val strQuizGroup = data.get("fileQuizGroupData").map(_.entity.asString).getOrElse("")
-
-                  l.log("userToken: " + userToken)
-                  l.log("strQuizGroup num lines: " + strQuizGroup.count(_ == '\n'))
-
                   QuizService.parseQuiz(strQuizGroup, userToken)
 
                   // We would like to just write back a new userToken here in Ajax style, but for multipart
