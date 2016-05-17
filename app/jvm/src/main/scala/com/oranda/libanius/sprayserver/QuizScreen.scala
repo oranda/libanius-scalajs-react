@@ -38,7 +38,7 @@ object QuizScreen {
       body(
         script(src:="/app-fastopt.js"),
         div(cls:="center", id:="container"),
-        script("com.oranda.libanius.scalajs.QuizScreen().main('" + userToken.getOrElse("") + "')")
+        script(s"com.oranda.libanius.scalajs.QuizScreen().main('${userToken.getOrElse("")}')")
       )
     )
 }

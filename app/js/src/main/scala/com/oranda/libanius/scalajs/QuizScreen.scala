@@ -102,7 +102,7 @@ object QuizScreen {
       Ajax.post(url, data).foreach { xhr =>
         scope.setState(newQuizStateFromStaticData(xhr.responseText, scope.state))
       }
-      Ajax.get("/findNextQuizItem?userToken=" + scope.state.userToken).foreach { xhr =>
+      Ajax.get(s"/findNextQuizItem?userToken=${scope.state.userToken}").foreach { xhr =>
         scope.setState(newQuizStateFromQuizItem(xhr.responseText, scope.state))
       }
     }
@@ -110,7 +110,7 @@ object QuizScreen {
 
   val ScoreText = ReactComponentB[String]("ScoreText")
     .render(scoreText => <.span(^.id := "score-text", ^.className := "alignleft",
-        "Score: " + scoreText))
+        s"Score: $scoreText"))
     .build
 
   case class Question(promptWord: String, responseType: String, numCorrectResponsesInARow: Int)
@@ -139,7 +139,7 @@ object QuizScreen {
         prevChoices.map { case (prevPrompt, prevResponses) =>
           <.span(
             <.div(^.className := "alignleft prev-choice",
-              prevPrompt + " = " + prevResponses
+              s"$prevPrompt = $prevResponses"
             ), <.br()
           )
         })
@@ -177,7 +177,7 @@ object QuizScreen {
             <.br(),
             <.br(),
             <.button(^.id := "save-button",
-              ^.onClick --> window.location.assign("/saveQuizLocal?userToken=" + userToken),
+              ^.onClick --> window.location.assign(s"/saveQuizLocal?userToken=$userToken"),
               "Save"))
     )}).build
 
@@ -189,7 +189,7 @@ object QuizScreen {
     .render(appVersion => <.span(^.id := "descriptive-text",
         <.a(^.href := "https://github.com/oranda/libanius-scalajs-react",
           "libanius-scalajs-react"),
-        <.span(" v" + appVersion + " by "),
+        <.span(s" v$appVersion by "),
         <.a(^.href := "https://scala-bility.blogspot.de/", "James McCabe")))
     .build
 
@@ -206,7 +206,7 @@ object QuizScreen {
 
   private[this] def getOrGenerateUserToken(userToken: String) =
     if (userToken.nonEmpty) userToken
-    else System.currentTimeMillis + "" + scala.util.Random.nextInt(1000)
+    else s"${System.currentTimeMillis}${scala.util.Random.nextInt(1000)}"
 
   val QuizScreen = ReactComponentB[String]("QuizScreen")
     .initialStateP(props => State(getOrGenerateUserToken(props), ""))
@@ -244,7 +244,7 @@ object QuizScreen {
               <.span(
                 ^.onClick --> backend.loadNewQuiz(qgKey),
                 ^.className := "other-quiz-group-text",
-                <.a(qgKey.promptType + " - " + qgKey.responseType),
+                <.a(s"${qgKey.promptType} - ${qgKey.responseType}"),
                 <.br(), <.br())
             }),
           <.br(),<.br(),<.br(),<.br(),
@@ -254,10 +254,10 @@ object QuizScreen {
         if (!state.quizEnded)
           <.div("Loading...")
         else
-          <.div("Congratulations! Quiz complete. Score: " + state.scoreText)
+          <.div(s"Congratulations! Quiz complete. Score: ${state.scoreText}")
     })
     .componentDidMount(scope => {
-        def withUserToken(url: String) = url + "?userToken=" + scope.state.userToken
+        def withUserToken(url: String) = s"$url?userToken=${scope.state.userToken}"
         Ajax.get(withUserToken("/staticQuizData")).foreach { xhr =>
           scope.setState(newQuizStateFromStaticData(xhr.responseText, scope.state))
         }

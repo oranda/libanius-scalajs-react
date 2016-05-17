@@ -132,7 +132,7 @@ object QuizService extends AppDependencyAccess {
 
   private[this] def getQuiz(userToken: String): Quiz = {
     def dealWithNoQuizFound: Quiz = {
-      l.logError("Quiz expected for userToken " + userToken + " but not found")
+      l.logError(s"Quiz expected for userToken $userToken but not found")
       val loadedQuiz = loadQuiz(initQgh)
       updateUserQuizMap(userToken, loadedQuiz)
       loadedQuiz
@@ -183,8 +183,8 @@ object QuizService extends AppDependencyAccess {
     val quizItem = QuizItem(prompt, correctResponse)
     val (updatedQuiz, wasRemoved) = quiz.removeQuizItem(quizItem, qgh)
     updateUserQuizMap(userToken, updatedQuiz)
-    if (wasRemoved) l.log("Deleted quiz item " + quizItem)
-    else l.logError("Failed to remove " + quizItem)
+    if (wasRemoved) l.log(s"Deleted quiz item $quizItem")
+    else l.logError(s"Failed to remove $quizItem")
   }
 
   private[this] def saveQuiz(userToken: String) {
