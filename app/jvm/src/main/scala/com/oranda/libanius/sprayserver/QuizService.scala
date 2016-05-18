@@ -149,11 +149,10 @@ object QuizService extends AppDependencyAccess {
     loadedQuiz
   }
 
-  private[this] def updateUserQuizMap(userToken: String, quiz: Quiz) {
+  private[this] def updateUserQuizMap(userToken: String, quiz: Quiz): Unit =
     userQuizMap.synchronized {
       userQuizMap += (userToken -> quiz)
     }
-  }
 
   private[this] def updateWithUserResponse(userToken: String, isCorrect: Boolean,
       qgh: QuizGroupHeader, quizItem: QuizItem) {
@@ -187,7 +186,7 @@ object QuizService extends AppDependencyAccess {
     else l.logError(s"Failed to remove $quizItem")
   }
 
-  private[this] def saveQuiz(userToken: String) {
+  private[this] def saveQuiz(userToken: String): Unit = {
     val quiz = getQuiz(userToken)
     Future { dataStore.saveQuiz(quiz, conf.filesDir, userToken) }
   }

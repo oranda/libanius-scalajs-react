@@ -66,7 +66,7 @@ object QuizScreen {
 
   class Backend(scope: BackendScope[String, State]) {
 
-    def submitResponse(choice: String, curQuizItem: QuizItemReact) {
+    def submitResponse(choice: String, curQuizItem: QuizItemReact): Unit = {
       scope.modState(_.copy(chosen = Some(choice)))
       val url = "/processUserResponse"
       val response = QuizItemAnswer.construct(scope.state.userToken, curQuizItem, choice)
@@ -87,7 +87,7 @@ object QuizScreen {
           state.onNewQuizItem(newQuizItem, quizItemData.scoreText)
       }
 
-    def removeCurrentWordAndShowNextItem(curQuizItem: QuizItemReact) {
+    def removeCurrentWordAndShowNextItem(curQuizItem: QuizItemReact): Unit = {
       val url = "/removeCurrentWordAndShowNextItem"
       val response = QuizItemAnswer.construct(scope.state.userToken, curQuizItem, "")
       val data = upickle.write(response)
@@ -96,7 +96,7 @@ object QuizScreen {
       }
     }
 
-    def loadNewQuiz(qgKey: QuizGroupKey) {
+    def loadNewQuiz(qgKey: QuizGroupKey): Unit = {
       val url = "/loadNewQuiz"
       val data = upickle.write(LoadNewQuizRequest(scope.state.userToken, qgKey))
       Ajax.post(url, data).foreach { xhr =>
@@ -269,9 +269,8 @@ object QuizScreen {
     .build
 
   @JSExport
-  def main(userToken: String) {
+  def main(userToken: String): Unit =
     // userToken may be empty, in which case a new unique userToken will be generated
     QuizScreen(userToken) render document.getElementById("container")
-  }
 }
 
