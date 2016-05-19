@@ -263,15 +263,14 @@ object QuizScreen {
           <.div(s"Congratulations! Quiz complete. Score: ${state.scoreText}")
     })
     .componentDidMount(scope => {
-        def withUserToken(url: String) = s"$url?userToken=${scope.state.userToken}"
-        Ajax.get(withUserToken("/staticQuizData")).foreach { xhr =>
-          scope.setState(newQuizStateFromStaticData(xhr.responseText, scope.state))
-        }
-        Ajax.get(withUserToken("/findNextQuizItem")).foreach { xhr =>
-          scope.setState(newQuizStateFromQuizItem(xhr.responseText, scope.state))
-        }
+      def withUserToken(url: String) = s"$url?userToken=${scope.state.userToken}"
+      Ajax.get(withUserToken("/staticQuizData")).foreach { xhr =>
+        scope.setState(newQuizStateFromStaticData(xhr.responseText, scope.state))
       }
-    )
+      Ajax.get(withUserToken("/findNextQuizItem")).foreach { xhr =>
+        scope.setState(newQuizStateFromQuizItem(xhr.responseText, scope.state))
+      }
+    })
     .build
 
   @JSExport
