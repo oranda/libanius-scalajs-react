@@ -32,8 +32,12 @@ case class NewQuizItemToClient(quizItemReact: Option[QuizItemReact], scoreText: 
 case class QuizGroupKey(promptType: String, responseType: String)
 
 // Note: for promptResponseMap, ListMap does not work with upickle
-case class QuizItemReact(prompt: String, correctResponse: String,
-    promptType: String, responseType: String, numCorrectResponsesInARow: Int,
+case class QuizItemReact(
+    prompt: String,
+    correctResponse: String,
+    promptType: String,
+    responseType: String,
+    numCorrectResponsesInARow: Int,
     promptResponseMap: Seq[(String, String)]) {
 
   def allChoices: Iterable[String] = promptResponseMap.map(_._1)
@@ -42,28 +46,46 @@ case class QuizItemReact(prompt: String, correctResponse: String,
 object QuizItemReact {
 
   // Should be apply, but upickle complains.
-  def construct(qi: QuizItemViewWithChoices, promptResponseMap: Seq[(String, String)]):
-      QuizItemReact =
-    QuizItemReact(qi.prompt, qi.correctResponse, qi.promptType, qi.responseType,
-        qi.numCorrectResponsesInARow, promptResponseMap)
+  def construct(
+      qi: QuizItemViewWithChoices,
+      promptResponseMap: Seq[(String, String)]): QuizItemReact =
+    QuizItemReact(
+      qi.prompt,
+      qi.correctResponse,
+      qi.promptType,
+      qi.responseType,
+      qi.numCorrectResponsesInARow,
+      promptResponseMap)
 }
 
 abstract class RequestToServer(val userToken: String)
 
-case class QuizItemAnswer(override val userToken: String, prompt: String, correctResponse: String,
-    promptType: String, responseType: String, response: String)
+case class QuizItemAnswer(
+    override val userToken: String,
+    prompt: String,
+    correctResponse: String,
+    promptType: String,
+    responseType: String,
+    response: String)
   extends RequestToServer(userToken) {
 
   def isCorrect = correctResponse == response
 }
 
-case class LoadNewQuizRequest(override val userToken: String, qgKey: QuizGroupKey)
+case class LoadNewQuizRequest(
+    override val userToken: String,
+    qgKey: QuizGroupKey)
   extends RequestToServer(userToken)
 
 object QuizItemAnswer {
 
   // Should be apply, but upickle complains.
   def construct(userToken: String, qi: QuizItemReact, choice: String): QuizItemAnswer =
-    QuizItemAnswer(userToken, qi.prompt, qi.correctResponse, qi.promptType,
-        qi.responseType, choice)
+    QuizItemAnswer(
+      userToken,
+      qi.prompt,
+      qi.correctResponse,
+      qi.promptType,
+      qi.responseType,
+      choice)
 }

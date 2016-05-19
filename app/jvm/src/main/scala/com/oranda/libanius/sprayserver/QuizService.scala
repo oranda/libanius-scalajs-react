@@ -154,20 +154,26 @@ object QuizService extends AppDependencyAccess {
       userQuizMap += (userToken -> quiz)
     }
 
-  private[this] def updateWithUserResponse(userToken: String, isCorrect: Boolean,
-      qgh: QuizGroupHeader, quizItem: QuizItem) {
+  private[this] def updateWithUserResponse(
+      userToken: String,
+      isCorrect: Boolean,
+      qgh: QuizGroupHeader,
+      quizItem: QuizItem): Unit = {
     val quiz = getQuiz(userToken)
     val updatedQuiz = quiz.updateWithUserResponse(isCorrect, qgh, quizItem)
     updateUserQuizMap(userToken, updatedQuiz)
   }
 
-  private[this] def makePromptResponseMap(quiz: Quiz, choices: Seq[String],
+  private[this] def makePromptResponseMap(
+      quiz: Quiz,
+      choices: Seq[String],
       quizGroupHeader: QuizGroupHeader): Seq[(String, String)] =
     choices.map(promptToResponses(quiz, _, quizGroupHeader))
 
-  private[this] def promptToResponses(quiz: Quiz, choice: String, quizGroupHeader: QuizGroupHeader):
-      (String, String) = {
-
+  private[this] def promptToResponses(
+      quiz: Quiz,
+      choice: String,
+      quizGroupHeader: QuizGroupHeader): (String, String) = {
     val values = quiz.findPromptsFor(choice, quizGroupHeader) match {
       case Nil => quiz.findResponsesFor(choice, quizGroupHeader.reverse)
       case v => v
@@ -175,9 +181,11 @@ object QuizService extends AppDependencyAccess {
     (choice, values.slice(0, 3).mkString(", "))
   }
 
-  private[this] def removeWord(userToken: String, qgh: QuizGroupHeader, prompt: String,
-     correctResponse: String) {
-
+  private[this] def removeWord(
+     userToken: String,
+     qgh: QuizGroupHeader,
+     prompt: String,
+     correctResponse: String): Unit = {
     val quiz = getQuiz(userToken)
     val quizItem = QuizItem(prompt, correctResponse)
     val (updatedQuiz, wasRemoved) = quiz.removeQuizItem(quizItem, qgh)

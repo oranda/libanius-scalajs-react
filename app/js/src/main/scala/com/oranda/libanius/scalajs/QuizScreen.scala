@@ -31,11 +31,15 @@ import scala.scalajs.js.annotation.JSExport
 @JSExport
 object QuizScreen {
 
-  case class State(userToken: String, appVersion: String,
+  case class State(
+      userToken: String,
+      appVersion: String,
       availableQuizGroups: Seq[QuizGroupKey] = Seq.empty,
       currentQuizItem: Option[QuizItemReact] = None,
-      prevQuizItem: Option[QuizItemReact] = None, scoreText: String = "",
-      chosen: Option[String] = None, status: String = "") {
+      prevQuizItem: Option[QuizItemReact] = None,
+      scoreText: String = "",
+      chosen: Option[String] = None,
+      status: String = "") {
 
     def quizNotStarted = !currentQuizItem.isDefined && !prevQuizItem.isDefined
     def quizEnded = !currentQuizItem.isDefined && prevQuizItem.isDefined
@@ -193,7 +197,9 @@ object QuizScreen {
         <.a(^.href := "https://scala-bility.blogspot.de/", "James McCabe")))
     .build
 
-  private[this] def cssClassForChosen(buttonValue: String, chosen: Option[String],
+  private[this] def cssClassForChosen(
+      buttonValue: String,
+      chosen: Option[String],
       correctResponse: String): String =
     chosen match {
       case None => ""
