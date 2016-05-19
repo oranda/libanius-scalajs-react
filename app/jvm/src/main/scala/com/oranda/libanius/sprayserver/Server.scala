@@ -105,17 +105,6 @@ object Server extends SimpleRoutingApp with AppDependencyAccess {
               }
             }
           } ~
-          /*path("restoreQuizLocal") {
-          post {
-            entity(as[MultipartFormData]) { formData =>
-              l.log("restoreQuizLocal called")
-              complete {
-                l.log("complete restoreQuizLocal")
-                formData.fields.map { _.entity.asString }.flatten.foldLeft("")(_ + _)
-              }
-            }
-          }
-        }*/
           path("restoreQuizLocal") {
             post {
               entity(as[MultipartFormData]) { data =>
@@ -130,7 +119,6 @@ object Server extends SimpleRoutingApp with AppDependencyAccess {
 
                   HttpEntity(
                     MediaTypes.`text/html`,
-                    //QuizScreen.skeleton.render
                     QuizScreen.skeleton(Some(userToken)).render
                   )
                 }
