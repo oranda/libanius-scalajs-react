@@ -110,7 +110,8 @@ object Server extends SimpleRoutingApp with AppDependencyAccess {
               entity(as[MultipartFormData]) { data =>
                 complete {
                   val userToken = data.get("userToken").map(_.entity.asString).getOrElse("")
-                  val strQuizGroup = data.get("fileQuizGroupData").map(_.entity.asString).getOrElse("")
+                  val strQuizGroup =
+                    data.get("fileQuizGroupData").map(_.entity.asString).getOrElse("")
                   QuizService.parseQuiz(strQuizGroup, userToken)
 
                   // We would like to just write back a new userToken here in Ajax style, but for multipart
