@@ -83,8 +83,8 @@ object QuizService extends AppDependencyAccess {
   }
 
   def parseQuiz(strQuizGroup: String, userToken: String) = {
-    val qgwh: QuizGroupWithHeader = deserialize[QuizGroupWithHeader, Separator](
-        strQuizGroup, Separator("|"))
+    val qgwh: QuizGroupWithHeader =
+      deserialize[QuizGroupWithHeader, Separator](strQuizGroup, Separator("|"))
     val quiz = new Quiz().addQuizGroup(qgwh.header, qgwh.quizGroup)
     updateUserQuizMap(userToken, quiz)
     saveQuiz(userToken)
