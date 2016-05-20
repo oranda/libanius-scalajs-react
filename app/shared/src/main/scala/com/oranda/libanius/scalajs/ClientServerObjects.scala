@@ -40,7 +40,7 @@ case class QuizItemReact(
     numCorrectResponsesInARow: Int,
     promptResponseMap: Seq[(String, String)]) {
 
-  def allChoices: Iterable[String] = promptResponseMap.map(_._1)
+  def allChoices: Iterable[String] = promptResponseMap.map { case (prompt, response) => prompt }
 }
 
 object QuizItemReact {
