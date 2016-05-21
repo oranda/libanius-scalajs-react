@@ -120,7 +120,7 @@ object Server extends SimpleRoutingApp with AppDependencyAccess {
 
                   HttpEntity(
                     MediaTypes.`text/html`,
-                    QuizScreen.skeleton(Some(userToken)).render
+                    QuizScreen.skeleton(Option(userToken)).render
                   )
                 }
               }

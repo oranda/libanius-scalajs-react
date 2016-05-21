@@ -71,7 +71,7 @@ object QuizScreen {
   class Backend(scope: BackendScope[String, State]) {
 
     def submitResponse(choice: String, curQuizItem: QuizItemReact): Unit = {
-      scope.modState(_.copy(chosen = Some(choice)))
+      scope.modState(_.copy(chosen = Option(choice)))
       val url = "/processUserResponse"
       val response = QuizItemAnswer.construct(scope.state.userToken, curQuizItem, choice)
       val data = upickle.write(response)
