@@ -33,7 +33,7 @@ import spray.routing.SimpleRoutingApp
 
 case class ImageUploaded(size: Int)
 
-object Server extends SimpleRoutingApp with AppDependencyAccess {
+object Server extends SimpleRoutingApp {
   def main(args: Array[String]): Unit = {
     implicit val system = ActorSystem()
 
@@ -45,7 +45,6 @@ object Server extends SimpleRoutingApp with AppDependencyAccess {
       get {
         pathSingleSlash {
           complete {
-            l.log("Server pathSingleSlash")
             HttpEntity(
               MediaTypes.`text/html`,
               QuizScreen.skeleton().render
