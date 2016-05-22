@@ -37,9 +37,9 @@ object Server extends SimpleRoutingApp with AppDependencyAccess {
   def main(args: Array[String]): Unit = {
     implicit val system = ActorSystem()
 
-    val config = ConfigFactory.load().getConfig("libanius")
+    //val config = ConfigFactory.load().getConfig("libanius")
 
-    val port = config.getInt("port") // for Heroku compatibility
+    val port = 8080 //config.getInt("port") // for Heroku compatibility
 
     startServer("0.0.0.0", port = port) {
       get {
