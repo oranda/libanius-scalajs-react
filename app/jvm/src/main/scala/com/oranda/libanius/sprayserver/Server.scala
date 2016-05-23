@@ -41,12 +41,9 @@ object Server extends SimpleRoutingApp {
 
     val port = 8080 //config.getInt("port") // for Heroku compatibility
 
-    println("Server") // temporary debugging
     startServer("0.0.0.0", port = port) {
       get {
-        println("get") // temporary debugging
         pathSingleSlash {
-          println("pathSingleSlash") // temporary debugging
           complete {
             HttpEntity(
               MediaTypes.`text/html`,
