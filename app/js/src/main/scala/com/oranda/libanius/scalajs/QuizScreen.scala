@@ -217,7 +217,7 @@ object QuizScreen {
   val QuizScreen = ReactComponentB[String]("QuizScreen")
     .initialStateP(props => State(getOrGenerateUserToken(props), ""))
     .backend(new Backend(_))
-    .render((_, state, backend) => state.currentQuizItem match {
+    .render((_, state, backend) => <.div("Loading...")) /*state.currentQuizItem match {
       // Only show the page if there is a quiz item
       case Some(currentQuizItem: QuizItemReact) =>
         <.div(
@@ -261,8 +261,8 @@ object QuizScreen {
           <.div("Loading...")
         else
           <.div(s"Congratulations! Quiz complete. Score: ${state.scoreText}")
-    })
-    .componentDidMount(scope => {
+    })*/
+    .componentDidMount(scope => null /*{
       def withUserToken(url: String) = s"$url?userToken=${scope.state.userToken}"
       Ajax.get(withUserToken("/staticQuizData")).foreach { xhr =>
         scope.setState(newQuizStateFromStaticData(xhr.responseText, scope.state))
@@ -270,12 +270,14 @@ object QuizScreen {
       Ajax.get(withUserToken("/findNextQuizItem")).foreach { xhr =>
         scope.setState(newQuizStateFromQuizItem(xhr.responseText, scope.state))
       }
-    })
+    }*/)
     .build
 
   @JSExport
-  def main(userToken: String): Unit =
+  def main(userToken: String): Unit = {
     // userToken may be empty, in which case a new unique userToken will be generated
+    println("QuizScreen main")
     QuizScreen(userToken) render document.getElementById("container")
+  }
 }
 
