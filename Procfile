@@ -1,1 +1,1 @@
-web: app/jvm/target/universal/stage/bin/app
+web: app/jvm/target/universal/stage/bin/app 
