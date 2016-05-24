@@ -31,23 +31,23 @@ import spray.http.MediaTypes
 
 import spray.routing.SimpleRoutingApp
 
+import scala.util.Properties
+
 case class ImageUploaded(size: Int)
 
 object Server extends SimpleRoutingApp {
   def main(args: Array[String]): Unit = {
-    println("Server.main start")
     implicit val system = ActorSystem()
 
     val config = ConfigFactory.load().getConfig("libanius")
 
-    val port = config.getInt("port") // for Heroku compatibility
+    // If on Heroku, the application must get the port from the environment.
+    val port = Properties.envOrElse("PORT", config.getString("port") ).toInt
 
     startServer("0.0.0.0", port = port) {
-      println("startServer")
       get {
         pathSingleSlash {
           complete {
-            println("pathSingleSlash")
             HttpEntity(
               MediaTypes.`text/html`,
               QuizScreen.skeleton().render

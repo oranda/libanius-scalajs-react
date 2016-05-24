@@ -26,8 +26,7 @@ object QuizScreen {
    * By default the userToken is None here, and is generated on initialization,
    * but there is a possibility of loading data for an existing user.
    */
-  def skeleton(userToken: Option[String] = None) = {
-    println("QuizScreen.skeleton")
+  def skeleton(userToken: Option[String] = None) =
     html(
       head(
         link(
@@ -42,5 +41,4 @@ object QuizScreen {
         script(s"com.oranda.libanius.scalajs.QuizScreen().main('${userToken.getOrElse("")}')")
       )
     )
-  }
 }
