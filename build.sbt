@@ -37,7 +37,9 @@ val app = crossProject.settings(
   libraryDependencies ++= Seq(
     "io.spray" %% "spray-can" % "1.3.2",
     "io.spray" %% "spray-routing" % "1.3.2",
-    "com.typesafe.akka" %% "akka-actor" % "2.3.6"
+    "com.typesafe.akka" %% "akka-actor" % "2.3.6",
+    "org.scalaz" %% "scalaz-core" % "7.1.2",
+    "com.lihaoyi" %% "fastparse" % "0.3.7"
   )
 )
 
