@@ -35,6 +35,7 @@ case class ImageUploaded(size: Int)
 
 object Server extends SimpleRoutingApp {
   def main(args: Array[String]): Unit = {
+    println("Server.main start")
     implicit val system = ActorSystem()
 
     val config = ConfigFactory.load().getConfig("libanius")
@@ -42,6 +43,7 @@ object Server extends SimpleRoutingApp {
     val port = config.getInt("port") // for Heroku compatibility
 
     startServer("0.0.0.0", port = port) {
+      println("startServer")
       get {
         pathSingleSlash {
           complete {
