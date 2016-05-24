@@ -27,6 +27,7 @@ object QuizScreen {
    * but there is a possibility of loading data for an existing user.
    */
   def skeleton(userToken: Option[String] = None) =
+    println("QuizScreen.skeleton")
     html(
       head(
         link(

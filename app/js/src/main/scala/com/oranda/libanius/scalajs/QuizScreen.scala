@@ -274,8 +274,10 @@ object QuizScreen {
     .build
 
   @JSExport
-  def main(userToken: String): Unit =
+  def main(userToken: String): Unit = {
+    println("QuizScreen.main")
     // userToken may be empty, in which case a new unique userToken will be generated
     QuizScreen(userToken) render document.getElementById("container")
+  }
 }
 

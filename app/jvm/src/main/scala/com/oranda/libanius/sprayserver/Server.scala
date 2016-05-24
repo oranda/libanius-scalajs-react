@@ -46,6 +46,7 @@ object Server extends SimpleRoutingApp {
       println("startServer")
       get {
         pathSingleSlash {
+          println("pathSingleSlash")
           complete {
             HttpEntity(
               MediaTypes.`text/html`,
