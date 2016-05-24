@@ -26,20 +26,21 @@ object QuizScreen {
    * By default the userToken is None here, and is generated on initialization,
    * but there is a possibility of loading data for an existing user.
    */
-  def skeleton(userToken: Option[String] = None) =
+  def skeleton(userToken: Option[String] = None) = {
     println("QuizScreen.skeleton")
     html(
       head(
         link(
-          rel:="stylesheet",
-          href:="quiz.css"
+          rel := "stylesheet",
+          href := "quiz.css"
         ),
-        script(src:="/app-jsdeps.js")
+        script(src := "/app-jsdeps.js")
       ),
       body(
-        script(src:="/app-fastopt.js"),
-        div(cls:="center", id:="container"),
+        script(src := "/app-fastopt.js"),
+        div(cls := "center", id := "container"),
         script(s"com.oranda.libanius.scalajs.QuizScreen().main('${userToken.getOrElse("")}')")
       )
     )
+  }
 }

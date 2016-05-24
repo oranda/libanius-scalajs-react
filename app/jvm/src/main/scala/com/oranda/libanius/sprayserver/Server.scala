@@ -46,8 +46,8 @@ object Server extends SimpleRoutingApp {
       println("startServer")
       get {
         pathSingleSlash {
-          println("pathSingleSlash")
           complete {
+            println("pathSingleSlash")
             HttpEntity(
               MediaTypes.`text/html`,
               QuizScreen.skeleton().render
