@@ -35,9 +35,8 @@ val app = crossProject.settings(
 
 ).jvmSettings(
   libraryDependencies ++= Seq(
-    "io.spray" %% "spray-can" % "1.3.2",
-    "io.spray" %% "spray-routing" % "1.3.2",
-    "com.typesafe.akka" %% "akka-actor" % "2.3.6"
+    "com.typesafe.akka" %% "akka-http"   % "10.1.3",
+    "com.typesafe.akka" %% "akka-stream" % "2.5.12"
   )
 )
 

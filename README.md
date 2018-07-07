@@ -39,7 +39,7 @@ This front-end to Libanius uses Scala.js to convert Scala code to JavaScript and
 
 The scala-js-react library is used to model front-end components and event handling according to Facebook's React framework.
 
-Ajax calls are made to the QuizService which runs on a spray server (app/jvm folder). The service 
+Ajax calls are made to the QuizService which runs on an akka http server (app/jvm folder). The service 
 communicates with the Libanius core library to fetch quiz items. 
 
 As usual, the data store maintained by the Libanius core for the quiz is just a file or collection of 

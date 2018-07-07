@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.oranda.libanius.sprayserver
+package com.oranda.libanius.server
 
 import com.oranda.libanius.dependencies.AppDependencyAccess
 import com.oranda.libanius.model.Quiz
