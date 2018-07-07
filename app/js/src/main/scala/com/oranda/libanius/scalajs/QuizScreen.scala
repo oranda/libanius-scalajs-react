@@ -18,15 +18,19 @@
 
 package com.oranda.libanius.scalajs
 
-import japgolly.scalajs.react.vdom.prefix_<^._
-import org.scalajs.dom.document
-import scalajs.concurrent.JSExecutionContext.Implicits.runNow
-import org.scalajs.dom.ext.Ajax
-import org.scalajs.dom.window
-import scala.scalajs.js.timers._
-import japgolly.scalajs.react._
 
+import japgolly.scalajs.react._
+import japgolly.scalajs.react.vdom.prefix_<^._
+
+import org.scalajs.dom.ext.Ajax
+import org.scalajs.dom.document
+import org.scalajs.dom.window
+
+import scala.scalajs.js.timers._
 import scala.scalajs.js.annotation.JSExport
+import scala.util.{Failure, Success}
+
+import scalajs.concurrent.JSExecutionContext.Implicits.runNow
 
 @JSExport
 object QuizScreen {
@@ -264,11 +268,14 @@ object QuizScreen {
     })
     .componentDidMount(scope => {
       def withUserToken(url: String) = s"$url?userToken=${scope.state.userToken}"
-      Ajax.get(withUserToken("/staticQuizData")).foreach { xhr =>
-        scope.setState(newQuizStateFromStaticData(xhr.responseText, scope.state))
-      }
-      Ajax.get(withUserToken("/findNextQuizItem")).foreach { xhr =>
-        scope.setState(newQuizStateFromQuizItem(xhr.responseText, scope.state))
+      val loadStaticQuizData = Ajax.get(withUserToken("/staticQuizData"))
+      loadStaticQuizData.onComplete {
+        case Success(xhr) =>
+          scope.setState(newQuizStateFromStaticData(xhr.responseText, scope.state))
+          Ajax.get(withUserToken("/findNextQuizItem")).foreach { xhr =>
+            scope.setState(newQuizStateFromQuizItem(xhr.responseText, scope.state))
+          }
+        case Failure(e) => println(e.toString)
       }
     })
     .build
