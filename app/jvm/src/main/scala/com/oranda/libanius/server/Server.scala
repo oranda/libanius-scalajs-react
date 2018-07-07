@@ -64,10 +64,7 @@ object Server extends HttpApp {
           // cause a "Save As" dialog
           respondWithHeader(`Content-Disposition`.apply(
             ContentDispositionTypes.attachment,
-            Map(("filename", "quiz.txt")))
-          ) {
-            complete(QuizService.quizDataToSave(userToken)
-          }
+            Map(("filename", "quiz.txt")))) { complete(QuizService.quizDataToSave(userToken)) }
         }
       } ~
       path("findNextQuizItem") {
@@ -83,7 +80,6 @@ object Server extends HttpApp {
     } ~
     post {
       path("processUserResponse") {
-        //extract(_.request.entity.toString) { e =>
         entity(as[String]) { e =>
           complete {
             val quizItemAnswer = upickle.read[QuizItemAnswer](e)
