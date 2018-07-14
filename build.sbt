@@ -3,7 +3,7 @@ import sbt._
 
 import sbt.Keys._
 
-import sbtcrossproject.CrossPlugin.autoImport.crossProject}
+import sbtcrossproject.CrossPlugin.autoImport.crossProject
 
 name := "Libanius Scala.js front-end"
 
