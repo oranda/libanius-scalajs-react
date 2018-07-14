@@ -33,6 +33,8 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration.DurationInt
 import scala.util.Properties
 
+import upickle.{default ⇒ upickle}
+
 case class ImageUploaded(size: Int)
 
 object Server extends HttpApp {

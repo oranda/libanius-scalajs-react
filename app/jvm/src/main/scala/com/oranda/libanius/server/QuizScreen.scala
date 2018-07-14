@@ -21,7 +21,6 @@ package com.oranda.libanius.server
 import scalatags.Text.all._
 
 object QuizScreen {
-
   /*
    * By default the userToken is None here, and is generated on initialization,
    * but there is a possibility of loading data for an existing user.
@@ -38,7 +37,7 @@ object QuizScreen {
       body(
         script(src := "/app-fastopt.js"),
         div(cls := "center", id := "container"),
-        script(s"com.oranda.libanius.scalajs.QuizScreen().main('${userToken.getOrElse("")}')")
+        script(s"QuizScreen.main('${userToken.getOrElse("")}')")
       )
     )
 }

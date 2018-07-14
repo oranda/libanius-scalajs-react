@@ -18,21 +18,19 @@
 
 package com.oranda.libanius.scalajs
 
-
 import japgolly.scalajs.react._
-import japgolly.scalajs.react.vdom.prefix_<^._
-
-import org.scalajs.dom.ext.Ajax
+import japgolly.scalajs.react.vdom.html_<^._
 import org.scalajs.dom.document
+import org.scalajs.dom.ext.Ajax
 import org.scalajs.dom.window
 
 import scala.scalajs.js.timers._
-import scala.scalajs.js.annotation.JSExport
+import scala.scalajs.js.annotation.{JSExport, JSExportTopLevel}
 import scala.util.{Failure, Success}
-
 import scalajs.concurrent.JSExecutionContext.Implicits.runNow
+import upickle.{default => upickle}
 
-@JSExport
+@JSExportTopLevel("QuizScreen")
 object QuizScreen {
 
   case class State(
@@ -51,20 +49,17 @@ object QuizScreen {
     def onNewQuizItem(newQuizItem: Option[QuizItemReact], score: String): State =
       State(userToken, appVersion, availableQuizGroups, newQuizItem, currentQuizItem, score)
 
-    def onNewQuiz(appVersion: String, availableQuizGroups: Seq[QuizGroupKey]): State =
-      State(userToken, appVersion, availableQuizGroups, None, None, "0.0%")
-
     def otherQuizGroups =
       currentQuizItem.map { cqi =>
         availableQuizGroups.filterNot(_ == QuizGroupKey(cqi.promptType, cqi.responseType))
       }.getOrElse(availableQuizGroups)
   }
 
-  private[this] def newQuizStateFromStaticData(responseText: String, state: State): State = {
+  private[this] def newQuizStateFromStaticData(userToken: String, responseText: String): State = {
     val quizData = upickle.read[StaticDataToClient](responseText)
     val appVersion = quizData.appVersion
     val availableQuizGroups: Seq[QuizGroupKey] = quizData.quizGroupHeaders
-    state.onNewQuiz(appVersion, availableQuizGroups)
+    State(userToken, appVersion, availableQuizGroups, None, None, "0.0%")
   }
 
   private[this] def newQuizStateFromQuizItem(responseText: String, state: State): State = {
@@ -72,22 +67,84 @@ object QuizScreen {
     state.onNewQuizItem(newQuizItem.quizItemReact, newQuizItem.scoreText)
   }
 
-  class Backend(scope: BackendScope[String, State]) {
+  class Backend($: BackendScope[String, State]) {
+    def start() =
+      $.state.map { s =>
+        def withUserToken(url: String) = s"$url?userToken=${s.userToken}"
+        val loadStaticQuizData = Ajax.get(withUserToken("/staticQuizData"))
+        loadStaticQuizData.onComplete {
+          case Success(xhr) =>
+            val state = newQuizStateFromStaticData(s.userToken, xhr.responseText)
+            Ajax.get(withUserToken("/findNextQuizItem")).foreach { xhr =>
+              $.setState(newQuizStateFromQuizItem(xhr.responseText, state)).runNow()
+            }
+          case Failure(e) => println(e.toString)
+        }
+      }
 
-    def submitResponse(choice: String, curQuizItem: QuizItemReact): Unit = {
-      scope.modState(_.copy(chosen = Option(choice)))
+    def render(state: State): VdomElement =
+      state.currentQuizItem match {
+        // Only show the page if there is a quiz item
+        case Some(currentQuizItem: QuizItemReact) =>
+          <.div(
+            <.span(^.id := "header-wrapper", ScoreText(state.scoreText),
+              <.span(^.className := "alignright",
+                <.button(^.id := "delete-button",
+                  ^.onClick --> removeCurrentWordAndShowNextItem(state, currentQuizItem),
+                  "DELETE WORD"))
+            ),
+            QuestionArea(Question(currentQuizItem.prompt,
+              currentQuizItem.responseType,
+              currentQuizItem.numCorrectResponsesInARow)),
+            <.span(currentQuizItem.allChoices.toTagMod { choice =>
+              <.div(
+                <.p(<.button(
+                  ^.className := "response-choice-button",
+                  ^.className := cssClassForChosen(choice, state.chosen,
+                    currentQuizItem.correctResponse),
+                  ^.onClick --> submitResponse(state, choice, currentQuizItem), choice))
+              )
+            }),
+            PreviousQuizItemArea(state.prevQuizItem),
+            StatusText(state.status),
+            <.br(), <.br(),
+            QuizPersistenceArea(state.userToken),
+            <.br(), <.br(), <.br(), <.br(),
+            <.span(
+              <.span(^.id := "other-quiz-groups-header", "Other Quiz Groups"),
+              <.br(), <.br(), <.br(),
+              state.otherQuizGroups.toTagMod(qgKey =>
+                <.span(
+                  ^.onClick --> loadNewQuiz(state, qgKey),
+                  ^.className := "other-quiz-group-text",
+                  <.a(s"${qgKey.promptType} - ${qgKey.responseType}"),
+                  <.br(), <.br()))
+            ),
+            <.br(), <.br(), <.br(), <.br(),
+            DescriptiveText(state.appVersion)
+          )
+        case None =>
+          if (!state.quizEnded)
+            <.div("Loading...")
+          else
+            <.div(s"Congratulations! Quiz complete. Score: ${state.scoreText}")
+      }
+
+    def submitResponse(state: State, choice: String, curQuizItem: QuizItemReact) = Callback {
+      $.modState(_.copy(chosen = Option(choice))).runNow()
       val url = "/processUserResponse"
-      val response = QuizItemAnswer.construct(scope.state.userToken, curQuizItem, choice)
+      val response = QuizItemAnswer.construct(state.userToken, curQuizItem, choice)
       val data = upickle.write(response)
+
       val sleepMillis: Double = if (response.isCorrect) 200 else 1000
       Ajax.post(url, data).foreach { xhr =>
         setTimeout(sleepMillis) {
-          scope.setState(updatedStateNewQuizItem(xhr.responseText, scope.state))
+          $.setState(updatedStateNewQuizItem(state, xhr.responseText)).runNow()
         }
       }
     }
 
-    private[this] def updatedStateNewQuizItem(responseText: String, state: State): State =
+    private def updatedStateNewQuizItem(state: State, responseText: String): State =
       upickle.read[NewQuizItemToClient](responseText) match {
         case quizItemData: NewQuizItemToClient =>
           val newQuizItem = quizItemData.quizItemReact
@@ -95,36 +152,40 @@ object QuizScreen {
           state.onNewQuizItem(newQuizItem, quizItemData.scoreText)
       }
 
-    def removeCurrentWordAndShowNextItem(curQuizItem: QuizItemReact): Unit = {
+    private def removeCurrentWordAndShowNextItem(state: State, curQuizItem: QuizItemReact) = Callback {
       val url = "/removeCurrentWordAndShowNextItem"
-      val response = QuizItemAnswer.construct(scope.state.userToken, curQuizItem, "")
+      val response = QuizItemAnswer.construct(state.userToken, curQuizItem, "")
       val data = upickle.write(response)
       Ajax.post(url, data).foreach { xhr =>
-        scope.setState(updatedStateNewQuizItem(xhr.responseText, scope.state))
+        $.setState(updatedStateNewQuizItem(state, xhr.responseText)).runNow()
       }
     }
 
-    def loadNewQuiz(qgKey: QuizGroupKey): Unit = {
+    private def loadNewQuiz(state: State, qgKey: QuizGroupKey) = Callback {
       val url = "/loadNewQuiz"
-      val data = upickle.write(LoadNewQuizRequest(scope.state.userToken, qgKey))
+      val data = upickle.write(LoadNewQuizRequest(state.userToken, qgKey))
       Ajax.post(url, data).foreach { xhr =>
-        scope.setState(newQuizStateFromStaticData(xhr.responseText, scope.state))
+        $.setState(newQuizStateFromStaticData(state.userToken, xhr.responseText))
+        Ajax.get(s"/findNextQuizItem?userToken=${state.userToken}").foreach { xhr =>
+          $.setState(newQuizStateFromQuizItem(xhr.responseText, state)).runNow()
+        }
       }
-      Ajax.get(s"/findNextQuizItem?userToken=${scope.state.userToken}").foreach { xhr =>
-        scope.setState(newQuizStateFromQuizItem(xhr.responseText, scope.state))
-      }
+    }
+
+    private def saveQuizLocal(userToken: String) = Callback {
+      window.location.assign(s"/saveQuizLocal?userToken=$userToken")
     }
   }
 
-  val ScoreText = ReactComponentB[String]("ScoreText")
-    .render(scoreText => <.span(^.id := "score-text", ^.className := "alignleft",
+  val ScoreText = ScalaComponent.builder[String]("ScoreText")
+    .render_P(scoreText => <.span(^.id := "score-text", ^.className := "alignleft",
         s"Score: $scoreText"))
     .build
 
   case class Question(promptWord: String, responseType: String, numCorrectResponsesInARow: Int)
 
-  val QuestionArea = ReactComponentB[Question]("Question")
-    .render(question =>
+  val QuestionArea = ScalaComponent.builder[Question]("Question")
+    .render_P(question =>
       <.span(
         <.span(^.id :=  "prompt-word", question.promptWord),
         <.p(^.id :=  "question-text",
@@ -133,29 +194,27 @@ object QuizScreen {
         <.br()))
     .build
 
-  val PreviousPrompt = ReactComponentB[String]("PreviousPrompt")
-    .render(prevPrompt => <.span(^.id := "prev-prompt", ^.className := "alignleft",
+  val PreviousPrompt = ScalaComponent.builder[String]("PreviousPrompt")
+    .render_P(prevPrompt => <.span(^.id := "prev-prompt", ^.className := "alignleft",
         "PREV: ",
          <.span(prevPrompt)
       )
     )
     .build
 
-  val PreviousChoices = ReactComponentB[Seq[(String, String)]]("PreviousChoices")
-    .render(prevChoices =>
+  val PreviousChoices = ScalaComponent.builder[Seq[(String, String)]]("PreviousChoices")
+    .render_P(prevChoices =>
       <.span(^.className := "alignright",
-        prevChoices.map { case (prevPrompt, prevResponses) =>
-          <.span(
+        prevChoices.toTagMod { case (prevPrompt, prevResponses) =>
+          TagMod(<.span(
             <.div(^.className := "alignleft prev-choice",
               s"$prevPrompt = $prevResponses"
             ), <.br()
-          )
-        })
-    )
-    .build
+          ))
+        })).build
 
-  val PreviousQuizItemArea = ReactComponentB[Option[QuizItemReact]]("PreviousQuizItem")
-    .render(_ match {
+  val PreviousQuizItemArea = ScalaComponent.builder[Option[QuizItemReact]]("PreviousQuizItem")
+    .render_P(_ match {
         case Some(previousQuizItem: QuizItemReact) =>
           <.span(^.id := "footer-wrapper",
             PreviousPrompt(previousQuizItem.prompt),
@@ -163,9 +222,8 @@ object QuizScreen {
         case None => <.span()
       }).build
 
-  val QuizPersistenceArea = ReactComponentB[(String, Backend)]("QuizPersistenceArea")
-    .render(P => {
-        val (userToken, backend) = P
+  val QuizPersistenceArea = ScalaComponent.builder[(String)]("QuizPersistenceArea")
+    .render_P(userToken => {
         <.span(^.id := "quiz-persistence-area",
           <.span(^.id := "restore-data",
             <.span("Restore quiz group state from local disk: "),
@@ -185,16 +243,16 @@ object QuizScreen {
             <.br(),
             <.br(),
             <.button(^.id := "save-button",
-              ^.onClick --> window.location.assign(s"/saveQuizLocal?userToken=$userToken"),
+              ^.onClick --> Callback { window.location.assign(s"/saveQuizLocal?userToken=$userToken")},
               "Save"))
     )}).build
 
-  val StatusText = ReactComponentB[String]("StatusText")
-    .render(statusText => <.p(^.className := "status-text", statusText))
+  val StatusText = ScalaComponent.builder[String]("StatusText")
+    .render_P(statusText => <.p(^.className := "status-text", statusText))
     .build
 
-  val DescriptiveText = ReactComponentB[String]("DescriptiveText")
-    .render(appVersion => <.span(^.id := "descriptive-text",
+  val DescriptiveText = ScalaComponent.builder[String]("DescriptiveText")
+    .render_P(appVersion => <.span(^.id := "descriptive-text",
         <.a(^.href := "https://github.com/oranda/libanius-scalajs-react",
           "libanius-scalajs-react"),
         <.span(s" v$appVersion by "),
@@ -218,71 +276,17 @@ object QuizScreen {
     if (userToken.nonEmpty) userToken
     else s"${System.currentTimeMillis}${scala.util.Random.nextInt(1000)}"
 
-  val QuizScreen = ReactComponentB[String]("QuizScreen")
-    .initialStateP(props => State(getOrGenerateUserToken(props), ""))
+
+  val QuizScreen = ScalaComponent.builder[String]("QuizScreen")
+    .initialStateFromProps(props => State(getOrGenerateUserToken(props), ""))
     .backend(new Backend(_))
-    .render((_, state, backend) => state.currentQuizItem match {
-      // Only show the page if there is a quiz item
-      case Some(currentQuizItem: QuizItemReact) =>
-        <.div(
-          <.span(^.id := "header-wrapper", ScoreText(state.scoreText),
-            <.span(^.className := "alignright",
-              <.button(^.id := "delete-button",
-                ^.onClick --> backend.removeCurrentWordAndShowNextItem(currentQuizItem),
-                    "DELETE WORD"))
-          ),
-          QuestionArea(Question(currentQuizItem.prompt,
-              currentQuizItem.responseType,
-              currentQuizItem.numCorrectResponsesInARow)),
-          <.span(currentQuizItem.allChoices.map { choice =>
-            <.div(
-              <.p(<.button(
-                ^.className := "response-choice-button",
-                ^.className := cssClassForChosen(choice, state.chosen,
-                    currentQuizItem.correctResponse),
-                ^.onClick --> backend.submitResponse(choice, currentQuizItem), choice))
-            )}),
-          PreviousQuizItemArea(state.prevQuizItem),
-          StatusText(state.status),
-          <.br(),<.br(),
-          QuizPersistenceArea((state.userToken, backend)),
-          <.br(),<.br(),<.br(),<.br(),
-          <.span(
-            <.span(^.id := "other-quiz-groups-header", "Other Quiz Groups"),
-            <.br(), <.br(), <.br(),
-            state.otherQuizGroups.map { qgKey =>
-              <.span(
-                ^.onClick --> backend.loadNewQuiz(qgKey),
-                ^.className := "other-quiz-group-text",
-                <.a(s"${qgKey.promptType} - ${qgKey.responseType}"),
-                <.br(), <.br())
-            }),
-          <.br(),<.br(),<.br(),<.br(),
-          DescriptiveText(state.appVersion)
-        )
-      case None =>
-        if (!state.quizEnded)
-          <.div("Loading...")
-        else
-          <.div(s"Congratulations! Quiz complete. Score: ${state.scoreText}")
-    })
-    .componentDidMount(scope => {
-      def withUserToken(url: String) = s"$url?userToken=${scope.state.userToken}"
-      val loadStaticQuizData = Ajax.get(withUserToken("/staticQuizData"))
-      loadStaticQuizData.onComplete {
-        case Success(xhr) =>
-          scope.setState(newQuizStateFromStaticData(xhr.responseText, scope.state))
-          Ajax.get(withUserToken("/findNextQuizItem")).foreach { xhr =>
-            scope.setState(newQuizStateFromQuizItem(xhr.responseText, scope.state))
-          }
-        case Failure(e) => println(e.toString)
-      }
-    })
+    .renderBackend
+    .componentDidMount(_.backend.start)
     .build
 
   @JSExport
   def main(userToken: String): Unit =
     // userToken may be empty, in which case a new unique userToken will be generated
-    QuizScreen(userToken) render document.getElementById("container")
+    QuizScreen(userToken).renderIntoDOM(document.getElementById("container"))
 }
 

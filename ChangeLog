@@ -1,9 +1,14 @@
+== 0.4.1 July 8 2018
+
+ * Upgraded to Scala 2.12.6, scala-js 0.6.24, scalajs-react 1.2.1, and sbt 1.1.6.
+
+
 == 0.4 May 14 2016
 
  * Allow the user to persist quiz data to his/her local computer.
 
 
-== 0.31 July 2 2015
+== 0.3.1 July 2 2015
 
  * Display version number to help testing, and link to source code.
 

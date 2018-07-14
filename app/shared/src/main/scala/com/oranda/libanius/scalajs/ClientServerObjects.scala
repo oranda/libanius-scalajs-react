@@ -19,6 +19,7 @@
 package com.oranda.libanius.scalajs
 
 import com.oranda.libanius.model.quizitem.QuizItemViewWithChoices
+import upickle.default.{ReadWriter => RW, macroRW}
 
 abstract class DataToClient
 
@@ -26,10 +27,22 @@ abstract class DataToClient
 case class StaticDataToClient(appVersion: String, quizGroupHeaders: Seq[QuizGroupKey])
   extends DataToClient
 
+object StaticDataToClient {
+  implicit def rw: RW[StaticDataToClient] = macroRW
+}
+
 case class NewQuizItemToClient(quizItemReact: Option[QuizItemReact], scoreText: String)
   extends DataToClient
 
+object NewQuizItemToClient {
+  implicit def rw: RW[NewQuizItemToClient] = macroRW
+}
+
 case class QuizGroupKey(promptType: String, responseType: String)
+
+object QuizGroupKey {
+  implicit def rw: RW[QuizGroupKey] = macroRW
+}
 
 // Note: for promptResponseMap, ListMap does not work with upickle
 case class QuizItemReact(
@@ -44,6 +57,7 @@ case class QuizItemReact(
 }
 
 object QuizItemReact {
+  implicit def rw: RW[QuizItemReact] = macroRW
 
   // Should be apply, but upickle complains.
   def construct(
@@ -77,8 +91,13 @@ case class LoadNewQuizRequest(
     qgKey: QuizGroupKey)
   extends RequestToServer(userToken)
 
+object LoadNewQuizRequest {
+  implicit def rw: RW[LoadNewQuizRequest] = macroRW
+}
+
 object QuizItemAnswer {
 
+  implicit def rw: RW[QuizItemAnswer] = macroRW
   // Should be apply, but upickle complains.
   def construct(userToken: String, qi: QuizItemReact, choice: String): QuizItemAnswer =
     QuizItemAnswer(
