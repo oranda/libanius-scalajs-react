@@ -26,7 +26,7 @@ import com.oranda.libanius.model.action.serialize.CustomFormat._
 import com.oranda.libanius.model.action.serialize.CustomFormatForModelComponents._
 import com.oranda.libanius.model.action.serialize.Separator
 import com.oranda.libanius.model.action.NoParams
-import com.oranda.libanius.model.quizgroup.{QuizGroupWithHeader, QuizGroupHeader, WordMapping}
+import com.oranda.libanius.model.quizgroup.{QuizGroupWithHeader, QuizGroupHeader, WordMapping, QuizGroupType}
 import com.oranda.libanius.model.quizitem._
 import com.oranda.libanius.scalajs._
 import com.oranda.libanius.util.{StringUtil, Util}
@@ -57,7 +57,11 @@ object QuizService extends AppDependencyAccess {
 
   def loadNewQuiz(lnqRequest: LoadNewQuizRequest): StaticDataToClient = {
     val (promptType, responseType) = (lnqRequest.qgKey.promptType, lnqRequest.qgKey.responseType)
-    val qgh = dataStore.findQuizGroupHeader(promptType, responseType, WordMapping)
+    val quizGroupType = QuizGroupType.fromString(lnqRequest.qgKey.quizGroupType)
+    val qgh = dataStore.findQuizGroupHeader(promptType, responseType, quizGroupType)
+    if (qgh.isEmpty) {
+      l.logError(s"Could not find quiz group for $promptType-$responseType")
+    }
     val quiz = initQuiz(lnqRequest.userToken, qgh)
     staticDataToClient(quiz)
   }
@@ -65,8 +69,10 @@ object QuizService extends AppDependencyAccess {
   private[this] def staticDataToClient(quiz: Quiz): StaticDataToClient = {
     // Refresh the availableQuizGroups in case another source has altered them.
     val availableQuizGroups: Set[QuizGroupHeader] = dataStore.findAvailableQuizGroups
+    def makeQuizGroupKey(qgh: QuizGroupHeader) =
+      QuizGroupKey(qgh.promptType, qgh.responseType, qgh.quizGroupType.str)
     val quizGroupHeaders = availableQuizGroups.map(
-        qgh => QuizGroupKey(qgh.promptType, qgh.responseType)).toSeq
+        qgh => makeQuizGroupKey(qgh)).toSeq
     val appVersion = config.getString("appVersion")
     StaticDataToClient(appVersion, quizGroupHeaders)
   }
@@ -144,6 +150,9 @@ object QuizService extends AppDependencyAccess {
 
   private[this] def initQuiz(userToken: String, qgHeader: Option[QuizGroupHeader]): Quiz = {
     val loadedQuiz = loadQuiz(qgHeader)
+    if (loadedQuiz.numQuizItems == 0) {
+      l.logError(s"Quiz group did not load properly")
+    }
     updateUserQuizMap(userToken, loadedQuiz)
     saveQuiz(userToken)
     loadedQuiz

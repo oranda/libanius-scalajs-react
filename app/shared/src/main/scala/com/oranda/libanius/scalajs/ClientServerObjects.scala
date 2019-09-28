@@ -38,7 +38,7 @@ object NewQuizItemToClient {
   implicit def rw: RW[NewQuizItemToClient] = macroRW
 }
 
-case class QuizGroupKey(promptType: String, responseType: String)
+case class QuizGroupKey(promptType: String, responseType: String, quizGroupType: String)
 
 object QuizGroupKey {
   implicit def rw: RW[QuizGroupKey] = macroRW

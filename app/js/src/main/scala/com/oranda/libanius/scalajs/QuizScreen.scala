@@ -51,7 +51,8 @@ object QuizScreen {
 
     def otherQuizGroups =
       currentQuizItem.map { cqi =>
-        availableQuizGroups.filterNot(_ == QuizGroupKey(cqi.promptType, cqi.responseType))
+        availableQuizGroups.filterNot(
+          qg => qg.promptType == cqi.promptType && qg.promptType == cqi.responseType)
       }.getOrElse(availableQuizGroups)
   }
 
