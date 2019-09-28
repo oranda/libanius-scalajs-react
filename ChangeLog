@@ -1,3 +1,8 @@
+== 0.4.2 Sep 28 2019
+
+ * Fixed bug where the Children's Quiz wouldn't load.
+
+
 == 0.4.1 July 8 2018
 
  * Upgraded to Scala 2.12.6, scala-js 0.6.24, scalajs-react 1.2.1, and sbt 1.1.6.
